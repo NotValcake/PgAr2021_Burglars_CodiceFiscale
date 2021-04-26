@@ -1,7 +1,6 @@
 package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 
-import java.util.* ;    
-
+import java.util.* ;
 
 public class CodiceFiscale {
 	int lunghezza_cod;
@@ -11,9 +10,27 @@ public class CodiceFiscale {
 	private String cognome = persona.getCognome();
 	char sesso = persona.getSesso();
 	private String comune = persona.getComune();
-	private HashMap<String, String> comuni = new HashMap<String, String>();  //farlo static?
+	private HashMap<String, String> comuni = new HashMap<String, String>(); 
 	private String code_comune = comuni.get(comune);   //gets code value of comune in HashMap
-	
+	private ArrayList<Integer> data= new ArrayList <Integer>();
+    data = persona.getData();
+    private static final ArrayList<String> mesi = new ArrayList<String>();
+  
+    
+     private static void setMesi() {
+    	mesi.add("A");
+        mesi.add("B");
+        mesi.add("C");
+        mesi.add("D");
+        mesi.add("E");
+        mesi.add("H");
+        mesi.add("L");
+        mesi.add("M");
+        mesi.add("P");
+        mesi.add("R");
+        mesi.add("S");
+        mesi.add("T");
+	}
     
     public String getCod_fiscale() {
 		return cod_fiscale;
@@ -35,13 +52,21 @@ public class CodiceFiscale {
 	    lunghezza_cod = 6;
 	    String consonanti_nome =  createConsonantiNome(nome);
 	    if (consonanti_nome.length() >= 4)
-	        cod_fiscale = cod_fiscale + consonanti_nome.charAt(1) + consonanti_nome.charAt(3) + consonanti_nome.charAt(4);
+	        cod_fiscale = cod_fiscale + consonanti_nome.charAt(0) + consonanti_nome.charAt(2) + consonanti_nome.charAt(4);
 	    else cod_fiscale = generate3Caratteri(nome);
 	  //generati primi 6 caratteri CF
 	    
-	    //faccio anno (3)
+	    cod_fiscale = cod_fiscale +(Integer.toString(data.get(1))).charAt(2) + (Integer.toString(data.get(1))).charAt(3) + mesi.get(data.get(2));
+	    //3 alfanum per anno SOPRA
+	   //yyyy-mm-dd
+	    if (sesso == 'F')
+	    	cod_fiscale = cod_fiscale + (data.get(3) + 40);
+	    else if (data.get(3)<9)
+	    	cod_fiscale = cod_fiscale + "0"+ data.get(3);
+	    else 	
+	    	cod_fiscale = cod_fiscale + data.get(3);
 	    
-	    
+	
 	return (String) cod_fiscale;
 	}
 		 
