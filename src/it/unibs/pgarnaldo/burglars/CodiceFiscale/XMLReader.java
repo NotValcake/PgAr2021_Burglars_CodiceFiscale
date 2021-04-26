@@ -9,8 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-public class XMLParser {
-
+public class XMLReader {
 
     public static final String NOME = "nome";
     public static final String PERSONA = "persona";
@@ -29,41 +28,58 @@ public class XMLParser {
      * @return ArrayList contenente tutte le persone i cui dati eerano contenuti in input_file
      * @throws XMLStreamException bho, però avete detto che butta un casino di eccezioni e io mi fido...
      */
-    public static ArrayList<Persona> readNomi(String input_file) throws XMLStreamException {
+    public static ArrayList<Persona> readPersone(String input_file) throws XMLStreamException {
 
-        ArrayList<Persona> persone = new ArrayList<Persona>();
+        ArrayList<Persona> persone = new ArrayList<>();
 
         XMLStreamReader reader = streamReaderInit(input_file);
+        Persona p = null; //crea una nuova persona di appoggio inizialmente null
+
         while (reader.hasNext()) {
-            Persona p = new Persona(); //crea una nuova persona di appoggio e ne raccoglie i dati
             if (reader.getEventType() == XMLStreamConstants.START_ELEMENT) {
                 switch (reader.getLocalName()) {
                     case PERSONA:
-                        /**
-                         * legge l'attributo "id" del tag persona, lo converte in Integer e lo unboxa nell'attributo id della classe persona
-                         */
+                        if (p == null)//controlla se p non è stata inzializzata e in tal caso la inizializza con una nuova istanza di Persona
+                            p = new Persona(); //crea una nuova persona di appoggio e ne raccoglie i dati
+                        //legge l'attributo "id" del tag persona, lo converte in Integer e lo unboxa nell'attributo id della classe persona
                         p.setId(Integer.parseInt(reader.getAttributeValue(0)));
                         break;
                     case NOME:
+                        if (p == null)//se, per qualche oscuro motivo p non è stata inizializzata, la inizializzo
+                            p = new Persona();
+                        reader.next();
                         p.setNome(reader.getText().strip());
                         break;
                     case COGNOME:
+                        if (p == null)
+                            p = new Persona();
+                        reader.next();
                         p.setCognome(reader.getText().strip());
                         break;
                     case SESSO:
+                        if (p == null)
+                            p = new Persona();
+                        reader.next();
                         p.setSesso(reader.getText().strip().toCharArray()[0]);
                         break;
                     case COMUNE_NASCITA:
+                        if (p == null)
+                            p = new Persona();
+                        reader.next();
                         p.setComune(reader.getText().strip());
                         break;
                     case DATA_NASCITA:
+                        if (p == null)
+                            p = new Persona();
+                        reader.next();
                         ArrayList<Integer> data_nascita = parseDate(reader.getText());
                         p.setData(data_nascita);
+                        persone.add(p); //aggiunge la persona appena creata all'Arraylist
+                        p = null;//resetto la variabile di appoggio
                         break;
                 }
             }
-            persone.add(p); //aggiunge la persona appena creata all'hashmap
-            reader.nextTag();
+            reader.next();
         }
         return persone;
     }
@@ -106,7 +122,8 @@ public class XMLParser {
 
     /**
      * Legge e memorizza in un array di stringhe tutti i contenuti di un tag specifico
-     * @param tag il tag che vogliamo leggere
+     *
+     * @param tag        il tag che vogliamo leggere
      * @param input_file il file da cui vogliamo leggere
      * @return arraylist contenente il testo di tutte le occorrenze del tag specificato
      * @throws XMLStreamException
@@ -117,9 +134,9 @@ public class XMLParser {
 
         XMLStreamReader reader = streamReaderInit(input_file);
 
-        while(reader.hasNext()){
-            if(reader.getEventType() == XMLStreamConstants.START_ELEMENT){
-                if(reader.getLocalName().equals(tag)){
+        while (reader.hasNext()) {
+            if (reader.getEventType() == XMLStreamConstants.START_ELEMENT) {
+                if (reader.getLocalName().equals(tag)) {
                     readings.add(reader.getText());
                 }
             }
@@ -130,23 +147,25 @@ public class XMLParser {
 
     /**
      * riceve una stringa contenente una data e ritorna una array di interi contente anno, mese, giorno
+     *
      * @param date stringa nel formato aaaa-MM-gg da cui estrarre la data
      * @return un array di interi {aaaa, MM, gg}
      */
-    private static ArrayList<Integer> parseDate(String date){
+    private static ArrayList<Integer> parseDate(String date) {
 
         ArrayList<Integer> parsed_date = new ArrayList<>();
         char[] date_array = date.toCharArray();
 
         parsed_date.add(Integer.parseInt(String.copyValueOf(date_array, 0, 4)));
         parsed_date.add(Integer.parseInt(String.copyValueOf(date_array, 5, 2)));
-        parsed_date.add(Integer.parseInt(String.copyValueOf(date_array, 7, 2)));
+        parsed_date.add(Integer.parseInt(String.copyValueOf(date_array, 8, 2)));
 
         return parsed_date;
     }
 
     /**
      * classe di utilità cheinizializza un nuovo XMLStreamReader
+     *
      * @param input_file file di input da leggere
      * @return l'istanza del nuovo StreamReader inizializzato
      */
