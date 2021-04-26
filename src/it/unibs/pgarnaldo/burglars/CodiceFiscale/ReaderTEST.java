@@ -5,11 +5,16 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
+/**
+ * classe di test per provare i metodi di XMLreader
+ * @author burglars
+ */
+
 public class ReaderTEST {
 
-    public static final String DIV = "===================================";
-    public static final String FILE_COMUNI = "inputFiles/comuni.xml";
-    public static final String FILE_PERSONE = "inputFiles/inputPersone.xml";
+    private static final String DIV = "===================================";
+    private static final String FILE_COMUNI = "inputFiles/comuni.xml";
+    private static final String FILE_PERSONE = "inputFiles/inputPersone.xml";
 
     public static void main(String[] args) throws XMLStreamException {
 

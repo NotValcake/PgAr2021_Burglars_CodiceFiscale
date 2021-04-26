@@ -8,17 +8,20 @@ import javax.xml.stream.XMLStreamConstants;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-
+/**
+ * classe per la lettura dei dati di input da file .xml
+ * @author burglars
+ */
 public class XMLReader {
 
-    public static final String NOME = "nome";
-    public static final String PERSONA = "persona";
+    private static final String NOME = "nome";
+    private static final String PERSONA = "persona";
     private static final String COGNOME = "cognome";
     private static final String SESSO = "sesso";
     private static final String COMUNE_NASCITA = "comune_nascita";
     private static final String CODICE = "codice";
     private static final String DATA_NASCITA = "data_nascita";
-    public static final String INIT_ERROR = "Errore nell'inizializzazione del reader:";
+    private static final String INIT_ERROR = "Errore nell'inizializzazione del reader:";
 
 
     /**
