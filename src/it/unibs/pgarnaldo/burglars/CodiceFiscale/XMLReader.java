@@ -95,25 +95,24 @@ public class XMLReader {
     public static HashMap<String, String> readComuni(String input_file) throws XMLStreamException {
 
         HashMap<String, String> comuni = new HashMap<>();
+        String[] comune_temp = new String[2];
 
         XMLStreamReader reader = streamReaderInit(input_file);
         while (reader.hasNext()) {
-
-            String[] comune_temp = new String[2];
-
             if (reader.getEventType() == XMLStreamConstants.START_ELEMENT) {
                 switch (reader.getLocalName()) {
                     case NOME:
+                        reader.next();
                         comune_temp[0] = reader.getText();
                         break;
                     case CODICE:
+                        reader.next();
                         comune_temp[1] = reader.getText();
+                        comuni.put(comune_temp[0], comune_temp[1]);
                         break;
                 }
             }
-
-            comuni.put(comune_temp[0], comune_temp[1]);
-
+            reader.next();
         }
 
         return comuni;
@@ -137,11 +136,12 @@ public class XMLReader {
         while (reader.hasNext()) {
             if (reader.getEventType() == XMLStreamConstants.START_ELEMENT) {
                 if (reader.getLocalName().equals(tag)) {
+                    reader.next();
                     readings.add(reader.getText());
                 }
             }
+            reader.next();
         }
-
         return readings;
     }
 
