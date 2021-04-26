@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * questa classe serve per creare l'oggetto Persona con i seguenti attributi:
- * 
+ * <p>
  * 1) id, servirà per identificare la persona più facilmente, visto che il programma lavorerà con una lista di persone;
  * 2) nome e cognome;
  * 3) sesso;
@@ -16,7 +16,6 @@ import java.util.ArrayList;
  */
 
 
-
 public class Persona {
 
 
@@ -24,16 +23,20 @@ public class Persona {
     private String nome;
     private String cognome;
     private char sesso;
-    private ArrayList<Integer> data= new ArrayList <Integer>();
+    private ArrayList<Integer> data = new ArrayList<Integer>();
     private String comune;
 
-    public Persona(int id, String nome, char sesso, ArrayList <Integer> data, String comune ){
+    public Persona(int id, String nome, char sesso, ArrayList<Integer> data, String comune) {
 
-        this.id=id;
-        this.nome=nome;
-        this.sesso=sesso;
-        this.data=data;
-        this.comune=comune;
+        this.id = id;
+        this.nome = nome;
+        this.sesso = sesso;
+        this.data = data;
+        this.comune = comune;
+
+    }
+
+    public Persona() {
 
     }
 
@@ -49,7 +52,7 @@ public class Persona {
         return nome;
     }
 
-    public void setNome( String nome) {
+    public void setNome(String nome) {
 
         this.nome = nome;
     }
@@ -58,35 +61,37 @@ public class Persona {
         return sesso;
     }
 
-    public void setSesso (char sesso) {
-        this.sesso= sesso;
+    public void setSesso(char sesso) {
+        this.sesso = sesso;
     }
 
-    public String getComune(){
+    public String getComune() {
 
         return comune;
     }
 
-    public void setComune(String comune){
+    public void setComune(String comune) {
 
-        this.comune=comune;
+        this.comune = comune;
     }
 
-    public int getId(){
+    public int getId() {
 
         return id;
     }
 
-    public void setId(){
+    public void setId(int id) {
 
-        this.id=id;
+        this.id = id;
     }
 
     public ArrayList<Integer> getData() {
+
         return data;
     }
 
     public void setData(ArrayList<Integer> data) {
+
         this.data = data;
     }
 
