@@ -12,8 +12,7 @@ public class CodiceFiscale {
 	private String comune = persona.getComune();
 	private HashMap<String, String> comuni = new HashMap<String, String>(); 
 	private String code_comune = comuni.get(comune);   //gets code value of comune in HashMap
-	private ArrayList<Integer> data= new ArrayList <Integer>();
-    data = persona.getData();
+	private ArrayList<Integer> data =  persona.getData(); 
     private static final ArrayList<String> mesi = new ArrayList<String>();
   
     
