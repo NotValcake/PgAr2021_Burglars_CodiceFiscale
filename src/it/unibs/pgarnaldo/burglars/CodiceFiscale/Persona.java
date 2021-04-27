@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> d70317db68706702f56cd455af79867294edace7
 package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 
 import java.util.ArrayList;

@@ -44,8 +44,7 @@ public class XMLReader {
                     case PERSONA:
                         if (p == null)//controlla se p non è stata inzializzata e in tal caso la inizializza con una nuova istanza di Persona
                             p = new Persona(); //crea una nuova persona di appoggio e ne raccoglie i dati
-                        //legge l'attributo "id" del tag persona, lo converte in Integer e lo unboxa nell'attributo id della classe persona
-                        p.setId(Integer.parseInt(reader.getAttributeValue(0)));
+                        p.setId(Integer.parseInt(reader.getAttributeValue(0)));//legge l'attributo "id" del tag persona, lo converte in Integer e lo unboxa nell'attributo id della classe persona
                         break;
                     case NOME:
                         if (p == null)//se, per qualche oscuro motivo p non è stata inizializzata, la inizializzo
