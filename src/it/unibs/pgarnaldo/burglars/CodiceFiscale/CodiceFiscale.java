@@ -180,10 +180,12 @@ public class CodiceFiscale {
 	//makeCF and check if returned value is present in inputPersone.XML
 	
 	public boolean isValid(String codice_fis) {
-		// int i = Integer.parseInt("200")  restituisce 200 come intero
-		 //character.isDigit(ch)
+		if (  controlPosition(codice_fis) == false || 
+			  checkDay(codice_fis) == false || 
+			  checkMonth(codice_fis) == false)  //....
+			return false;
 		
-		return false;
+		return true;
 	}
 	
 	
@@ -213,19 +215,27 @@ public class CodiceFiscale {
 		return false; //se posizioni non sono corrette
 	}
     
-    
+    /**Controlla se giorno è compreso tra 
+     * @param codice_fis codice fiscale di cui ricavare il giorno
+     * @return boolean per controllare se il cod è giusto o meno
+     * **/
 	public boolean checkDay(String codice_fis) {
-		// int i = Integer.parseInt("200") 
-		String giornos = String(codice_fis.charAt(15));
-		int giorno = Integer.parseInt();
-		if ()
-		
-		return true;
+		String giornoS = "";  
+		giornoS = giornoS + codice_fis.charAt(9) + codice_fis.charAt(10);
+		int giorno = Integer.parseInt(giornoS);
+		if ((giorno>= 1 && giorno<=31) || (giorno>= 41 && giorno<= 71))
+		    return true;
+		return false;   
 	}
 	
 	
-    public boolean checkMonth() {
-		
+    public boolean checkMonth(String codice_fis) {  
+    	int i;
+    	String mese = String.valueOf(codice_fis.charAt(8));
+    	for (i=0; i< mesi.size(); i++) {   //alert: why is there dead code??
+    		if (mese != mesi.get(i));
+    			return false;
+    	}
 		return true;
 	}
 	

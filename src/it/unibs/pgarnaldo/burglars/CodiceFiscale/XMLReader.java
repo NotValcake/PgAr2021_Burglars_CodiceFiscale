@@ -167,7 +167,7 @@ public class XMLReader {
     }
 
     /**
-     * classe di utilità cheinizializza un nuovo XMLStreamReader
+     * classe di utilità che inizializza un nuovo XMLStreamReader
      *
      * @param input_file file di input da leggere
      * @return l'istanza del nuovo StreamReader inizializzato

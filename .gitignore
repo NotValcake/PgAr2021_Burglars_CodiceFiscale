@@ -1,3 +1,11 @@
+#ides stuff
+.classpath
+.project
+.idea
+PgAr2021_Burglars_CodiceFiscale.iml
+
+bin
+
 # Compiled class file
 *.class
 
