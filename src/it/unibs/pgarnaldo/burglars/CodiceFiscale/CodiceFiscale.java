@@ -4,6 +4,7 @@ import java.util.* ;
 
 public class CodiceFiscale {
 	int lunghezza_cod;
+	private final static int LUNGHEZZA_CF = 16;
 	private String cod_fiscale = "";
 	private Persona persona;
 	private String nome = persona.getNome();
@@ -13,8 +14,9 @@ public class CodiceFiscale {
 	private HashMap<String, String> comuni = new HashMap<String, String>(); 
 	private String code_comune = comuni.get(comune);   //gets code value of comune in HashMap
 	private ArrayList<Integer> data =  persona.getData(); 
-    private static final ArrayList<String> mesi = new ArrayList<String>();
-  
+    private final static  ArrayList<String> mesi = new ArrayList<String>();
+    private final static HashMap<String, String> caratteriDispari = new HashMap<String, String>();
+    private final static HashMap<String, String> caratteriPari = new HashMap<String, String>();
     
      private static void setMesi() {
     	mesi.add("A");
@@ -30,6 +32,48 @@ public class CodiceFiscale {
         mesi.add("S");
         mesi.add("T");
 	}
+     
+     private static void createHashMap() {
+    	 caratteriDispari.put("0","A");
+    	 caratteriDispari.put("1","0");
+    	 caratteriDispari.put("2","5");
+    	 caratteriDispari.put("3","7");
+    	 caratteriDispari.put("4","9");
+    	 caratteriDispari.put("5","13");
+    	 caratteriDispari.put("6","15");
+    	 caratteriDispari.put("7","17");
+    	 caratteriDispari.put("8","19");
+    	 caratteriDispari.put("9","21");
+    	 caratteriDispari.put("A","1");
+    	 caratteriDispari.put("B","0");
+    	 caratteriDispari.put("C","");
+    	 caratteriDispari.put("D","");
+    	 caratteriDispari.put("E","");
+    	 caratteriDispari.put("F","");
+    	 caratteriDispari.put("G","");
+    	 caratteriDispari.put("H","");
+    	 caratteriDispari.put("I","");
+    	 caratteriDispari.put("J","");
+    	 caratteriDispari.put("K","");
+    	 caratteriDispari.put("L","");
+    	 caratteriDispari.put("M","");
+    	 caratteriDispari.put("N","");
+    	 caratteriDispari.put("O","");
+    	 caratteriDispari.put("P","");
+    	 caratteriDispari.put("Q","");
+    	 caratteriDispari.put("R","");
+    	 caratteriDispari.put("S","");
+    	 caratteriDispari.put("T","");
+    	 caratteriDispari.put("U","");
+    	 caratteriDispari.put("V","");
+    	 caratteriDispari.put("W","");
+    	 caratteriDispari.put("X","");
+    	 caratteriDispari.put("Y","");
+    	 caratteriDispari.put("Z","");
+    	 //36
+     }
+     
+     
     
     public String getCod_fiscale() {
 		return cod_fiscale;
@@ -60,11 +104,23 @@ public class CodiceFiscale {
 	    	cod_fiscale = cod_fiscale + "0"+ data.get(3);
 	    else 	
 	    	cod_fiscale = cod_fiscale + data.get(3);
+	    // comune 
+	    cod_fiscale = cod_fiscale +code_comune;
+	    
 	    
 	
 	return (String) cod_fiscale;
 	}
 		 
+	
+	public char generaCarattereControllo() {
+		char carattere = ' ';
+		
+		return carattere;
+	}
+	
+	
+	
 	
 	
 		 
@@ -123,8 +179,46 @@ public class CodiceFiscale {
 	
 	//makeCF and check if returned value is present in inputPersone.XML
 	
+	public boolean isValid(String codice_fis) {
+		// int i = Integer.parseInt("200")  restituisce 200 come intero
+		 //character.isDigit(ch)
+		
+		return false;
+	}
 	
-	public boolean checkDay() {
+	
+	/**Controlla se i caratteri e numeri sono in posizione corretta
+	 * 
+	 * **/
+	public boolean controlPosition(String codice_fis) {
+		int i;
+		for (i=0; i < 6; i++ ){
+			char x = codice_fis.charAt(i);
+			if( Character.isDigit(x) == true)
+				return false;
+		}
+		if ( Character.isDigit(codice_fis.charAt(6)) == true  &&
+			 Character.isDigit(codice_fis.charAt(7)) == true  &&  
+		     Character.isDigit(codice_fis.charAt(8)) == false && 
+		     Character.isDigit(codice_fis.charAt(9)) == true && 
+		     Character.isDigit(codice_fis.charAt(10)) == true && 
+		     Character.isDigit(codice_fis.charAt(11)) == false && 
+		     Character.isDigit(codice_fis.charAt(12)) == true && 
+			 Character.isDigit(codice_fis.charAt(13)) == true && 
+		     Character.isDigit(codice_fis.charAt(14)) == true && 
+		     Character.isDigit(codice_fis.charAt(15)) == false)
+			return true;
+			
+		
+		return false; //se posizioni non sono corrette
+	}
+    
+    
+	public boolean checkDay(String codice_fis) {
+		// int i = Integer.parseInt("200") 
+		String giornos = String(codice_fis.charAt(15));
+		int giorno = Integer.parseInt();
+		if ()
 		
 		return true;
 	}

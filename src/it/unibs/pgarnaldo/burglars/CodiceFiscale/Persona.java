@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 
 import java.util.ArrayList;
@@ -101,4 +99,3 @@ public class Persona {
     }
 
 }
->>>>>>> 5037bf72d1c32f16d38b20cbc58f64c59d374228
