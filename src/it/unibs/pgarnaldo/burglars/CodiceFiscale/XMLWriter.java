@@ -1,7 +1,13 @@
-<<<<<<< HEAD:src/it/unibs/pgarnaldo/burglars/CodiceFiscale/XMLParser.java
-=======
+
 package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 
 public class XMLWriter {
+
+    /**
+     * metodo che scrive un nuovo tag nel documento
+     * @param attr eventuale attributo/i da inserire nel tag
+     */
+    public static void writeTag(String attr){
+
+    }
 }
->>>>>>> 5037bf72d1c32f16d38b20cbc58f64c59d374228:src/it/unibs/pgarnaldo/burglars/CodiceFiscale/XMLWriter.java

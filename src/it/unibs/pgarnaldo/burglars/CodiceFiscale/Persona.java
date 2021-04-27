@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 
 import java.util.ArrayList;
@@ -28,9 +27,17 @@ public class Persona {
     private char sesso;
     private ArrayList<Integer> data = new ArrayList<Integer>();
     private String comune;
-   
 
-	       
+
+    /**
+     * costruttore di persona
+     * @param id indice univoco
+     * @param nome nome della persona
+     * @param cognome cognome della persona
+     * @param sesso char M = maschio, F = femmina
+     * @param data Arraylist contenente la data nel formato aaaa-MM-gg
+     * @param comune stringa contenente il comune di nascita
+     */
     public Persona(int id, String nome, String cognome, char sesso, ArrayList<Integer> data, String comune) {
 
         this.id = id;
@@ -41,6 +48,9 @@ public class Persona {
         this.cognome = cognome;
     }
 
+    /**
+     * costruttore vuoto che inizializza un istanza di persona senza attributi
+     */
     public Persona() {
 
     }
@@ -101,4 +111,3 @@ public class Persona {
     }
 
 }
->>>>>>> 5037bf72d1c32f16d38b20cbc58f64c59d374228
