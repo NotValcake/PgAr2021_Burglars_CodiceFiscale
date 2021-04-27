@@ -40,10 +40,6 @@ public class CodiceFiscale {
 		this.cod_fiscale = cod_fiscale;
 	}
 
-	public Persona getPersona() {
-		return persona;
-	}
-
 	  
 	public String makeCF (Persona persona) {
 
@@ -52,7 +48,7 @@ public class CodiceFiscale {
 	    lunghezza_cod = 6;
 	    String consonanti_nome =  createConsonantiNome(nome);
 	    if (consonanti_nome.length() >= 4)
-	        cod_fiscale = cod_fiscale + consonanti_nome.charAt(0) + consonanti_nome.charAt(2) + consonanti_nome.charAt(4);
+	        cod_fiscale = cod_fiscale + consonanti_nome.charAt(0) + consonanti_nome.charAt(2) + consonanti_nome.charAt(3);
 	    else cod_fiscale = generate3Caratteri(nome);
 	  //generati primi 6 caratteri CF
 	    
@@ -106,8 +102,6 @@ public class CodiceFiscale {
 	} 
 	
 	
-	
-	
 	//data una stringa creo la sua corrisppondetìnte di sole consonanti
 	public String createConsonantiNome(String valore) {
 		String consonanti_valore = "";
@@ -122,7 +116,7 @@ public class CodiceFiscale {
 	
 	//controlla se carattere è una consonante
     public boolean isConsonant(char ci) {
-    	if (ci != 'a' || ci != 'e' || ci != 'i' || ci != 'o' || ci != 'u')
+    	if (ci != 'A' || ci != 'E' || ci != 'I' || ci != 'O' || ci != 'U')
     		return true;
     	else
     		return false;

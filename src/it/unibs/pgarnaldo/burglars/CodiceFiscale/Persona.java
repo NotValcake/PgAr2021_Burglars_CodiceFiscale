@@ -4,6 +4,7 @@ package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 
 import java.util.ArrayList;
 
+
 /**
  * questa classe serve per creare l'oggetto Persona con i seguenti attributi:
  * <p>
@@ -27,15 +28,17 @@ public class Persona {
     private char sesso;
     private ArrayList<Integer> data = new ArrayList<Integer>();
     private String comune;
+   
 
-    public Persona(int id, String nome, char sesso, ArrayList<Integer> data, String comune) {
+	       
+    public Persona(int id, String nome, String cognome, char sesso, ArrayList<Integer> data, String comune) {
 
         this.id = id;
         this.nome = nome;
         this.sesso = sesso;
         this.data = data;
         this.comune = comune;
-
+        this.cognome = cognome;
     }
 
     public Persona() {
