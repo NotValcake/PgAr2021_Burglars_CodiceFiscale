@@ -151,26 +151,29 @@ public class CodiceFiscale {
 
 
     public String makeCF(Persona persona) {
-        cod_fiscale = creaConsonantiCognome(persona.getCognome());
-        //String consonanti_nome = creaConsonantiNome(persona.getNome());
-        //if (consonanti_nome.length()-1 >= 4) //perchè questo controllo? consonanti nome è scritto da noi, dovrebbe tornare una stringa gia corretta
-        //    cod_fiscale = cod_fiscale + consonanti_nome.charAt(0) + consonanti_nome.charAt(2) + consonanti_nome.charAt(3);
-        //cod_fiscale = creaConsonantiNome(persona.getNome()); //tolto else, perchè le lettere del nome vanno generate in ogni caso
-        //generati primi 6 caratteri CF
+        StringBuilder cf = new StringBuilder();
+        cf.append(creaConsonantiCognome(persona.getCognome()));
+        cf.append(creaConsonantiNome(persona.getNome()));
 
-        cod_fiscale = cod_fiscale + (Integer.toString(persona.getData().get(1))).charAt(2) + (Integer.toString(persona.getData().get(1))).charAt(3) + mesi.get(persona.getData().get(2));
-        //3 alfanum per anno SOPRA
-        //yyyy-mm-dd
-        if (persona.getSesso() == 'F')//problema con date di nascita
-            cod_fiscale = cod_fiscale + (persona.getData().get(3) + 40);
-        else if (persona.getData().get(3) < 9)
-            cod_fiscale = cod_fiscale + "0" + persona.getData().get(3);
-        else
-            cod_fiscale = cod_fiscale + persona.getData().get(3);
-        // comune
-        cod_fiscale = cod_fiscale + comuni.get(persona.getComune());
-        cod_fiscale = cod_fiscale + generaCarattereControllo(cod_fiscale);
-        return (String) cod_fiscale;
+        if (persona.getData().get(1) % 100 < 10) { //se la persona è nata in un mese precedente a  ottobre, bisogna aggiungere uno 0
+            cf.append("0");
+        }
+
+        cf.append((persona.getData().get(0) % 100)); //aggiunge le ultime due cifre dell'anno
+        cf.append(mesi.get(persona.getData().get(1)-1)); //aggiunge la lettera del mese
+
+        if (persona.getSesso() == 'F') {
+            cf.append(persona.getData().get(2) + 40);
+        } else{
+            if (persona.getData().get(2) < 10)//se la persona è nata in un mese precedente a  ottobre, bisogna aggiungere uno 0
+                cf.append("0");
+            cf.append(persona.getData().get(2));
+        }
+
+        cf.append(comuni.get(persona.getComune().toUpperCase()));
+        cf.append(generaCarattereControllo(cf.toString()));
+
+        return cf.toString();
     }
 
 
@@ -224,15 +227,16 @@ public class CodiceFiscale {
      **/
     public char generaCarattereControllo(String cf) {
         int i;
+
         int somma = 0;
 
-        for (i = 0; i < cf.length(); i = i + 2) {
-            somma = somma + caratteriPari.get(cf.charAt(i));
+        for (i = 0; i < cf.length(); i += 2) {
+            somma += caratteriPari.get(cf.charAt(i));
         }
-        for (i = 1; i < cf.length(); i = i + 2) {
-            somma = somma + caratteriDispari.get(cf.charAt(i));
+        for (i = 1; i < cf.length(); i += 2) {
+            somma += caratteriDispari.get(cf.charAt(i));
         }
-        return restoCarattere.get((somma % 26));
+        return restoCarattere.get(somma % 26);
     }
 
 
@@ -252,7 +256,7 @@ public class CodiceFiscale {
             }
             i++;
         }
-        if (cf.length()-1 < 3) {
+        if (cf.length() < 3) {
             i = 0;
             while (i < cognome.length() || cf.length()-1 < 3) {  //se metto in while i=0 viene riinizializzata ogni ciclo?
                 char ci = cognome.charAt(i);
@@ -263,7 +267,7 @@ public class CodiceFiscale {
             }
         }
         //controlla se non si è ancora riusciti ad arrivare a 3 caratteri aggiunge X
-        while (cf.length()-1 < 3)
+        while (cf.length() < 3)
             cf = cf.append('X');
 
         return cf.toString();

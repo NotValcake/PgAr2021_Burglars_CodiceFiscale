@@ -10,7 +10,7 @@ public class CodFiscsTESTER {
 		data.add(2001);
 		data.add(1);
 		data.add(6);
-		Persona io = new Persona(0,"Riccardo","Valtorta",'M', data,"CAZZAGO SAN MARTINO");
+		Persona io = new Persona(0,"Riccardo","Valtorta",'M', data,"BRESCIA");
 		CodiceFiscale cf = new CodiceFiscale();
 		System.out.println(cf.makeCF(io));
 	}
