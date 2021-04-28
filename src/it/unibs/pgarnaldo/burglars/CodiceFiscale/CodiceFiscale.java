@@ -153,7 +153,7 @@ public class CodiceFiscale {
     public String makeCF(Persona persona) {
         cod_fiscale = creaConsonantiCognome(persona.getCognome());
         String consonanti_nome = creaConsonantiNome(persona.getNome());
-        if (consonanti_nome.length() >= 4) //perchè questo controllo? consonanti nome è scritto da noi, dovrebbe tornare una stringa gia corretta
+        if (consonanti_nome.length()-1 >= 4) //perchè questo controllo? consonanti nome è scritto da noi, dovrebbe tornare una stringa gia corretta
             cod_fiscale = cod_fiscale + consonanti_nome.charAt(0) + consonanti_nome.charAt(2) + consonanti_nome.charAt(3);
         cod_fiscale = creaConsonantiCognome(persona.getNome()); //tolto else, perchè le lettere del nome vanno generate in ogni caso
         //generati primi 6 caratteri CF
@@ -243,16 +243,16 @@ public class CodiceFiscale {
      **/
     public String creaConsonantiCognome(String cognome) {
         int i = 0;
-        while (i < cognome.length() || cod_fiscale.length() < 3) {
+        while (i < cognome.length() || cod_fiscale.length()-1 < 3) {
             char ci = cognome.charAt(i);
             if (isConsonant(ci)) {
                 cod_fiscale = cod_fiscale + ci;
             }
             i++;
         }
-        if (cod_fiscale.length() < 3) {
+        if (cod_fiscale.length()-1 < 3) {
             i = 0;
-            while (i < cognome.length() || cod_fiscale.length() < 3) {  //se metto in while i=0 viene riinizializzata ogni ciclo?
+            while (i < cognome.length() || cod_fiscale.length()-1 < 3) {  //se metto in while i=0 viene riinizializzata ogni ciclo?
                 char ci = cognome.charAt(i);
                 if (!isConsonant(ci)) {
                     cod_fiscale = cod_fiscale + ci;
@@ -260,8 +260,8 @@ public class CodiceFiscale {
                 i++;
             }
         }
-        /**controlla se non si è ancora riusciti ad arrivare a 3 caratteri aggiunge X**/
-        while (cod_fiscale.length() < 3)
+        //controlla se non si è ancora riusciti ad arrivare a 3 caratteri aggiunge X
+        while (cod_fiscale.length()-1 < 3)
             cod_fiscale = cod_fiscale + 'X';
 
         return cod_fiscale;
@@ -269,17 +269,42 @@ public class CodiceFiscale {
 
 
     /**
-     * data una stringa creo la sua corrisppondetìnte di sole consonanti
+     * crea le tre lesttere relative al nome nel codice fiscale
+     * @param nome il cognome del proprietario del codice fiscale
+     * @return una stringa di tre lettere contenente le tre lettere del nome
      **/
-    public String creaConsonantiNome(String valore) {
-        String consonanti_valore = "";
-        for (int i = 0; i < valore.length(); i++) {
-            char ci = valore.charAt(i);
-            if (isConsonant(ci)) {
-                consonanti_valore = consonanti_valore + ci;
-            }
+    public String creaConsonantiNome(String nome) {
+        char [] array_nome = nome.toCharArray();
+        ArrayList<Character> consonanti = new ArrayList<>();
+        //prelevo tutte le consonanti del nome
+        for (char l : array_nome) {
+            if(CodiceFiscale.isConsonant(l))
+                consonanti.add(l);
         }
-        return consonanti_valore;
+
+        if(consonanti.size() == 3){//se ho esattamente 3 consonanti le uso tutte e tre
+            return consonanti.get(0).toString() + consonanti.get(1).toString() + consonanti.get(2).toString();
+        }
+        if(consonanti.size() > 3){//se ho almeno 4 consonanti perndo la prima la terza e la quarta
+            return consonanti.get(0).toString() + consonanti.get(2).toString() + consonanti.get(3).toString();
+        }
+        StringBuilder codice_nome = new StringBuilder();
+        //se ho meno di 3 consonanti devo cercare le vocali
+        for (Character c:consonanti) {
+            codice_nome.append(c);
+        }
+        int i = 0;
+        while(codice_nome.length()-1 < 3 && i < nome.length()){
+            if(!isConsonant(nome.charAt(i)))
+                codice_nome.append(nome.charAt(i));
+            i++;
+        }
+        //se nemmeno le vocali bastano, aggiungo X
+        while(codice_nome.length()-1 < 3){
+                codice_nome.append('X');
+            i++;
+        }
+        return codice_nome.toString();
     }
 
     /**
@@ -288,7 +313,7 @@ public class CodiceFiscale {
      * @param ci carattere da controllare
      * @return true se il carattere è una consonante
      **/
-    private boolean isConsonant(char ci) {
+    private static boolean isConsonant(char ci) {
         return ci != 'A' && ci != 'E' && ci != 'I' && ci != 'O' && ci != 'U';
     }
 
