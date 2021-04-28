@@ -6,61 +6,97 @@ import java.util.*;
 public class CodiceFiscale {
 
     private static final String FILE_COMUNI = "inputFiles/comuni.xml";
-
-    int lunghezza_cod;
     private final static int LUNGHEZZA_CF = 16;
-    private String cod_fiscale = "";
-    private Persona persona;
-    private HashMap<String, String> comuni = XMLReader.readComuni(FILE_COMUNI); //new HashMap<String, String>();
-    private final static ArrayList<String> mesi = new ArrayList<String>();
-    private final static Map<String, String> caratteriDispari = Map.ofEntries(
-            Map.entry("0", "A"),
-            Map.entry("1", "0"),
-            Map.entry("2", "5"),
-            Map.entry("3", "7"),
-            Map.entry("4", "9"),
-            Map.entry("5", "13"),
-            Map.entry("6", "15"),
-            Map.entry("7", "17"),
-            Map.entry("8", "19"),
-            Map.entry("9", "21"),
-            Map.entry("A", "1"),
-            Map.entry("B", "0"),
-            Map.entry("C", ""),
-            Map.entry("D", ""),
-            Map.entry("E", ""),
-            Map.entry("F", ""),
-            Map.entry("G", ""),
-            Map.entry("H", ""),
-            Map.entry("I", ""),
-            Map.entry("J", ""),
-            Map.entry("K", ""),
-            Map.entry("L", ""),
-            Map.entry("M", ""),
-            Map.entry("N", ""),
-            Map.entry("O", ""),
-            Map.entry("P", ""),
-            Map.entry("Q", ""),
-            Map.entry("R", ""),
-            Map.entry("S", ""),
-            Map.entry("T", ""),
-            Map.entry("U", ""),
-            Map.entry("V", ""),
-            Map.entry("W", ""),
-            Map.entry("X", ""),
-            Map.entry("Y", ""),
-            Map.entry("Z", "")
-            //36
-    );//new HashMap<String, String>();
-    private final static HashMap<String, String> caratteriPari = new HashMap<String, String>();
 
-    public CodiceFiscale() throws XMLStreamException {
-    }
+    private String cod_fiscale;
+    private Persona persona;
+    private final HashMap<String, String> comuni = XMLReader.readComuni(FILE_COMUNI);
+    private final static ArrayList<String> mesi = new ArrayList<String>();
+    /**
+     * inizializza un HashMap contenente i caratteri di un codice fiscale e il relativo valore assegnato per il calcolo del carattere di controllo
+     */
+    private final static Map<String, Integer> caratteriDispari = Map.ofEntries(
+            Map.entry("0", 1),
+            Map.entry("1", 0),
+            Map.entry("2", 5),
+            Map.entry("3", 7),
+            Map.entry("4", 9),
+            Map.entry("5", 13),
+            Map.entry("6", 15),
+            Map.entry("7", 17),
+            Map.entry("8", 19),
+            Map.entry("9", 21),
+            Map.entry("A", 1),
+            Map.entry("B", 0),
+            Map.entry("C", 5),
+            Map.entry("D", 7),
+            Map.entry("E", 9),
+            Map.entry("F", 13),
+            Map.entry("G", 15),
+            Map.entry("H", 17),
+            Map.entry("I", 19),
+            Map.entry("J", 21),
+            Map.entry("K", 2),
+            Map.entry("L", 4),
+            Map.entry("M", 18),
+            Map.entry("N", 20),
+            Map.entry("O", 11),
+            Map.entry("P", 3),
+            Map.entry("Q", 6),
+            Map.entry("R", 8),
+            Map.entry("S", 12),
+            Map.entry("T", 14),
+            Map.entry("U", 16),
+            Map.entry("V", 10),
+            Map.entry("W", 22),
+            Map.entry("X", 25),
+            Map.entry("Y", 24),
+            Map.entry("Z", 23)
+    );
+
+    private final static Map<String, Integer> caratteriPari = Map.ofEntries(
+            Map.entry("0", 0),
+            Map.entry("1", 1),
+            Map.entry("2", 2),
+            Map.entry("3", 3),
+            Map.entry("4", 4),
+            Map.entry("5", 5),
+            Map.entry("6", 6),
+            Map.entry("7", 7),
+            Map.entry("8", 8),
+            Map.entry("9", 9),
+            Map.entry("A", 0),
+            Map.entry("B", 1),
+            Map.entry("C", 2),
+            Map.entry("D", 3),
+            Map.entry("E", 4),
+            Map.entry("F", 5),
+            Map.entry("G", 6),
+            Map.entry("H", 7),
+            Map.entry("I", 8),
+            Map.entry("J", 9),
+            Map.entry("K", 10),
+            Map.entry("L", 11),
+            Map.entry("M", 12),
+            Map.entry("N", 13),
+            Map.entry("O", 14),
+            Map.entry("P", 15),
+            Map.entry("Q", 16),
+            Map.entry("R", 17),
+            Map.entry("S", 18),
+            Map.entry("T", 19),
+            Map.entry("U", 20),
+            Map.entry("V", 21),
+            Map.entry("W", 22),
+            Map.entry("X", 23),
+            Map.entry("Y", 24),
+            Map.entry("Z", 25)
+    );
 
     /**
      * inizializza un Arraylist contenente le lettere corrispondenti ai mesi
      */
-    private static void setMesi() {
+    static{
         mesi.add("A");
         mesi.add("B");
         mesi.add("C");
@@ -75,62 +111,22 @@ public class CodiceFiscale {
         mesi.add("T");
     }
 
-    /**
-     * inizializza un HashMap contenente i caratteri di un codice fiscale e il relativo valore assegnato per il calcolo del carattere di controllo
-     */
-     /*private static void createHashMap() {
-    	 caratteriDispari.put("0","A");
-    	 caratteriDispari.put("1","0");
-    	 caratteriDispari.put("2","5");
-    	 caratteriDispari.put("3","7");
-    	 caratteriDispari.put("4","9");
-    	 caratteriDispari.put("5","13");
-    	 caratteriDispari.put("6","15");
-    	 caratteriDispari.put("7","17");
-    	 caratteriDispari.put("8","19");
-    	 caratteriDispari.put("9","21");
-    	 caratteriDispari.put("A","1");
-    	 caratteriDispari.put("B","0");
-    	 caratteriDispari.put("C","");
-    	 caratteriDispari.put("D","");
-    	 caratteriDispari.put("E","");
-    	 caratteriDispari.put("F","");
-    	 caratteriDispari.put("G","");
-    	 caratteriDispari.put("H","");
-    	 caratteriDispari.put("I","");
-    	 caratteriDispari.put("J","");
-    	 caratteriDispari.put("K","");
-    	 caratteriDispari.put("L","");
-    	 caratteriDispari.put("M","");
-    	 caratteriDispari.put("N","");
-    	 caratteriDispari.put("O","");
-    	 caratteriDispari.put("P","");
-    	 caratteriDispari.put("Q","");
-    	 caratteriDispari.put("R","");
-    	 caratteriDispari.put("S","");
-    	 caratteriDispari.put("T","");
-    	 caratteriDispari.put("U","");
-    	 caratteriDispari.put("V","");
-    	 caratteriDispari.put("W","");
-    	 caratteriDispari.put("X","");
-    	 caratteriDispari.put("Y","");
-    	 caratteriDispari.put("Z","");
-    	 //36
-     } */
+    public CodiceFiscale() throws XMLStreamException {
+    }
+
     public String getCodFiscale() {
+
         return cod_fiscale;
     }
 
     public void setCodFiscale(String cod_fiscale) {
+
         this.cod_fiscale = cod_fiscale;
     }
 
 
     public String makeCF(Persona persona) {
-
-        lunghezza_cod = 3;
         cod_fiscale = generate3Caratteri(persona.getCognome());
-        lunghezza_cod = 6;
         String consonanti_nome = createConsonantiNome(persona.getNome());
         if (consonanti_nome.length() >= 4)
             cod_fiscale = cod_fiscale + consonanti_nome.charAt(0) + consonanti_nome.charAt(2) + consonanti_nome.charAt(3);
@@ -169,16 +165,16 @@ public class CodiceFiscale {
      **/
     public String generate3Caratteri(String valore) {
         int i = 0;
-        while (i < valore.length() || cod_fiscale.length() < lunghezza_cod) {
+        while (i < valore.length() || cod_fiscale.length() < 3) {
             char ci = valore.charAt(i);
             if (isConsonant(ci) == true) {
                 cod_fiscale = cod_fiscale + ci;
                 i++;
             }
         }
-        if (cod_fiscale.length() < lunghezza_cod) {
+        if (cod_fiscale.length() < 3) {
             i = 0;
-            while (i < valore.length() || cod_fiscale.length() < lunghezza_cod) {  //se metto in while i=0 viene riinizializzata ogni ciclo?
+            while (i < valore.length() || cod_fiscale.length() < 3) {  //se metto in while i=0 viene riinizializzata ogni ciclo?
                 char ci = valore.charAt(i);
                 if (isConsonant(ci) == false) {
                     cod_fiscale = cod_fiscale + ci;
@@ -187,7 +183,7 @@ public class CodiceFiscale {
             }
         }
         /**controlla se non si è ancora riusciti ad arrivare a 3 caratteri aggiunge X**/
-        while (cod_fiscale.length() < lunghezza_cod)
+        while (cod_fiscale.length() < 3)
             cod_fiscale = cod_fiscale + 'X';
 
         return cod_fiscale;
@@ -199,7 +195,7 @@ public class CodiceFiscale {
         String consonanti_valore = "";
         for (int i = 0; i < valore.length(); i++) {
             char ci = valore.charAt(i);
-            if (isConsonant(ci) == true) {
+            if (isConsonant(ci)) {
                 consonanti_valore = consonanti_valore + ci;
             }
         }
@@ -207,22 +203,23 @@ public class CodiceFiscale {
     }
 
     //controlla se carattere è una consonante
-    public boolean isConsonant(char ci) {
-        if (ci != 'A' || ci != 'E' || ci != 'I' || ci != 'O' || ci != 'U')
-            return true;
-        else
-            return false;
+    private boolean isConsonant(char ci) {
+        return ci != 'A' && ci != 'E' && ci != 'I' && ci != 'O' && ci != 'U';
     }
 
     //makeCF and check if returned value is present in inputPersone.XML
 
     public boolean isValid(String codice_fis) {
-        if (controlPosition(codice_fis) == false ||
-                checkDay(codice_fis) == false ||
-                checkMonth(codice_fis) == false)  //....
-            return false;
+        //controllo che tutti i caratteri siano o numeri o lettere maiuscole
+        for (int i = 0; i < LUNGHEZZA_CF; i++) {
+            if (Character.isLowerCase(codice_fis.charAt(i)))
+                return false;
+        }
 
-        return true;
+        //manca carattere di controllo
+        return controlPosition(codice_fis) &&
+                checkDay(codice_fis) &&
+                checkMonth(codice_fis);
     }
 
 
@@ -230,26 +227,21 @@ public class CodiceFiscale {
      * Controlla se i caratteri e numeri sono in posizione corretta
      **/
     public boolean controlPosition(String codice_fis) {
-        int i;
-        for (i = 0; i < 6; i++) {
+        for (int i = 0; i < 6; i++) {
             char x = codice_fis.charAt(i);
-            if (Character.isDigit(x) == true)
+            if (Character.isDigit(x))
                 return false;
         }
-        if (Character.isDigit(codice_fis.charAt(6)) == true &&
-                Character.isDigit(codice_fis.charAt(7)) == true &&
-                Character.isDigit(codice_fis.charAt(8)) == false &&
-                Character.isDigit(codice_fis.charAt(9)) == true &&
-                Character.isDigit(codice_fis.charAt(10)) == true &&
-                Character.isDigit(codice_fis.charAt(11)) == false &&
-                Character.isDigit(codice_fis.charAt(12)) == true &&
-                Character.isDigit(codice_fis.charAt(13)) == true &&
-                Character.isDigit(codice_fis.charAt(14)) == true &&
-                Character.isDigit(codice_fis.charAt(15)) == false)
-            return true;
-
-
-        return false; //se posizioni non sono corrette
+        return Character.isDigit(codice_fis.charAt(6)) &&
+                Character.isDigit(codice_fis.charAt(7)) &&
+                Character.isAlphabetic(codice_fis.charAt(8)) &&
+                Character.isDigit(codice_fis.charAt(9)) &&
+                Character.isDigit(codice_fis.charAt(10)) &&
+                Character.isAlphabetic(codice_fis.charAt(11)) &&
+                Character.isDigit(codice_fis.charAt(12)) &&
+                Character.isDigit(codice_fis.charAt(13)) &&
+                Character.isDigit(codice_fis.charAt(14)) &&
+                Character.isAlphabetic(codice_fis.charAt(15));//se posizioni non sono corrette
     }
 
     /**
@@ -259,21 +251,19 @@ public class CodiceFiscale {
      * @return boolean per controllare se il cod è giusto o meno
      **/
     public boolean checkDay(String codice_fis) {
-        String giornoS = "";
-        giornoS = giornoS + codice_fis.charAt(9) + codice_fis.charAt(10);
+        String giornoS = String.copyValueOf(codice_fis.toCharArray(), 9, 2);
+        //giornoS = giornoS + codice_fis.charAt(9) + codice_fis.charAt(10);
         int giorno = Integer.parseInt(giornoS);
-        if ((giorno >= 1 && giorno <= 31) || (giorno >= 41 && giorno <= 71))
-            return true;
-        return false;
+        return (giorno >= 1 && giorno <= 31) || (giorno >= 41 && giorno <= 71);
     }
 
 
     public boolean checkMonth(String codice_fis) {
         int i;
         String mese = String.valueOf(codice_fis.charAt(8));
-        for (i = 0; i < mesi.size(); i++) {   //alert: why is there dead code??
-            if (mese != mesi.get(i)) ;
-            return false;
+        for (String m : mesi) {
+            if (!mese.equals(m))
+                return false;
         }
         return true;
     }
