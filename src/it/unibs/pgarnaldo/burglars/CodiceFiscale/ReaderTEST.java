@@ -18,8 +18,7 @@ public class ReaderTEST {
 
     public static void main(String[] args) throws XMLStreamException {
 
-        String filepath = FILE_PERSONE;
-        ArrayList<Persona> persone = XMLReader.readPersone(filepath);
+        ArrayList<Persona> persone = XMLReader.readPersone(CFConstants.FILE_PERSONE);
 
         for (Persona p: persone) {
             System.out.println("Id: " + p.getId());
@@ -28,29 +27,26 @@ public class ReaderTEST {
             System.out.println("Sesso: " + p.getSesso());
             System.out.println("Comune di nascita: " + p.getComune());
             System.out.println("Data di nascita: " +p.getData());
-            System.out.println(DIV);
+            System.out.println(CFConstants.DIV);
         }
 
-        System.out.println(DIV);
-        System.out.println(DIV);
+        System.out.println(CFConstants.DIV);
+        System.out.println(CFConstants.DIV);
 
-        filepath = FILE_COMUNI;
 
-        HashMap<String, String> comuni = XMLReader.readComuni(filepath);
+        HashMap<String, String> comuni = XMLReader.readComuni(CFConstants.FILE_COMUNI);
         Set<String> keys = comuni.keySet();
 
         for (String key : keys) {
             System.out.println("comune: " + key);
             System.out.println("codice: " + comuni.get(key));
-            System.out.println(DIV);
+            System.out.println(CFConstants.DIV);
         }
 
-        System.out.println(DIV);
-        System.out.println(DIV);
+        System.out.println(CFConstants.DIV);
+        System.out.println(CFConstants.DIV);
 
-        filepath = "inputFiles/codiciFiscali.xml";
-
-        ArrayList<String> cfs = XMLReader.readTag("codice", filepath);
+        ArrayList<String> cfs = XMLReader.readTag("codice", CFConstants.FILE_CODICI);
 
         for (String cf : cfs) {
             System.out.println("codice fiscale: " + cf);
