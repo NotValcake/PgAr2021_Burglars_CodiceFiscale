@@ -327,15 +327,19 @@ public class CodiceFiscale {
         return (giorno >= 1 && giorno <= 31) || (giorno >= 41 && giorno <= 71);
     }
 
-
+    /**
+     * controlla se il carattere del mese è valido
+     * @param cf stringa contenente il codice fiscale
+     * @return true se il mese è accettabile
+     */
     public boolean checkMonth(String cf) {
         int i;
         String mese = String.valueOf(cf.charAt(8));
         for (String m : mesi) {
-            if (!mese.equals(m))
-                return false;
+            if (mese.equals(m))
+                return true;
         }
-        return true;
+        return false;
     }
 
 
