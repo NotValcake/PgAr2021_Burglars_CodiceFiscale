@@ -152,10 +152,10 @@ public class CodiceFiscale {
 
     public String makeCF(Persona persona) {
         cod_fiscale = creaConsonantiCognome(persona.getCognome());
-        String consonanti_nome = creaConsonantiNome(persona.getNome());
-        if (consonanti_nome.length()-1 >= 4) //perchè questo controllo? consonanti nome è scritto da noi, dovrebbe tornare una stringa gia corretta
-            cod_fiscale = cod_fiscale + consonanti_nome.charAt(0) + consonanti_nome.charAt(2) + consonanti_nome.charAt(3);
-        cod_fiscale = creaConsonantiCognome(persona.getNome()); //tolto else, perchè le lettere del nome vanno generate in ogni caso
+        //String consonanti_nome = creaConsonantiNome(persona.getNome());
+        //if (consonanti_nome.length()-1 >= 4) //perchè questo controllo? consonanti nome è scritto da noi, dovrebbe tornare una stringa gia corretta
+        //    cod_fiscale = cod_fiscale + consonanti_nome.charAt(0) + consonanti_nome.charAt(2) + consonanti_nome.charAt(3);
+        //cod_fiscale = creaConsonantiNome(persona.getNome()); //tolto else, perchè le lettere del nome vanno generate in ogni caso
         //generati primi 6 caratteri CF
 
         cod_fiscale = cod_fiscale + (Integer.toString(persona.getData().get(1))).charAt(2) + (Integer.toString(persona.getData().get(1))).charAt(3) + mesi.get(persona.getData().get(2));
@@ -243,28 +243,30 @@ public class CodiceFiscale {
      **/
     public String creaConsonantiCognome(String cognome) {
         int i = 0;
-        while (i < cognome.length() || cod_fiscale.length()-1 < 3) {
+        cognome = cognome.toUpperCase();//i caratteri di un codice fiscale sono solo maiuscoli
+        StringBuilder cf = new StringBuilder();
+        while (i < cognome.length() && cf.length() < 3) {
             char ci = cognome.charAt(i);
             if (isConsonant(ci)) {
-                cod_fiscale = cod_fiscale + ci;
+                cf = cf.append(ci);
             }
             i++;
         }
-        if (cod_fiscale.length()-1 < 3) {
+        if (cf.length()-1 < 3) {
             i = 0;
-            while (i < cognome.length() || cod_fiscale.length()-1 < 3) {  //se metto in while i=0 viene riinizializzata ogni ciclo?
+            while (i < cognome.length() || cf.length()-1 < 3) {  //se metto in while i=0 viene riinizializzata ogni ciclo?
                 char ci = cognome.charAt(i);
                 if (!isConsonant(ci)) {
-                    cod_fiscale = cod_fiscale + ci;
+                    cf = cf.append(ci);
                 }
                 i++;
             }
         }
         //controlla se non si è ancora riusciti ad arrivare a 3 caratteri aggiunge X
-        while (cod_fiscale.length()-1 < 3)
-            cod_fiscale = cod_fiscale + 'X';
+        while (cf.length()-1 < 3)
+            cf = cf.append('X');
 
-        return cod_fiscale;
+        return cf.toString();
     }
 
 
@@ -274,6 +276,7 @@ public class CodiceFiscale {
      * @return una stringa di tre lettere contenente le tre lettere del nome
      **/
     public String creaConsonantiNome(String nome) {
+        nome = nome.toUpperCase();
         char [] array_nome = nome.toCharArray();
         ArrayList<Character> consonanti = new ArrayList<>();
         //prelevo tutte le consonanti del nome
