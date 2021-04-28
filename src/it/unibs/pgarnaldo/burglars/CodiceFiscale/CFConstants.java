@@ -2,6 +2,7 @@ package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 
 import javax.xml.stream.XMLStreamException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,18 +16,8 @@ public class CFConstants {
     public final static ArrayList<String> MESI = new ArrayList<String>();
     
     static {
-        MESI.add("A");
-        MESI.add("B");
-        MESI.add("C");
-        MESI.add("D");
-        MESI.add("E");
-        MESI.add("H");
-        MESI.add("L");
-        MESI.add("M");
-        MESI.add("P");
-        MESI.add("R");
-        MESI.add("S");
-        MESI.add("T");
+        String [] mesi = {"A","B","C","D","E","H","L","M","P","R","S","T"};
+        MESI.addAll(Arrays.asList(mesi));
     }
     
     public static HashMap<String, String> COMUNI = new HashMap<>();

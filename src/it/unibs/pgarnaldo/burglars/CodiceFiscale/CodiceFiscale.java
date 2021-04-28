@@ -6,6 +6,7 @@ import java.util.*;
 public class CodiceFiscale {
 
     private String cod_fiscale = "";
+
     //private final static ArrayList<String> codiciFgiusti = new ArrayList<String>();
 
     public CodiceFiscale() throws XMLStreamException {
@@ -21,7 +22,11 @@ public class CodiceFiscale {
         this.cod_fiscale = cod_fiscale;
     }
 
-
+    /**
+     * genera un codice fiscale a partire da una persona
+     * @param persona Persona di cui generare il codice
+     * @return Stringa contenente il codice fiscale
+     */
     public String makeCF(Persona persona) {
         StringBuilder cf = new StringBuilder();
         cf.append(creaConsonantiCognome(persona.getCognome()));
@@ -61,20 +66,12 @@ public class CodiceFiscale {
             if (Character.isLowerCase(this.cod_fiscale.charAt(i)))
                 return false;
         }
-/*
-        String giornoS = "";
-        giornoS = giornoS + this.cod_fiscale.charAt(9) + this.cod_fiscale.charAt(10);
-        int giorno = Integer.parseInt(giornoS);
-        String mese = String.valueOf(this.cod_fiscale.charAt(8));
-        if (giorno >= 41 && giorno <= 71)
-            giorno = giorno - 40;
-*/
 
         String cod_comune = "";
-        cod_comune = cod_comune + this.cod_fiscale.charAt(12) + this.cod_fiscale.charAt(13) + this.cod_fiscale.charAt(14);
-        char last_char = generaCarattereControllo(this.cod_fiscale);
+        cod_comune = cod_comune +this.cod_fiscale.charAt(11) + this.cod_fiscale.charAt(12) + this.cod_fiscale.charAt(13) + this.cod_fiscale.charAt(14);
+        char last_char = generaCarattereControllo(this.cod_fiscale.substring(0, 15)); //il carattere di controllo va generato escludendo l'ultimo carattere dal cf
 
-        return controlPosition(this.cod_fiscale) && //refactor in modo da passare a tutti i metodi la stringa codice fiscale?
+        return controlPosition(this.cod_fiscale) &&
                 checkDay(this.cod_fiscale) &&
                 checkMonth(this.cod_fiscale) &&
                 checkDaysInMonth(this.cod_fiscale) &&
@@ -108,7 +105,7 @@ public class CodiceFiscale {
 
         int somma = 0;
 
-        for (i = 1; i < cf.length(); i += 2) { //partendo a cotare da zero caratteri pari e dispari si invertono
+        for (i = 1; i < cf.length(); i += 2) { //partendo a contare da zero caratteri pari e dispari si invertono
             somma += CFConstants.CARATTERI_PARI.get(cf.charAt(i));
         }
         for (i = 0; i < cf.length(); i += 2) {
@@ -137,7 +134,7 @@ public class CodiceFiscale {
         }
         if (cf.length() < 3) {
             i = 0;
-            while (i < cognome.length() || cf.length() - 1 < 3) {  //se metto in while i=0 viene riinizializzata ogni ciclo?
+            while (i < cognome.length() || cf.length() - 1 < 3) {
                 char ci = cognome.charAt(i);
                 if (!isConsonant(ci)) {
                     cf.append(ci);
@@ -240,7 +237,6 @@ public class CodiceFiscale {
      **/
     public boolean checkDay(String cf) {
         String giornoS = String.copyValueOf(cf.toCharArray(), 9, 2);
-        //giornoS = giornoS + cf.charAt(9) + cf.charAt(10);
         int giorno = Integer.parseInt(giornoS);
         return (giorno >= 1 && giorno <= 31) || (giorno >= 41 && giorno <= 71);
     }
@@ -257,7 +253,11 @@ public class CodiceFiscale {
         return CFConstants.MESI.contains(mese);
     }
 
-
+    /**
+     * controlla che il giorno di nascita sia compatibile con il mese
+     * @param cf una stringa contenente il codice fiscale
+     * @return true se giorno e mese sono compatibili
+     */
     public boolean checkDaysInMonth(String cf) {
         char mese = cf.charAt(8);
         String giornoS = "";

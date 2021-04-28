@@ -12,10 +12,6 @@ import java.util.Set;
 
 public class ReaderTEST {
 
-    private static final String DIV = "===================================";
-    private static final String FILE_COMUNI = "inputFiles/comuni.xml";
-    private static final String FILE_PERSONE = "inputFiles/inputPersone.xml";
-
     public static void main(String[] args) throws XMLStreamException {
 
         ArrayList<Persona> persone = XMLReader.readPersone(CFConstants.FILE_PERSONE);
@@ -50,7 +46,7 @@ public class ReaderTEST {
 
         for (String cf : cfs) {
             System.out.println("codice fiscale: " + cf);
-            System.out.println(DIV);
+            System.out.println(CFConstants.DIV);
         }
     }
 }
