@@ -175,36 +175,39 @@ public class CodiceFiscale {
 
 
     /**
-     * Controllo se CF è valido
+     * Controllo se il codice fiscale è valido
+     *
      **/
-    public boolean isValid(String codice_fis) {
+    public boolean isValid() {
         //controllo che tutti i caratteri siano o numeri o lettere maiuscole
         for (int i = 0; i < LUNGHEZZA_CF; i++) {
-            if (Character.isLowerCase(codice_fis.charAt(i)))
+            if (Character.isLowerCase(this.cod_fiscale.charAt(i)))
                 return false;
         }
 
         String giornoS = "";
-        giornoS = giornoS + codice_fis.charAt(9) + codice_fis.charAt(10);
+        giornoS = giornoS + this.cod_fiscale.charAt(9) + this.cod_fiscale.charAt(10);
         int giorno = Integer.parseInt(giornoS);
-        String mese = String.valueOf(codice_fis.charAt(8));
+        String mese = String.valueOf(this.cod_fiscale.charAt(8));
         if (giorno >= 41 && giorno <= 71)
             giorno = giorno - 40;
         String cod_comune = "";
-        cod_comune = cod_comune + codice_fis.charAt(12) + codice_fis.charAt(13) + codice_fis.charAt(14);
-        char last_char = generaCarattereControllo(codice_fis);
+        cod_comune = cod_comune + this.cod_fiscale.charAt(12) + this.cod_fiscale.charAt(13) + this.cod_fiscale.charAt(14);
+        char last_char = generaCarattereControllo(this.cod_fiscale);
 
-        return controlPosition(codice_fis) && //refactor in modo da passare a tutti i metodi la stringa codice fiscale?
-                checkDay(codice_fis) &&
+        return controlPosition(this.cod_fiscale) && //refactor in modo da passare a tutti i metodi la stringa codice fiscale?
+                checkDay(this.cod_fiscale) &&
                 checkMonth(mese) &&
                 checkDaysInMonth(giorno, mese) &&
                 comuni.containsValue(cod_comune) &&
-                last_char == codice_fis.charAt(15);
+                last_char == this.cod_fiscale.charAt(15);
     }
 
 
     /**
-     * Metodo per controllare se il codice generato è presente nel file dei codici fiscali dati e validi
+     * controlla se due codici fiscali sono uguali
+     * @param o un oggetto
+     * @return true se l'oggetto e l'istanza sono uguali
      **/
     @Override
     public boolean equals(Object o) {
@@ -216,19 +219,20 @@ public class CodiceFiscale {
 
     /**
      * Genera carattere di controllo
+     * @param cf stringa contenente il codice fiscale
+     * @return carattere di controllo del codice fiscale
      **/
-    public char generaCarattereControllo(String cod_fiscale) {
+    public char generaCarattereControllo(String cf) {
         int i;
         int somma = 0;
 
-        for (i = 0; i < cod_fiscale.length(); i = i + 2) {
-            somma = somma + caratteriPari.get(cod_fiscale.charAt(i));
+        for (i = 0; i < cf.length(); i = i + 2) {
+            somma = somma + caratteriPari.get(cf.charAt(i));
         }
-        for (i = 1; i < cod_fiscale.length(); i = i + 2) {
-            somma = somma + caratteriDispari.get(cod_fiscale.charAt(i));
+        for (i = 1; i < cf.length(); i = i + 2) {
+            somma = somma + caratteriDispari.get(cf.charAt(i));
         }
-        char carattere = restoCarattere.get((somma % 26));
-        return carattere;
+        return restoCarattere.get((somma % 26));
     }
 
 
@@ -294,35 +298,37 @@ public class CodiceFiscale {
 
     /**
      * Controlla se i caratteri e numeri sono in posizione corretta
+     * @param cf il codice fiscale da controllare
+     * @return true se lettere e numeri sono nelle posizioni corrette
      **/
-    public boolean controlPosition(String codice_fis) {
+    public boolean controlPosition(String cf) {
         for (int i = 0; i < 6; i++) {
-            char x = codice_fis.charAt(i);
+            char x = cf.charAt(i);
             if (Character.isDigit(x))
                 return false;
         }
 
-        return Character.isDigit(codice_fis.charAt(6)) &&
-                Character.isDigit(codice_fis.charAt(7)) &&
-                Character.isAlphabetic(codice_fis.charAt(8)) &&
-                Character.isDigit(codice_fis.charAt(9)) &&
-                Character.isDigit(codice_fis.charAt(10)) &&
-                Character.isAlphabetic(codice_fis.charAt(11)) &&
-                Character.isDigit(codice_fis.charAt(12)) &&
-                Character.isDigit(codice_fis.charAt(13)) &&
-                Character.isDigit(codice_fis.charAt(14)) &&
-                Character.isAlphabetic(codice_fis.charAt(15));//se posizioni non sono corrette
+        return Character.isDigit(cf.charAt(6)) &&
+                Character.isDigit(cf.charAt(7)) &&
+                Character.isAlphabetic(cf.charAt(8)) &&
+                Character.isDigit(cf.charAt(9)) &&
+                Character.isDigit(cf.charAt(10)) &&
+                Character.isAlphabetic(cf.charAt(11)) &&
+                Character.isDigit(cf.charAt(12)) &&
+                Character.isDigit(cf.charAt(13)) &&
+                Character.isDigit(cf.charAt(14)) &&
+                Character.isAlphabetic(cf.charAt(15));//se posizioni non sono corrette
     }
 
     /**
      * Controlla se giorno è compreso tra
      *
-     * @param codice_fis codice fiscale di cui ricavare il giorno
+     * @param cf codice fiscale di cui ricavare il giorno
      * @return boolean per controllare se il cod è giusto o meno
      **/
-    public boolean checkDay(String codice_fis) {
-        String giornoS = String.copyValueOf(codice_fis.toCharArray(), 9, 2);
-        //giornoS = giornoS + codice_fis.charAt(9) + codice_fis.charAt(10);
+    public boolean checkDay(String cf) {
+        String giornoS = String.copyValueOf(cf.toCharArray(), 9, 2);
+        //giornoS = giornoS + cf.charAt(9) + cf.charAt(10);
         int giorno = Integer.parseInt(giornoS);
         return (giorno >= 1 && giorno <= 31) || (giorno >= 41 && giorno <= 71);
     }
