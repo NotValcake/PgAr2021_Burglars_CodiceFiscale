@@ -99,11 +99,21 @@ public class Persona {
         this.id = id;
     }
 
+    /**
+     * restituisce la data di nascita della persona
+     * @return ArrayList di Integer contente anno di nascita, mese, giorno rispettivamente
+     *          nelle posizioni 0, 1, 2
+     */
     public ArrayList<Integer> getData() {
 
         return data;
     }
 
+    /**
+     * imposta una data di nascita
+     * @param data un Arraylist di Integer contenente anno di nascita, mese, giorno rispettivamente
+     * nelle posizioni 0, 1, 2
+     */
     public void setData(ArrayList<Integer> data) {
 
         this.data = data;

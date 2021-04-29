@@ -6,6 +6,12 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Classe di utilità contenente le costanti necessarie  al funzionamento del
+ * programma.
+ * @author burglars
+ */
+
 public class CFConstants {
     public static final String DIV = "===================================";
     public static final String FILE_COMUNI = "inputFiles/comuni.xml";

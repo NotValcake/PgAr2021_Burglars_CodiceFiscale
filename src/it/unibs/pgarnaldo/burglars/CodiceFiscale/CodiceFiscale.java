@@ -3,11 +3,14 @@ package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 import javax.xml.stream.XMLStreamException;
 import java.util.*;
 
+/**
+ * Classe dedicata alla creazione e verifica di un codice fiscale
+ * @author burglars
+ */
+
 public class CodiceFiscale {
 
     private String cod_fiscale = "";
-
-    //private final static ArrayList<String> codiciFgiusti = new ArrayList<String>();
 
     public CodiceFiscale() throws XMLStreamException {
     }
@@ -151,7 +154,7 @@ public class CodiceFiscale {
 
 
     /**
-     * crea le tre lesttere relative al nome nel codice fiscale
+     * crea le tre lettere relative al nome nel codice fiscale
      *
      * @param nome il cognome del proprietario del codice fiscale
      * @return una stringa di tre lettere contenente le tre lettere del nome
