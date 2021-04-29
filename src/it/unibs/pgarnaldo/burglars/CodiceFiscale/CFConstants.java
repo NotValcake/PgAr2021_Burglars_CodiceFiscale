@@ -17,6 +17,7 @@ public class CFConstants {
     public static final String FILE_COMUNI = "inputFiles/comuni.xml";
     public static final String FILE_PERSONE = "inputFiles/inputPersone.xml";
     public static final String FILE_CODICI = "inputFiles/codiciFiscali.xml";
+    public static final String FILE_OUTPUT="";
     public static final int LUNGHEZZA_CF = 16;
 
     public final static ArrayList<String> MESI = new ArrayList<String>();

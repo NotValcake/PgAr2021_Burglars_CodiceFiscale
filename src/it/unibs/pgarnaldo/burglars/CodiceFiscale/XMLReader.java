@@ -76,7 +76,7 @@ public class XMLReader {
                         reader.next();
                         ArrayList<Integer> data_nascita = parseDate(reader.getText());
                         p.setData(data_nascita);
-                        persone.add(p); //aggiunge la persona appena creata all'Arraylist
+                        persone.add(p);//aggiunge la persona appena creata all'Arraylist
                         p = null;//resetto la variabile di appoggio
                         break;
                 }
@@ -86,6 +86,21 @@ public class XMLReader {
         return persone;
     }
 
+    public static ArrayList<String> readCodici(String input_file) throws XMLStreamException{
+
+        ArrayList<String> cf = new ArrayList<>();
+        XMLStreamReader reader = streamReaderInit(input_file);
+        while (reader.hasNext()){
+            if (reader.getEventType() == XMLStreamConstants.START_ELEMENT){
+                reader.next();
+                cf.add(reader.getText().strip()) ;
+
+
+            }
+            reader.next();
+        }
+        return cf;
+    }
 
     /**
      * Classe che legge il file di input contenente l'accoppiata comune-codice
@@ -119,6 +134,7 @@ public class XMLReader {
 
         return comuni;
     }
+
 
 
     /**
