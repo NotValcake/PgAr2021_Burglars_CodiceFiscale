@@ -94,8 +94,6 @@ public class XMLReader {
             if (reader.getEventType() == XMLStreamConstants.START_ELEMENT){
                 reader.next();
                 cf.add(reader.getText().strip()) ;
-
-
             }
             reader.next();
         }

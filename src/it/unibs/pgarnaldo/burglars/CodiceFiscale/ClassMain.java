@@ -7,7 +7,7 @@ public class ClassMain {
 
     public static void main(String[] args) throws XMLStreamException {
 
-        //ArrayList<String> codici_fiscali = new ArrayList<>();
+        //TODO ArrayList<String> codici_fiscali = new ArrayList<>();
 
         ArrayList<String> invalidi = new ArrayList<>();
         ArrayList<String> spaiati= new ArrayList<>();
@@ -31,9 +31,9 @@ public class ClassMain {
     public static ArrayList<String> accoppiati(ArrayList<String> cf, ArrayList<Persona>persone) throws XMLStreamException {
 
 
-        //String cf_persone;
+        //TODO String cf_persone;
         ArrayList<String> accoppiati=new ArrayList<>(); // i codici fiscali creati
-        ArrayList<String> spaiati=new ArrayList<>(); // i codici fiscali de
+        //TODO ArrayList<String> spaiati=new ArrayList<>(); // i codici fiscali de
 
         for(int i=persone.size()-1;i>=0;i--){
             CodiceFiscale cf_persone = new CodiceFiscale(persone.get(i)); //inizializzo una nuova istanza di codice fiscale relativo alla i-esima persona
@@ -57,12 +57,11 @@ public class ClassMain {
 
         for (int i=cf.size()-1; i>=0;i--){
             CodiceFiscale codice = new CodiceFiscale(cf.get(i)); //genera un nuovo codice fiscale
-            if(! codice.isValid()){ //se il codice non è valido
+            if( !codice.isValid()){ //se il codice non è valido
                 invalidi.add(cf.get(i)); //lo aggiunge a invalidi
                 cf.remove(i); //rimuove il codice fiscale errato da quelli da controllare
             }
         }
-
         return invalidi;
     }
 

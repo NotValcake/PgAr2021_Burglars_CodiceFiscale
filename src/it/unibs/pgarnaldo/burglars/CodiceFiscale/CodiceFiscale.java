@@ -80,11 +80,27 @@ public class CodiceFiscale {
         char last_char = generaCarattereControllo(this.cod_fiscale.substring(0, 15)); //il carattere di controllo va generato escludendo l'ultimo carattere dal cf
 
         return controlPosition(this.cod_fiscale) &&
+                checkValidConsonants(this.cod_fiscale) && //controlla ordine caratteri cognome
+                checkValidConsonants(this.cod_fiscale.substring(3)) &&//controlla caratteri nome
                 checkDay(this.cod_fiscale) &&
                 checkMonth(this.cod_fiscale) &&
                 checkDaysInMonth(this.cod_fiscale) &&
                 CFConstants.COMUNI.containsValue(cod_comune) &&
                 last_char == this.cod_fiscale.charAt(15);
+    }
+
+    /**
+     * controlla se le tre lettere del nome o del cognome nel codice fiscale sono accettabili, cioè se sono in
+     * ordine consonanti->vocali->eventuali X
+     * @param cod_fiscale codice fiscale da valutare
+     * @return true se l'ordine delle lettere è corretto
+     */
+    private boolean checkValidConsonants(String cod_fiscale) {
+        for (int i = 0; i < 2; i++) {
+            if(!isConsonant(cod_fiscale.charAt(i)) && (isConsonant(cod_fiscale.charAt(i+1)) || cod_fiscale.charAt(i+1)=='X'))
+                return  false;
+        }
+        return true;
     }
 
 
