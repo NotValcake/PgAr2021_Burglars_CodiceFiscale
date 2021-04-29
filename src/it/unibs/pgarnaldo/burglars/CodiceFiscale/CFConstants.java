@@ -21,6 +21,8 @@ public class CFConstants {
     public static final int LUNGHEZZA_CF = 16;
 
     public final static ArrayList<String> MESI = new ArrayList<String>();
+    public static final String ASSENTE = "ASSENTE";
+    public static final String TAG_CODICE = "codice";
 
     static {
         String [] mesi = {"A","B","C","D","E","H","L","M","P","R","S","T"};

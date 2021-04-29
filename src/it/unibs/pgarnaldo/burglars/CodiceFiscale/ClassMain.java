@@ -13,13 +13,18 @@ public class ClassMain {
         ArrayList<String> spaiati= new ArrayList<>();
         ArrayList<String> presenti= new ArrayList<>();
 
-        ArrayList<String> cf = XMLReader.readTag("codice", CFConstants.FILE_CODICI);//legge i codici fiscali dal relativo file
+        ArrayList<String> cf = XMLReader.readTag(CFConstants.TAG_CODICE, CFConstants.FILE_CODICI);//legge i codici fiscali dal relativo file
         ArrayList<Persona> persone = XMLReader.readPersone(CFConstants.FILE_PERSONE);//legge e crea le persone a partire dal file
 
         invalidi = errati(cf);
         presenti = accoppiati(cf, persone);
         spaiati = cf;
 
+        //stampa inizio
+        //stampa accoppiati
+        //stampa spaiati
+        //stampa errati
+        //chiudere output stream
     }
 
     /**
@@ -40,6 +45,8 @@ public class ClassMain {
             if (cf.contains(cf_persone.getCodFiscale())){ //controllo se tale codice fiscale è contenuto nella lista di codici
                 accoppiati.add(cf.get(i));//lo aggiungo alla lista di codici fiscali corretti
                 cf.remove(i); //lo rimuovo dalla lista di cf da controllare
+            }else{
+                accoppiati.add(CFConstants.ASSENTE); //se il codice fiscale della persona non è presente segna ASSENTE nella posizione corrispondente
             }
         }
         return accoppiati;
