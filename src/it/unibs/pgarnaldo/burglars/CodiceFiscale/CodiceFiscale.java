@@ -12,7 +12,12 @@ public class CodiceFiscale {
 
     private String cod_fiscale = "";
 
-    public CodiceFiscale() throws XMLStreamException {
+    public CodiceFiscale(Persona p) throws XMLStreamException {
+        this.cod_fiscale = makeCF(p);
+    }
+
+    public CodiceFiscale(String cf){
+        this.cod_fiscale = cf;
     }
 
     public String getCodFiscale() {
@@ -201,7 +206,7 @@ public class CodiceFiscale {
      * @return true se il carattere è una consonante
      **/
     private static boolean isConsonant(char ci) {
-        return ci != 'A' && ci != 'E' && ci != 'I' && ci != 'O' && ci != 'U';
+        return CFConstants.CONSONANTI.contains(ci);
     }
 
     //makeCF and check if returned value is present in inputPersone.XML

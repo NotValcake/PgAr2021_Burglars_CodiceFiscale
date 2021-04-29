@@ -21,10 +21,18 @@ public class CFConstants {
     public static final int LUNGHEZZA_CF = 16;
 
     public final static ArrayList<String> MESI = new ArrayList<String>();
-    
+
     static {
         String [] mesi = {"A","B","C","D","E","H","L","M","P","R","S","T"};
         MESI.addAll(Arrays.asList(mesi));
+    }
+
+    public static final ArrayList<Character> CONSONANTI = new ArrayList<>();
+
+    static{
+        Character [] consonanti = {'B', 'C', 'D','F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'W', 'X', 'Y', 'Z'};
+        CONSONANTI.addAll(Arrays.asList(consonanti));
+
     }
     
     public static HashMap<String, String> COMUNI = new HashMap<>();
