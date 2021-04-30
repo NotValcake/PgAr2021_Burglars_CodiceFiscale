@@ -20,7 +20,11 @@ public class ClassMain {
         presenti = accoppiati(cf, persone);
         spaiati = cf;
 
-        //stampa inizio
+        XMLWriter writer = new XMLWriter(CFConstants.FILE_OUTPUT);
+        writer.scriviPersone(persone, presenti);
+        writer.scriviCodici("invalidi", invalidi);
+        writer.scriviCodici("spaiati", spaiati);
+        writer.endWriter();
         //stampa accoppiati
         //stampa spaiati
         //stampa errati
@@ -35,16 +39,13 @@ public class ClassMain {
      */
     public static ArrayList<String> accoppiati(ArrayList<String> cf, ArrayList<Persona>persone) throws XMLStreamException {
 
-
-        //TODO String cf_persone;
         ArrayList<String> accoppiati=new ArrayList<>(); // i codici fiscali creati
-        //TODO ArrayList<String> spaiati=new ArrayList<>(); // i codici fiscali de
 
         for(int i=persone.size()-1;i>=0;i--){
             CodiceFiscale cf_persone = new CodiceFiscale(persone.get(i)); //inizializzo una nuova istanza di codice fiscale relativo alla i-esima persona
             if (cf.contains(cf_persone.getCodFiscale())){ //controllo se tale codice fiscale è contenuto nella lista di codici
-                accoppiati.add(cf.get(i));//lo aggiungo alla lista di codici fiscali corretti
-                cf.remove(i); //lo rimuovo dalla lista di cf da controllare
+                accoppiati.add(cf_persone.getCodFiscale());//lo aggiungo alla lista di codici fiscali corretti
+                cf.remove(cf_persone.getCodFiscale()); //lo rimuovo dalla lista di cf da controllare
             }else{
                 accoppiati.add(CFConstants.ASSENTE); //se il codice fiscale della persona non è presente segna ASSENTE nella posizione corrispondente
             }

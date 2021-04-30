@@ -24,7 +24,7 @@ public class Persona {
     private String nome;
     private String cognome;
     private char sesso;
-    private ArrayList<Integer> data = new ArrayList<Integer>();
+    private ArrayList<Integer> data = new ArrayList<>();
     private String comune;
 
 

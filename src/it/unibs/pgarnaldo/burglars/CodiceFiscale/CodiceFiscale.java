@@ -1,6 +1,5 @@
 package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 
-import javax.xml.stream.XMLStreamException;
 import java.util.*;
 
 /**
@@ -10,9 +9,9 @@ import java.util.*;
 
 public class CodiceFiscale {
 
-    private String cod_fiscale = "";
+    private String cod_fiscale;
 
-    public CodiceFiscale(Persona p) throws XMLStreamException {
+    public CodiceFiscale(Persona p){
         this.cod_fiscale = makeCF(p);
     }
 
@@ -69,6 +68,9 @@ public class CodiceFiscale {
      * @return true se il codice fiscale è valido
      **/
     public boolean isValid() {
+        if(this.cod_fiscale.length() < CFConstants.LUNGHEZZA_CF){
+            return false;
+        }
         //controllo che tutti i caratteri siano o numeri o lettere maiuscole
         for (int i = 0; i < CFConstants.LUNGHEZZA_CF; i++) {
             if (Character.isLowerCase(this.cod_fiscale.charAt(i)))
@@ -158,7 +160,7 @@ public class CodiceFiscale {
         }
         if (cf.length() < 3) {
             i = 0;
-            while (i < cognome.length() || cf.length() - 1 < 3) {
+            while (i < cognome.length() && cf.length() - 1 < 3) {
                 char ci = cognome.charAt(i);
                 if (!isConsonant(ci)) {
                     cf.append(ci);
@@ -272,7 +274,6 @@ public class CodiceFiscale {
      * @return true se il mese è accettabile
      */
     public boolean checkMonth(String cf) {
-        int i;
         String mese = String.valueOf(cf.charAt(8));
         return CFConstants.MESI.contains(mese);
     }
@@ -311,13 +312,3 @@ public class CodiceFiscale {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
