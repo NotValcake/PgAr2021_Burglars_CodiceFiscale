@@ -41,11 +41,11 @@ public class CodiceFiscale {
         cf.append(creaConsonantiCognome(persona.getCognome()));
         cf.append(creaConsonantiNome(persona.getNome()));
 
-        if (persona.getData().get(1) % 100 < 10) { //se la persona è nata in un mese precedente a  ottobre, bisogna aggiungere uno 0
+        if (persona.getData().get(0) % 100 < 10) { //se la persona è nata in un anno precedente al 2010 o al 1910 bisogna aggiungere uno 0
             cf.append("0");
         }
-
         cf.append((persona.getData().get(0) % 100)); //aggiunge le ultime due cifre dell'anno
+
         cf.append(CFConstants.MESI.get(persona.getData().get(1) - 1)); //aggiunge la lettera del mese
 
         if (persona.getSesso() == 'F') {
@@ -215,13 +215,13 @@ public class CodiceFiscale {
             codice_nome.append(c);
         }
         int i = 0;
-        while (codice_nome.length() - 1 < 3 && i < nome.length()) {
+        while (codice_nome.length() < 3 && i < nome.length()) {
             if (!isConsonant(nome.charAt(i)))
                 codice_nome.append(nome.charAt(i));
             i++;
         }
         //se nemmeno le vocali bastano, aggiungo X
-        while (codice_nome.length() - 1 < 3) {
+        while (codice_nome.length() < 3) {
             codice_nome.append('X');
             i++;
         }
