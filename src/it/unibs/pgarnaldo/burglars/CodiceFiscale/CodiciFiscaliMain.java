@@ -1,6 +1,7 @@
 package it.unibs.pgarnaldo.burglars.CodiceFiscale;
 
-/**Benvenuti nella classe main
+/**
+ * Benvenuti nella classe main
  * @author burglars
  **/
 
@@ -21,10 +22,9 @@ public class CodiciFiscaliMain {
         ArrayList<String> spaiati = cf;
 
         XMLWriter writer = new XMLWriter(CFConstants.FILE_OUTPUT);
-        writer.getWriter().writeStartElement("output");
         writer.scriviPersone(persone, presenti);
-        writer.getWriter().writeEndElement();
         writer.getWriter().writeStartElement("codici");
+        writer.getWriter().writeCharacters("\n");
         writer.scriviCodici("invalidi", invalidi);
         writer.scriviCodici("spaiati", spaiati);
         writer.endWriter();

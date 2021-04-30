@@ -34,6 +34,8 @@ public class XMLWriter {
             factory = XMLOutputFactory.newInstance();
             writer = factory.createXMLStreamWriter(new FileOutputStream(output_file), "utf-8");
             writer.writeStartDocument("utf-8", "1.0");
+            writer.writeCharacters("\n");
+            writer.writeStartElement("output");
         } catch (Exception e) {
             System.out.println(INIT_ERROR);
             System.out.println(e.getMessage());
@@ -48,17 +50,22 @@ public class XMLWriter {
      * @throws XMLStreamException
      */
     public void scriviPersone(ArrayList<Persona> persone, ArrayList<String> cf) throws XMLStreamException {
-
+        writer.writeCharacters("\n");
+        writer.writeCharacters("\t");
         writer.writeStartElement("persone");
         writer.writeAttribute("numero", Integer.toString(persone.size()));//inserisce numero di persone
-
         for (int i = 0; i < persone.size(); i++) {
             scriviPersona(persone.get(i));
             writer.writeStartElement("codice_fiscale");
             writer.writeCharacters(cf.get(i));
             writer.writeEndElement();
+            writer.writeCharacters("\n");
+            writer.writeCharacters("\t");
             writer.writeEndElement();
         }
+        writer.writeCharacters("\n");
+        writer.writeEndElement();
+        writer.writeCharacters("\n");
     }
 
     /**
@@ -67,23 +74,37 @@ public class XMLWriter {
      * @throws XMLStreamException
      */
     public void scriviPersona(Persona p) throws XMLStreamException {
+        writer.writeCharacters("\n");
+        writer.writeCharacters("\t");
         writer.writeStartElement("persona");
         writer.writeAttribute("id", Integer.toString(p.getId()));
+        writer.writeCharacters("\n");
+        writer.writeCharacters("\t\t");
         writer.writeStartElement("nome");
         writer.writeCharacters(p.getNome());
         writer.writeEndElement();
+        writer.writeCharacters("\n");
+        writer.writeCharacters("\t\t");
         writer.writeStartElement("cognome");
         writer.writeCharacters(p.getCognome());
         writer.writeEndElement();
+        writer.writeCharacters("\n");
+        writer.writeCharacters("\t\t");
         writer.writeStartElement("sesso");
         writer.writeCharacters(Character.toString(p.getSesso()));
         writer.writeEndElement();
+        writer.writeCharacters("\n");
+        writer.writeCharacters("\t\t");
         writer.writeStartElement("comune_nascita");
         writer.writeCharacters(p.getComune());
         writer.writeEndElement();
+        writer.writeCharacters("\n");
+        writer.writeCharacters("\t\t");
         writer.writeStartElement("data_nascita");
         writer.writeCharacters(String.format("%4d-%02d-%02d" ,p.getData().get(0), p.getData().get(1) , p.getData().get(2)));
         writer.writeEndElement();
+        writer.writeCharacters("\n");
+        writer.writeCharacters("\t\t");
     }
 
     /**
@@ -93,14 +114,20 @@ public class XMLWriter {
      * @throws XMLStreamException
      */
     public void scriviCodici(String tag, ArrayList<String> codici) throws XMLStreamException {
+        writer.writeCharacters("\t");
         writer.writeStartElement(tag);
         writer.writeAttribute("numero", Integer.toString(codici.size()));
+        writer.writeCharacters("\n");
         for (String cf:codici) {
+            writer.writeCharacters("\t\t");
             writer.writeStartElement("codice");
             writer.writeCharacters(cf);
             writer.writeEndElement();
+            writer.writeCharacters("\n");
         }
+        writer.writeCharacters("\t");
         writer.writeEndElement();
+        writer.writeCharacters("\n");
     }
 
     /**
