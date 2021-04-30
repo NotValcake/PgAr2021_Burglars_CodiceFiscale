@@ -9,8 +9,8 @@ import java.util.ArrayList;
  * 1) id, servirà per identificare la persona più facilmente, visto che il programma lavorerà con una lista di persone;
  * 2) nome e cognome;
  * 3) sesso;
- * 4) data di nascita (prima casella il giorno, seconda casella il mese, terza casella l'anno)
- * 5) comune di nascita, dal quale successivamente, in un'altra classe, si controllerà il codice corrispondente.
+ * 4) data di nascita
+ * 5) comune di nascita
  * Da questi dati poi andremo a creare il codice fiscale di ogni persona.
  *
  * @author Burglars

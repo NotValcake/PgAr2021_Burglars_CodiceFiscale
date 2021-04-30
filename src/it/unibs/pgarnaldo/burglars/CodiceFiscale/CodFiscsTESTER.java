@@ -15,9 +15,7 @@ public class CodFiscsTESTER {
 
 		CodiceFiscale cf = new CodiceFiscale(p);
 		System.out.println(cf.getCodFiscale());
-		//	cf.set
 		System.out.println(cf.isValid());
-		//cf.isValid();
 
 
 
