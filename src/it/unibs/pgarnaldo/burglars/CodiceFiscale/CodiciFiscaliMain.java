@@ -4,7 +4,7 @@ import javax.xml.stream.XMLStreamException;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ClassMain {
+public class CodiciFiscaliMain {
 
     public static void main(String[] args) throws XMLStreamException {
 
