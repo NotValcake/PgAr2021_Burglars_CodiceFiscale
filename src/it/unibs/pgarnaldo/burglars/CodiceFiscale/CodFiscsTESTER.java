@@ -11,10 +11,16 @@ public class CodFiscsTESTER {
 		data.add(7);
 		data.add(29);
 
-		Persona p = new Persona(346, "AICHA", "GIARETTI", 'F', data,"ACCETTURA");
+		Persona p = new Persona(346, "Au", "au", 'M', data,"ACCETTURA");
 
 		CodiceFiscale cf = new CodiceFiscale(p);
 		System.out.println(cf.getCodFiscale());
+		//	cf.set
+		System.out.println(cf.isValid());
+		//cf.isValid();
+
+
+
 	}
 
 }

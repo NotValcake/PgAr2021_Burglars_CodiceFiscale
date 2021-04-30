@@ -102,7 +102,7 @@ public class CodiceFiscale {
      */
     private boolean checkValidConsonants(String cod_fiscale) {
         for (int i = 0; i < 2; i++) {
-            if (!isConsonant(cod_fiscale.charAt(i)) && (isConsonant(cod_fiscale.charAt(i + 1)) || cod_fiscale.charAt(i + 1) == 'X'))
+            if (!isConsonant(cod_fiscale.charAt(i)) && (isConsonant(cod_fiscale.charAt(i + 1)) && cod_fiscale.charAt(i + 1) != 'X'))
                 return false;
         }
         return true;
