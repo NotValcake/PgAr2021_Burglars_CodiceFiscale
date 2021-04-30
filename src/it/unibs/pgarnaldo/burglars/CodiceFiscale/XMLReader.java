@@ -86,20 +86,6 @@ public class XMLReader {
         return persone;
     }
 
-    public static ArrayList<String> readCodici(String input_file) throws XMLStreamException{
-
-        ArrayList<String> cf = new ArrayList<>();
-        XMLStreamReader reader = streamReaderInit(input_file);
-        while (reader.hasNext()){
-            if (reader.getEventType() == XMLStreamConstants.START_ELEMENT){
-                reader.next();
-                cf.add(reader.getText().strip()) ;
-            }
-            reader.next();
-        }
-        return cf;
-    }
-
     /**
      * Classe che legge il file di input contenente l'accoppiata comune-codice
      *

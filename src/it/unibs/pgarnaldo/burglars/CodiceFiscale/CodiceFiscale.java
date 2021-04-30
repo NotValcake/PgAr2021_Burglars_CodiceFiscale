@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * Classe dedicata alla creazione e verifica di un codice fiscale
+ *
  * @author burglars
  */
 
@@ -11,11 +12,11 @@ public class CodiceFiscale {
 
     private String cod_fiscale;
 
-    public CodiceFiscale(Persona p){
+    public CodiceFiscale(Persona p) {
         this.cod_fiscale = makeCF(p);
     }
 
-    public CodiceFiscale(String cf){
+    public CodiceFiscale(String cf) {
         this.cod_fiscale = cf;
     }
 
@@ -31,6 +32,7 @@ public class CodiceFiscale {
 
     /**
      * genera un codice fiscale a partire da una persona
+     *
      * @param persona Persona di cui generare il codice
      * @return Stringa contenente il codice fiscale
      */
@@ -68,7 +70,7 @@ public class CodiceFiscale {
      * @return true se il codice fiscale è valido
      **/
     public boolean isValid() {
-        if(this.cod_fiscale.length() < CFConstants.LUNGHEZZA_CF){
+        if (this.cod_fiscale.length() != CFConstants.LUNGHEZZA_CF) {
             return false;
         }
         //controllo che tutti i caratteri siano o numeri o lettere maiuscole
@@ -78,7 +80,7 @@ public class CodiceFiscale {
         }
 
         String cod_comune = "";
-        cod_comune = cod_comune +this.cod_fiscale.charAt(11) + this.cod_fiscale.charAt(12) + this.cod_fiscale.charAt(13) + this.cod_fiscale.charAt(14);
+        cod_comune = cod_comune + this.cod_fiscale.charAt(11) + this.cod_fiscale.charAt(12) + this.cod_fiscale.charAt(13) + this.cod_fiscale.charAt(14);
         char last_char = generaCarattereControllo(this.cod_fiscale.substring(0, 15)); //il carattere di controllo va generato escludendo l'ultimo carattere dal cf
 
         return controlPosition(this.cod_fiscale) &&
@@ -94,13 +96,14 @@ public class CodiceFiscale {
     /**
      * controlla se le tre lettere del nome o del cognome nel codice fiscale sono accettabili, cioè se sono in
      * ordine consonanti->vocali->eventuali X
+     *
      * @param cod_fiscale codice fiscale da valutare
      * @return true se l'ordine delle lettere è corretto
      */
     private boolean checkValidConsonants(String cod_fiscale) {
         for (int i = 0; i < 2; i++) {
-            if(!isConsonant(cod_fiscale.charAt(i)) && (isConsonant(cod_fiscale.charAt(i+1)) || cod_fiscale.charAt(i+1)=='X'))
-                return  false;
+            if (!isConsonant(cod_fiscale.charAt(i)) && (isConsonant(cod_fiscale.charAt(i + 1)) || cod_fiscale.charAt(i + 1) == 'X'))
+                return false;
         }
         return true;
     }
@@ -118,6 +121,16 @@ public class CodiceFiscale {
         if (!(o instanceof CodiceFiscale)) return false;
         CodiceFiscale that = (CodiceFiscale) o;
         return Objects.equals(cod_fiscale, that.cod_fiscale);
+    }
+
+    /**
+     * metodo toString
+     *
+     * @return il codice fiscale come una stringa
+     */
+    @Override
+    public String toString() {
+        return this.cod_fiscale;
     }
 
     /**
@@ -139,7 +152,6 @@ public class CodiceFiscale {
         }
         return CFConstants.RESTO.get(somma % 26);
     }
-
 
     /**
      * genera i primi tre caratteri del codice fiscale, relativi al cognome
@@ -174,7 +186,6 @@ public class CodiceFiscale {
 
         return cf.toString();
     }
-
 
     /**
      * crea le tre lettere relative al nome nel codice fiscale
@@ -227,9 +238,6 @@ public class CodiceFiscale {
         return CFConstants.CONSONANTI.contains(ci);
     }
 
-    //makeCF and check if returned value is present in inputPersone.XML
-
-
     /**
      * Controlla se i caratteri e numeri sono in posizione corretta
      *
@@ -280,6 +288,7 @@ public class CodiceFiscale {
 
     /**
      * controlla che il giorno di nascita sia compatibile con il mese
+     *
      * @param cf una stringa contenente il codice fiscale
      * @return true se giorno e mese sono compatibili
      */

@@ -5,17 +5,22 @@ import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 import java.io.FileOutputStream;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class XMLWriter {
 
+    public static final String INIT_ERROR = "Errore nell'inizializzazione del writer:";
     XMLStreamWriter writer;
 
     public XMLWriter(String output_file){
         this.writer = writerInit(output_file);
     }
 
+    /**
+     * inizializza un nuovo writer con il realtivo OutputStream
+     * @param output_file String contenente il nome del file da scrivere
+     * @return un nuovo XMLStreamWriter
+     */
     public XMLStreamWriter writerInit(String output_file){
 
         XMLOutputFactory factory = null;
@@ -26,18 +31,18 @@ public class XMLWriter {
             writer = factory.createXMLStreamWriter(new FileOutputStream(output_file), "utf-8");
             writer.writeStartDocument("utf-8", "1.0");
         } catch (Exception e) {
-            System.out.println("Errore nell'inizializzazione del writer:");
+            System.out.println(INIT_ERROR);
             System.out.println(e.getMessage());
         }
         return writer;
     }
 
-    //TODO aggiornare
-    public void scriviOutput(String opening_tag) throws XMLStreamException {
-        writer.writeStartElement(opening_tag);
-        writer.writeStartElement("codici");
-    }
-
+    /**
+     * scrive in output un elenco di persone con il relativo codice fiscale formattato
+     * @param persone ArrayList contenente un elenco di Persona
+     * @param cf Arraylist di String contenente i codici fiscali
+     * @throws XMLStreamException
+     */
     public void scriviPersone(ArrayList<Persona> persone, ArrayList<String> cf) throws XMLStreamException {
 
         writer.writeStartElement("persone");
@@ -52,6 +57,11 @@ public class XMLWriter {
         }
     }
 
+    /**
+     * scrive sul i dati di una Persona formattata
+     * @param p Persona di cui si vogliono stampare i dati
+     * @throws XMLStreamException
+     */
     public void scriviPersona(Persona p) throws XMLStreamException {
         writer.writeStartElement("persona");
         writer.writeAttribute("id", Integer.toString(p.getId()));
@@ -72,8 +82,13 @@ public class XMLWriter {
         writer.writeEndElement();
     }
 
+    /**
+     * scrive in output un elenco di codici fiscali formattati, preceduto da un tag
+     * @param tag tag che si vuole inserire prima dei codici
+     * @param codici ArrayList di Stringhe contenente i codici da stampare
+     * @throws XMLStreamException
+     */
     public void scriviCodici(String tag, ArrayList<String> codici) throws XMLStreamException {
-        //TODO spostare:
         writer.writeStartElement(tag);
         writer.writeAttribute("numero", Integer.toString(codici.size()));
         for (String cf:codici) {
@@ -84,6 +99,10 @@ public class XMLWriter {
         writer.writeEndElement();
     }
 
+    /**
+     * chiude lo stream di output
+     * @throws XMLStreamException
+     */
     public void endWriter() throws XMLStreamException {
         this.writer.flush();
         this.writer.close();

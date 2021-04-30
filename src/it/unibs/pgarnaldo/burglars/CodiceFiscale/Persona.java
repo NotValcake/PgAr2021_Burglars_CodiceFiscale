@@ -30,12 +30,13 @@ public class Persona {
 
     /**
      * costruttore di persona
-     * @param id indice univoco
-     * @param nome nome della persona
+     *
+     * @param id      indice univoco
+     * @param nome    nome della persona
      * @param cognome cognome della persona
-     * @param sesso char M = maschio, F = femmina
-     * @param data Arraylist contenente la data nel formato aaaa-MM-gg
-     * @param comune stringa contenente il comune di nascita
+     * @param sesso   char M = maschio, F = femmina
+     * @param data    Arraylist contenente la data nel formato aaaa-MM-gg
+     * @param comune  stringa contenente il comune di nascita
      */
     public Persona(int id, String nome, String cognome, char sesso, ArrayList<Integer> data, String comune) {
 
@@ -55,14 +56,17 @@ public class Persona {
     }
 
     public String getCognome() {
+
         return cognome;
     }
 
     public void setCognome(String cognome) {
+
         this.cognome = cognome;
     }
 
     public String getNome() {
+
         return nome;
     }
 
@@ -72,10 +76,12 @@ public class Persona {
     }
 
     public char getSesso() {
+
         return sesso;
     }
 
     public void setSesso(char sesso) {
+
         this.sesso = sesso;
     }
 
@@ -101,8 +107,9 @@ public class Persona {
 
     /**
      * restituisce la data di nascita della persona
+     *
      * @return ArrayList di Integer contente anno di nascita, mese, giorno rispettivamente
-     *          nelle posizioni 0, 1, 2
+     * nelle posizioni 0, 1, 2
      */
     public ArrayList<Integer> getData() {
 
@@ -111,8 +118,9 @@ public class Persona {
 
     /**
      * imposta una data di nascita
+     *
      * @param data un Arraylist di Integer contenente anno di nascita, mese, giorno rispettivamente
-     * nelle posizioni 0, 1, 2
+     *             nelle posizioni 0, 1, 2
      */
     public void setData(ArrayList<Integer> data) {
 
