@@ -16,7 +16,10 @@ public class ClassMain {
         ArrayList<String> spaiati = cf;
 
         XMLWriter writer = new XMLWriter(CFConstants.FILE_OUTPUT);
+        writer.getWriter().writeStartElement("output");
         writer.scriviPersone(persone, presenti);
+        writer.getWriter().writeEndElement();
+        writer.getWriter().writeStartElement("codici");
         writer.scriviCodici("invalidi", invalidi);
         writer.scriviCodici("spaiati", spaiati);
         writer.endWriter();

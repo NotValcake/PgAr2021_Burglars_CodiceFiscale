@@ -16,6 +16,10 @@ public class XMLWriter {
         this.writer = writerInit(output_file);
     }
 
+    public XMLStreamWriter getWriter(){
+        return this.writer;
+    }
+
     /**
      * inizializza un nuovo writer con il realtivo OutputStream
      * @param output_file String contenente il nome del file da scrivere
@@ -104,6 +108,7 @@ public class XMLWriter {
      * @throws XMLStreamException
      */
     public void endWriter() throws XMLStreamException {
+        this.writer.writeEndDocument();
         this.writer.flush();
         this.writer.close();
     }
