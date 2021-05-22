@@ -32,7 +32,7 @@ public class CFConstants {
     public static final ArrayList<Character> CONSONANTI = new ArrayList<>();
 
     static{
-        Character [] consonanti = {'B', 'C', 'D','F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'W', 'X', 'Y', 'Z'};
+        Character [] consonanti = {'B', 'C', 'D','F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Y', 'Z'};
         CONSONANTI.addAll(Arrays.asList(consonanti));
 
     }

@@ -310,7 +310,7 @@ public class CodiceFiscale {
             return false;
         }
 
-        if (mese == 'D' || mese == 'H' || mese == 'M' || mese == 'R' || mese == 'T' && giorno > 30) {
+        if (mese == 'D' || mese == 'H' || mese == 'P' || mese == 'S' && giorno > 30) {
             return false;
         }
 

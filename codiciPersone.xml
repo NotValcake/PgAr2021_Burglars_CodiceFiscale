@@ -23,7 +23,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PORTICI</comune_nascita>
 		<data_nascita>1979-09-22</data_nascita>
-		<codice_fiscale>FRRNDR79P22G902N</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="3">
 		<nome>MARCO</nome>
@@ -47,7 +47,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MONTORO INFERIORE</comune_nascita>
 		<data_nascita>1939-08-07</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GLLLSN39M07F693X</codice_fiscale>
 	</persona>
 	<persona id="6">
 		<nome>GIOVANNI</nome>
@@ -87,7 +87,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>REINO</comune_nascita>
 		<data_nascita>1920-08-23</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RVLPLA20M23H227L</codice_fiscale>
 	</persona>
 	<persona id="11">
 		<nome>ANNA</nome>
@@ -119,7 +119,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SACILE</comune_nascita>
 		<data_nascita>2010-11-29</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NGRDVD10S29H657Z</codice_fiscale>
 	</persona>
 	<persona id="15">
 		<nome>MATTEO</nome>
@@ -143,7 +143,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SAN VERO MILIS</comune_nascita>
 		<data_nascita>2016-09-28</data_nascita>
-		<codice_fiscale>GRZGLI16P68I384J</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="18">
 		<nome>PAOLA</nome>
@@ -151,7 +151,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>DON</comune_nascita>
 		<data_nascita>1944-09-10</data_nascita>
-		<codice_fiscale>GRSPLA44P50D336J</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="19">
 		<nome>FABIO</nome>
@@ -191,7 +191,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VILLANOVA D'ALBENGA</comune_nascita>
 		<data_nascita>1941-09-05</data_nascita>
-		<codice_fiscale>HXHDNL41P45L975R</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="24">
 		<nome>LORENZO</nome>
@@ -223,7 +223,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ACUTO</comune_nascita>
 		<data_nascita>1975-08-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MRLLRA75M41A054N</codice_fiscale>
 	</persona>
 	<persona id="28">
 		<nome>GIORGIO</nome>
@@ -239,7 +239,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>RASURA</comune_nascita>
 		<data_nascita>1999-09-21</data_nascita>
-		<codice_fiscale>NBLRSO99P61H192Y</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="30">
 		<nome>ANGELA</nome>
@@ -319,7 +319,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>TAVIANO</comune_nascita>
 		<data_nascita>1980-10-23</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MRMVNT80R63L074Z</codice_fiscale>
 	</persona>
 	<persona id="40">
 		<nome>CLAUDIO</nome>
@@ -351,7 +351,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>COTRONEI</comune_nascita>
 		<data_nascita>1994-10-12</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RSSNGL94R12D123Y</codice_fiscale>
 	</persona>
 	<persona id="44">
 		<nome>GIOVANNA</nome>
@@ -375,7 +375,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SOTTO IL MONTE GIOVANNI XXIII</comune_nascita>
 		<data_nascita>1919-10-08</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VDNMRA19R08I869N</codice_fiscale>
 	</persona>
 	<persona id="47">
 		<nome>ELISA</nome>
@@ -383,7 +383,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>LURAGO D'ERBA</comune_nascita>
 		<data_nascita>1978-11-08</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VLNLSE78S48E749S</codice_fiscale>
 	</persona>
 	<persona id="48">
 		<nome>CRISTINA</nome>
@@ -407,7 +407,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ALTIDONA</comune_nascita>
 		<data_nascita>1919-08-25</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TRNPTR19M25A233Y</codice_fiscale>
 	</persona>
 	<persona id="51">
 		<nome>LUCIA</nome>
@@ -479,7 +479,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GUAZZORA</comune_nascita>
 		<data_nascita>1994-07-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VLPRTI94L43E255A</codice_fiscale>
 	</persona>
 	<persona id="60">
 		<nome>MICHELE</nome>
@@ -503,7 +503,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CASTRO DEI VOLSCI</comune_nascita>
 		<data_nascita>1923-03-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CCRSVN23C60C338D</codice_fiscale>
 	</persona>
 	<persona id="63">
 		<nome>DANIELE</nome>
@@ -527,7 +527,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SAN GIORGIO ALBANESE</comune_nascita>
 		<data_nascita>1970-12-31</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BSTBRN70T31H881S</codice_fiscale>
 	</persona>
 	<persona id="66">
 		<nome>TERESA</nome>
@@ -551,7 +551,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VOLANO</comune_nascita>
 		<data_nascita>2011-08-11</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RGNSFN11M51M113S</codice_fiscale>
 	</persona>
 	<persona id="69">
 		<nome>CARMELA</nome>
@@ -575,7 +575,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>DECIMOPUTZU</comune_nascita>
 		<data_nascita>1948-09-21</data_nascita>
-		<codice_fiscale>CSTFRC48P61D260P</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="72">
 		<nome>FRANCA</nome>
@@ -623,7 +623,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MONFALCONE</comune_nascita>
 		<data_nascita>1986-08-12</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VRCLCN86M12F356M</codice_fiscale>
 	</persona>
 	<persona id="78">
 		<nome>ALESSANDRA</nome>
@@ -639,7 +639,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SALA BAGANZA</comune_nascita>
 		<data_nascita>2006-09-23</data_nascita>
-		<codice_fiscale>MSRCLD06P63H682H</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="80">
 		<nome>MARISA</nome>
@@ -655,7 +655,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MONFUMO</comune_nascita>
 		<data_nascita>1991-09-16</data_nascita>
-		<codice_fiscale>MRCFRZ91P16F360I</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="82">
 		<nome>ALICE</nome>
@@ -663,7 +663,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CANDA</comune_nascita>
 		<data_nascita>2014-08-19</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CVLLCA14M59B582R</codice_fiscale>
 	</persona>
 	<persona id="83">
 		<nome>FLAVIA</nome>
@@ -687,7 +687,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CIVEZZANO</comune_nascita>
 		<data_nascita>2018-07-02</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VLNLSS18L02C756I</codice_fiscale>
 	</persona>
 	<persona id="86">
 		<nome>CATERINA</nome>
@@ -711,7 +711,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SAN PIETRO INFINE</comune_nascita>
 		<data_nascita>1970-10-30</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRDDRD70R30I113U</codice_fiscale>
 	</persona>
 	<persona id="89">
 		<nome>PIERO</nome>
@@ -735,7 +735,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>BRIGA ALTA</comune_nascita>
 		<data_nascita>1925-08-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SCCTMS25M09B175O</codice_fiscale>
 	</persona>
 	<persona id="92">
 		<nome>GIUSEPPA</nome>
@@ -799,7 +799,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MATTIE</comune_nascita>
 		<data_nascita>2014-10-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TBKTZN14R41F058O</codice_fiscale>
 	</persona>
 	<persona id="100">
 		<nome>LUCIANA</nome>
@@ -823,7 +823,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CASTENASO</comune_nascita>
 		<data_nascita>1963-09-10</data_nascita>
-		<codice_fiscale>CLSGCR63P10C292W</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="103">
 		<nome>VALERIA</nome>
@@ -839,7 +839,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ASIAGO</comune_nascita>
 		<data_nascita>1930-08-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>QRCFPP30M14A465K</codice_fiscale>
 	</persona>
 	<persona id="105">
 		<nome>DIEGO</nome>
@@ -847,7 +847,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CANTIANO</comune_nascita>
 		<data_nascita>1975-11-29</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NVRDGI75S29B636K</codice_fiscale>
 	</persona>
 	<persona id="106">
 		<nome>ANTONIETTA</nome>
@@ -871,7 +871,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PIRAINO</comune_nascita>
 		<data_nascita>1949-09-25</data_nascita>
-		<codice_fiscale>QGLCRS49P25G699B</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="109">
 		<nome>GIACOMO</nome>
@@ -879,7 +879,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>NESPOLO</comune_nascita>
 		<data_nascita>2010-09-12</data_nascita>
-		<codice_fiscale>PRCGCM10P12F876Z</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="110">
 		<nome>BEATRICE</nome>
@@ -895,7 +895,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SANT'ANGELO A CUPOLO</comune_nascita>
 		<data_nascita>1998-09-07</data_nascita>
-		<codice_fiscale>BSSCNZ98P47I277L</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="112">
 		<nome>LACUSTRE</nome>
@@ -927,7 +927,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VALLEDORIA</comune_nascita>
 		<data_nascita>1998-10-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MRTGRL98R68L604P</codice_fiscale>
 	</persona>
 	<persona id="116">
 		<nome>SABRINA</nome>
@@ -1015,7 +1015,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>UBOLDO</comune_nascita>
 		<data_nascita>1970-08-05</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRGMRT70M45L480W</codice_fiscale>
 	</persona>
 	<persona id="127">
 		<nome>EMANUELE</nome>
@@ -1023,7 +1023,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>LASINO</comune_nascita>
 		<data_nascita>1981-09-24</data_nascita>
-		<codice_fiscale>DMCMNL81P24E461Q</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="128">
 		<nome>NICOLA</nome>
@@ -1039,7 +1039,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GAVIRATE</comune_nascita>
 		<data_nascita>1985-08-22</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRRMNL85M62D946I</codice_fiscale>
 	</persona>
 	<persona id="130">
 		<nome>VITTORIA</nome>
@@ -1047,7 +1047,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>LUMEZZANE</comune_nascita>
 		<data_nascita>1984-03-06</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BSCVTR84C46E738J</codice_fiscale>
 	</persona>
 	<persona id="131">
 		<nome>PIERA</nome>
@@ -1055,7 +1055,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PALERMITI</comune_nascita>
 		<data_nascita>1949-08-25</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RSRPRI49M65G272N</codice_fiscale>
 	</persona>
 	<persona id="132">
 		<nome>MASSIMILIANO</nome>
@@ -1079,7 +1079,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SAN BENEDETTO VAL DI SAMBRO</comune_nascita>
 		<data_nascita>2001-09-07</data_nascita>
-		<codice_fiscale>RNLLDN01P47G566S</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="135">
 		<nome>ANTONINO</nome>
@@ -1095,7 +1095,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SUTRI</comune_nascita>
 		<data_nascita>1936-07-04</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VGNSML36L04L017J</codice_fiscale>
 	</persona>
 	<persona id="137">
 		<nome>GIULIANA</nome>
@@ -1119,7 +1119,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GODRANO</comune_nascita>
 		<data_nascita>2004-08-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CHSMME04M68E074X</codice_fiscale>
 	</persona>
 	<persona id="140">
 		<nome>GUIDO</nome>
@@ -1135,7 +1135,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SIRIGNANO</comune_nascita>
 		<data_nascita>1966-05-06</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRSVTR66E06I756E</codice_fiscale>
 	</persona>
 	<persona id="142">
 		<nome>GIADA</nome>
@@ -1143,7 +1143,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VIRGILIO</comune_nascita>
 		<data_nascita>1969-09-22</data_nascita>
-		<codice_fiscale>CRSGDI69P62H123F</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="143">
 		<nome>CARMELO</nome>
@@ -1159,7 +1159,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>DRUENTO</comune_nascita>
 		<data_nascita>1974-11-05</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CRRVCN74S45D373N</codice_fiscale>
 	</persona>
 	<persona id="145">
 		<nome>FLAVIO</nome>
@@ -1183,7 +1183,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ZAPPONETA</comune_nascita>
 		<data_nascita>2011-08-12</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CPPVTR11M12M267K</codice_fiscale>
 	</persona>
 	<persona id="148">
 		<nome>NOEMI</nome>
@@ -1191,7 +1191,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VESTRENO</comune_nascita>
 		<data_nascita>1990-09-23</data_nascita>
-		<codice_fiscale>GRRNMO90P63L813E</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="149">
 		<nome>JESSICA</nome>
@@ -1215,7 +1215,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VOGHERA</comune_nascita>
 		<data_nascita>1969-11-17</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VLDLLN69S57M109R</codice_fiscale>
 	</persona>
 	<persona id="152">
 		<nome>MIRKO</nome>
@@ -1239,7 +1239,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CROGNALETO</comune_nascita>
 		<data_nascita>2004-01-23</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>LVRNMR04A63D179B</codice_fiscale>
 	</persona>
 	<persona id="155">
 		<nome>ANTONIA</nome>
@@ -1279,7 +1279,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>COGGIOLA</comune_nascita>
 		<data_nascita>2003-08-08</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TRSJCP03M08C819A</codice_fiscale>
 	</persona>
 	<persona id="160">
 		<nome>RENATA</nome>
@@ -1295,7 +1295,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PANCHIA'</comune_nascita>
 		<data_nascita>1948-10-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MRLSLL48R49G305S</codice_fiscale>
 	</persona>
 	<persona id="162">
 		<nome>CALOGERO</nome>
@@ -1311,7 +1311,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CANZANO</comune_nascita>
 		<data_nascita>1950-10-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BLLSNO50R58B640D</codice_fiscale>
 	</persona>
 	<persona id="164">
 		<nome>MATILDE</nome>
@@ -1343,7 +1343,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CERRETO GUIDI</comune_nascita>
 		<data_nascita>1962-02-12</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PVNMLL62B52C529G</codice_fiscale>
 	</persona>
 	<persona id="168">
 		<nome>MOHAMED</nome>
@@ -1399,7 +1399,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SALERNO</comune_nascita>
 		<data_nascita>2011-10-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRZRCC11R20H703D</codice_fiscale>
 	</persona>
 	<persona id="175">
 		<nome>RENZO</nome>
@@ -1423,7 +1423,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CASTELLEONE</comune_nascita>
 		<data_nascita>1952-10-04</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PGGVTI52R04C153J</codice_fiscale>
 	</persona>
 	<persona id="178">
 		<nome>ANNALISA</nome>
@@ -1455,7 +1455,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MARANO DI VALPOLICELLA</comune_nascita>
 		<data_nascita>2000-10-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FRRGRZ00R49E911H</codice_fiscale>
 	</persona>
 	<persona id="182">
 		<nome>IVANA</nome>
@@ -1463,7 +1463,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GONNOSNO'</comune_nascita>
 		<data_nascita>1990-12-05</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BLDVNI90T45D585A</codice_fiscale>
 	</persona>
 	<persona id="183">
 		<nome>ADELE</nome>
@@ -1479,7 +1479,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>VALGANNA</comune_nascita>
 		<data_nascita>1978-09-17</data_nascita>
-		<codice_fiscale>MSSZEI78P17L577C</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="185">
 		<nome>CLARA</nome>
@@ -1495,7 +1495,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BEVILACQUA</comune_nascita>
 		<data_nascita>1924-10-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RCLRSR24R41A837Q</codice_fiscale>
 	</persona>
 	<persona id="187">
 		<nome>DANILO</nome>
@@ -1511,7 +1511,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MONTEDORO</comune_nascita>
 		<data_nascita>1977-10-22</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRCBNC77R62F489Q</codice_fiscale>
 	</persona>
 	<persona id="189">
 		<nome>LIDIA</nome>
@@ -1519,7 +1519,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>LEVONE</comune_nascita>
 		<data_nascita>1963-11-07</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CRVLDI63S47E566R</codice_fiscale>
 	</persona>
 	<persona id="190">
 		<nome>DONATO</nome>
@@ -1535,7 +1535,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PELLEZZANO</comune_nascita>
 		<data_nascita>1955-08-30</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GGLLEI55M30G426V</codice_fiscale>
 	</persona>
 	<persona id="192">
 		<nome>ERIKA</nome>
@@ -1551,7 +1551,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ACQUALAGNA</comune_nascita>
 		<data_nascita>1999-08-08</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DRTMLE99M48A035Q</codice_fiscale>
 	</persona>
 	<persona id="194">
 		<nome>IVAN</nome>
@@ -1559,7 +1559,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>BRACCIANO</comune_nascita>
 		<data_nascita>1925-10-04</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CVGVNI25R04B114Y</codice_fiscale>
 	</persona>
 	<persona id="195">
 		<nome>CECILIA</nome>
@@ -1639,7 +1639,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>FOGLIZZO</comune_nascita>
 		<data_nascita>1921-08-08</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MSSDNL21M08D646G</codice_fiscale>
 	</persona>
 	<persona id="205">
 		<nome>MARCELLO</nome>
@@ -1655,7 +1655,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>DESENZANO DEL GARDA</comune_nascita>
 		<data_nascita>1926-09-12</data_nascita>
-		<codice_fiscale>LCTMDL26P52D284V</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="207">
 		<nome>CARLOTTA</nome>
@@ -1703,7 +1703,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MOIMACCO</comune_nascita>
 		<data_nascita>2012-08-12</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DZNSNT12M52F275N</codice_fiscale>
 	</persona>
 	<persona id="213">
 		<nome>DENIS</nome>
@@ -1767,7 +1767,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>GISSI</comune_nascita>
 		<data_nascita>1997-07-31</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VTLLXA97L31E052P</codice_fiscale>
 	</persona>
 	<persona id="221">
 		<nome>VALERIO</nome>
@@ -1791,7 +1791,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CORMONS</comune_nascita>
 		<data_nascita>1931-10-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRCLNI31R43D014N</codice_fiscale>
 	</persona>
 	<persona id="224">
 		<nome>MARINELLA</nome>
@@ -1807,7 +1807,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PIZZO</comune_nascita>
 		<data_nascita>1987-09-14</data_nascita>
-		<codice_fiscale>CNBLDE87P54G722J</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="226">
 		<nome>OMAR</nome>
@@ -1823,7 +1823,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>TERZORIO</comune_nascita>
 		<data_nascita>2000-10-04</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MSNPRN00R44L146O</codice_fiscale>
 	</persona>
 	<persona id="228">
 		<nome>VIRGINIA</nome>
@@ -1831,7 +1831,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>DAVAGNA</comune_nascita>
 		<data_nascita>1932-10-27</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PLLVGN32R67D255D</codice_fiscale>
 	</persona>
 	<persona id="229">
 		<nome>EUGENIO</nome>
@@ -1839,7 +1839,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ARSITA</comune_nascita>
 		<data_nascita>1961-08-15</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RVRGNE61M15A445L</codice_fiscale>
 	</persona>
 	<persona id="230">
 		<nome>CAROLINA</nome>
@@ -1847,7 +1847,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MADONE</comune_nascita>
 		<data_nascita>1942-08-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VTLCLN42M41E794U</codice_fiscale>
 	</persona>
 	<persona id="231">
 		<nome>MARILENA</nome>
@@ -1855,7 +1855,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BORGOMANERO</comune_nascita>
 		<data_nascita>1938-09-20</data_nascita>
-		<codice_fiscale>PRDMLN38P60B019B</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="232">
 		<nome>GINEVRA</nome>
@@ -1871,7 +1871,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VAIRANO PATENORA</comune_nascita>
 		<data_nascita>1981-10-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CPPLND81R58L540I</codice_fiscale>
 	</persona>
 	<persona id="234">
 		<nome>WALTER</nome>
@@ -1911,7 +1911,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ESPORLATU</comune_nascita>
 		<data_nascita>1982-08-22</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CLDFTM82M62D441Q</codice_fiscale>
 	</persona>
 	<persona id="239">
 		<nome>SILVANO</nome>
@@ -1919,7 +1919,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>VARZO</comune_nascita>
 		<data_nascita>1950-05-29</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VLLSVN50E29L691Q</codice_fiscale>
 	</persona>
 	<persona id="240">
 		<nome>UGO</nome>
@@ -1935,7 +1935,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ROGNO</comune_nascita>
 		<data_nascita>1949-09-22</data_nascita>
-		<codice_fiscale>CSSLRD49P22H492L</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="242">
 		<nome>ELVIRA</nome>
@@ -1943,7 +1943,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CASTIADAS</comune_nascita>
 		<data_nascita>1944-02-06</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRBLVR44B46M288Q</codice_fiscale>
 	</persona>
 	<persona id="243">
 		<nome>SANDRO</nome>
@@ -1951,7 +1951,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CHIUSA DI PESIO</comune_nascita>
 		<data_nascita>1975-10-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RTTSDR75R18C653G</codice_fiscale>
 	</persona>
 	<persona id="244">
 		<nome>VERA</nome>
@@ -1959,7 +1959,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GRISIGNANO DI ZOCCO</comune_nascita>
 		<data_nascita>1952-03-26</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PGLVRE52C66E184E</codice_fiscale>
 	</persona>
 	<persona id="245">
 		<nome>AHMED</nome>
@@ -2031,7 +2031,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ARSIE'</comune_nascita>
 		<data_nascita>1934-09-08</data_nascita>
-		<codice_fiscale>FSNGNI34P08A443I</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="254">
 		<nome>CAROLA</nome>
@@ -2095,7 +2095,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CERRETO LAZIALE</comune_nascita>
 		<data_nascita>1978-11-07</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NVLGRL78S07C518D</codice_fiscale>
 	</persona>
 	<persona id="262">
 		<nome>PASQUALINA</nome>
@@ -2111,7 +2111,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PONTE BUGGIANESE</comune_nascita>
 		<data_nascita>1940-08-06</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VGLGPR40M06G833T</codice_fiscale>
 	</persona>
 	<persona id="264">
 		<nome>NELLA</nome>
@@ -2127,7 +2127,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PERANO</comune_nascita>
 		<data_nascita>1995-10-26</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CVLFLC95R26G441H</codice_fiscale>
 	</persona>
 	<persona id="266">
 		<nome>AGNESE</nome>
@@ -2159,7 +2159,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VASANELLO</comune_nascita>
 		<data_nascita>2006-11-04</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VSCRSN06S44A701U</codice_fiscale>
 	</persona>
 	<persona id="270">
 		<nome>DEBORA</nome>
@@ -2175,7 +2175,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CAPRIANA</comune_nascita>
 		<data_nascita>1941-01-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRRVLM41A41B697P</codice_fiscale>
 	</persona>
 	<persona id="272">
 		<nome>IRMA</nome>
@@ -2207,7 +2207,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>FABBRICO</comune_nascita>
 		<data_nascita>1920-10-17</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DZZKDJ20R57D450E</codice_fiscale>
 	</persona>
 	<persona id="276">
 		<nome>MARIANGELA</nome>
@@ -2239,7 +2239,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MALFA</comune_nascita>
 		<data_nascita>1949-08-02</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NTLFLV49M02E855Z</codice_fiscale>
 	</persona>
 	<persona id="280">
 		<nome>PIERLUIGI</nome>
@@ -2247,7 +2247,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>GIULIANOVA</comune_nascita>
 		<data_nascita>1983-10-29</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRGPLG83R29E058J</codice_fiscale>
 	</persona>
 	<persona id="281">
 		<nome>KEVIN</nome>
@@ -2255,7 +2255,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SUARDI</comune_nascita>
 		<data_nascita>1924-03-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SVNKVN24C20B014L</codice_fiscale>
 	</persona>
 	<persona id="282">
 		<nome>SEBASTIANO</nome>
@@ -2319,7 +2319,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PROVES</comune_nascita>
 		<data_nascita>2008-12-30</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GHDVSS08T70H081X</codice_fiscale>
 	</persona>
 	<persona id="290">
 		<nome>SALVATRICE</nome>
@@ -2351,7 +2351,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CASIRATE D'ADDA</comune_nascita>
 		<data_nascita>1975-09-25</data_nascita>
-		<codice_fiscale>SRDMCL75P65B971H</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="294">
 		<nome>FLAVIA</nome>
@@ -2359,7 +2359,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GIZZERIA</comune_nascita>
 		<data_nascita>2017-03-23</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DDNFLV17C63E068L</codice_fiscale>
 	</persona>
 	<persona id="295">
 		<nome>LORIS</nome>
@@ -2391,7 +2391,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CASTELLUCCIO INFERIORE</comune_nascita>
 		<data_nascita>1922-01-29</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MRCVLI22A69C199K</codice_fiscale>
 	</persona>
 	<persona id="299">
 		<nome>LORENA</nome>
@@ -2431,7 +2431,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>AIELLO CALABRO</comune_nascita>
 		<data_nascita>1990-10-11</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CRSRMN90R51A102R</codice_fiscale>
 	</persona>
 	<persona id="304">
 		<nome>ANGELINA</nome>
@@ -2439,7 +2439,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PIOBESI D'ALBA</comune_nascita>
 		<data_nascita>1956-10-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FRLNLN56R54G683L</codice_fiscale>
 	</persona>
 	<persona id="305">
 		<nome>INES</nome>
@@ -2479,7 +2479,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ORSOMARSO</comune_nascita>
 		<data_nascita>1924-09-20</data_nascita>
-		<codice_fiscale>LTTNNZ24P20G129J</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="310">
 		<nome>GAETANA</nome>
@@ -2535,7 +2535,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MOTTOLA</comune_nascita>
 		<data_nascita>1945-11-07</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VRSMHL45S07F784F</codice_fiscale>
 	</persona>
 	<persona id="317">
 		<nome>MOHAMMED</nome>
@@ -2599,7 +2599,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PECCO</comune_nascita>
 		<data_nascita>1941-10-25</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TTVCSM41R25G396J</codice_fiscale>
 	</persona>
 	<persona id="325">
 		<nome>RACHELE</nome>
@@ -2631,7 +2631,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ATESSA</comune_nascita>
 		<data_nascita>1953-01-26</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VGLPPL53A26A485J</codice_fiscale>
 	</persona>
 	<persona id="329">
 		<nome>FIORELLA</nome>
@@ -2655,7 +2655,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>VALLELUNGA PRATAMENO</comune_nascita>
 		<data_nascita>1996-12-31</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DBSDVD96T31L609X</codice_fiscale>
 	</persona>
 	<persona id="332">
 		<nome>LIVIO</nome>
@@ -2663,7 +2663,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SILVI</comune_nascita>
 		<data_nascita>2013-11-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NCSLVI13S18I741X</codice_fiscale>
 	</persona>
 	<persona id="333">
 		<nome>ENZA</nome>
@@ -2671,7 +2671,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SILIUS</comune_nascita>
 		<data_nascita>1956-09-04</data_nascita>
-		<codice_fiscale>FRRNZE56P44I735Y</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="334">
 		<nome>CRISTIANO</nome>
@@ -2711,7 +2711,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>RASUN ANTERSELVA</comune_nascita>
 		<data_nascita>1993-12-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VNTLNI93T41H189Y</codice_fiscale>
 	</persona>
 	<persona id="339">
 		<nome>CRISTIANA</nome>
@@ -2719,7 +2719,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SACCOLONGO</comune_nascita>
 		<data_nascita>1924-09-08</data_nascita>
-		<codice_fiscale>ZCCCST24P48H655I</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="340">
 		<nome>FIORENZO</nome>
@@ -2759,7 +2759,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PORTULA</comune_nascita>
 		<data_nascita>1921-10-05</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PLRGNR21R05G927I</codice_fiscale>
 	</persona>
 	<persona id="345">
 		<nome>CIRO</nome>
@@ -2783,7 +2783,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>QUARTO D'ALTINO</comune_nascita>
 		<data_nascita>1933-10-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PRSYSF33R20H117P</codice_fiscale>
 	</persona>
 	<persona id="348">
 		<nome>KATIA</nome>
@@ -2799,7 +2799,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>LUZZANA</comune_nascita>
 		<data_nascita>1951-10-05</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SGLSTN51R45E770F</codice_fiscale>
 	</persona>
 	<persona id="350">
 		<nome>ADA</nome>
@@ -2863,7 +2863,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CASSACCO</comune_nascita>
 		<data_nascita>1998-05-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PCCVNI98E14B994R</codice_fiscale>
 	</persona>
 	<persona id="358">
 		<nome>SAMANTHA</nome>
@@ -2895,7 +2895,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CODOGNE'</comune_nascita>
 		<data_nascita>1932-08-30</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PPPLAI32M30C815D</codice_fiscale>
 	</persona>
 	<persona id="362">
 		<nome>PIERGIORGIO</nome>
@@ -2967,7 +2967,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MORETTA</comune_nascita>
 		<data_nascita>1976-08-27</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>WNGNTL76M27F723X</codice_fiscale>
 	</persona>
 	<persona id="371">
 		<nome>MIRANDA</nome>
@@ -3007,7 +3007,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MAFALDA</comune_nascita>
 		<data_nascita>1963-08-19</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BTTMDA63M19E799F</codice_fiscale>
 	</persona>
 	<persona id="376">
 		<nome>LORENZA</nome>
@@ -3023,7 +3023,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>LORENZAGO DI CADORE</comune_nascita>
 		<data_nascita>1984-05-16</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GSPVSL84E16E687Q</codice_fiscale>
 	</persona>
 	<persona id="378">
 		<nome>LUANA</nome>
@@ -3039,7 +3039,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CAMOGLI</comune_nascita>
 		<data_nascita>1928-03-12</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VNTLGN28C12B490Q</codice_fiscale>
 	</persona>
 	<persona id="380">
 		<nome>PAOLINA</nome>
@@ -3087,7 +3087,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CREDERA RUBBIANO</comune_nascita>
 		<data_nascita>1998-01-26</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VGNLDA98A66D141I</codice_fiscale>
 	</persona>
 	<persona id="386">
 		<nome>GIAMPIERO</nome>
@@ -3103,7 +3103,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MOIO DE' CALVI</comune_nascita>
 		<data_nascita>1991-12-21</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VRGRBN91T21F276M</codice_fiscale>
 	</persona>
 	<persona id="388">
 		<nome>VICTORIA</nome>
@@ -3111,7 +3111,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>NUS</comune_nascita>
 		<data_nascita>1983-01-02</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRDVTR83A42F987S</codice_fiscale>
 	</persona>
 	<persona id="389">
 		<nome>CARMEN</nome>
@@ -3159,7 +3159,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BALESTRATE</comune_nascita>
 		<data_nascita>1972-05-27</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>LVRLVI72E67A592K</codice_fiscale>
 	</persona>
 	<persona id="395">
 		<nome>YASMINE</nome>
@@ -3175,7 +3175,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>BRINDISI MONTAGNA</comune_nascita>
 		<data_nascita>1938-02-17</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MRTVNT38B17B181V</codice_fiscale>
 	</persona>
 	<persona id="397">
 		<nome>NICCOLO</nome>
@@ -3191,7 +3191,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SENNA LODIGIANA</comune_nascita>
 		<data_nascita>1988-10-13</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRTRNO88R53I612C</codice_fiscale>
 	</persona>
 	<persona id="399">
 		<nome>FAUSTO</nome>
@@ -3247,7 +3247,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CICAGNA</comune_nascita>
 		<data_nascita>2017-09-20</data_nascita>
-		<codice_fiscale>BLSLTT17P60C673L</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="406">
 		<nome>RAYAN</nome>
@@ -3263,7 +3263,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CAPACCIO</comune_nascita>
 		<data_nascita>1941-10-25</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VLFSRH41R65B644D</codice_fiscale>
 	</persona>
 	<persona id="408">
 		<nome>MIRIAM</nome>
@@ -3271,7 +3271,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>FOLIGNO</comune_nascita>
 		<data_nascita>1988-08-11</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRNMRM88M51D653I</codice_fiscale>
 	</persona>
 	<persona id="409">
 		<nome>ITALO</nome>
@@ -3295,7 +3295,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CAZZAGO BRABBIA</comune_nascita>
 		<data_nascita>1959-08-15</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>STRGLG59M15C409L</codice_fiscale>
 	</persona>
 	<persona id="412">
 		<nome>GEMMA</nome>
@@ -3335,7 +3335,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PRAMOLLO</comune_nascita>
 		<data_nascita>1939-01-02</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VCCFTH39A42G982F</codice_fiscale>
 	</persona>
 	<persona id="417">
 		<nome>ALMA</nome>
@@ -3399,7 +3399,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VEZZANO SUL CROSTOLO</comune_nascita>
 		<data_nascita>2006-10-13</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CDDSND06R53L820M</codice_fiscale>
 	</persona>
 	<persona id="425">
 		<nome>DANTE</nome>
@@ -3407,7 +3407,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ORANI</comune_nascita>
 		<data_nascita>1992-09-07</data_nascita>
-		<codice_fiscale>NBLDNT92P07G084E</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="426">
 		<nome>ILENIA</nome>
@@ -3415,7 +3415,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BITONTO</comune_nascita>
 		<data_nascita>1983-08-11</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SRRLNI83M51A893A</codice_fiscale>
 	</persona>
 	<persona id="427">
 		<nome>IVO</nome>
@@ -3423,7 +3423,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>TERRASINI</comune_nascita>
 		<data_nascita>1925-01-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DNGVIO25A24L131V</codice_fiscale>
 	</persona>
 	<persona id="428">
 		<nome>MARINO</nome>
@@ -3431,7 +3431,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>QUARNA SOPRA</comune_nascita>
 		<data_nascita>2011-08-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GNTMRN11M18H106G</codice_fiscale>
 	</persona>
 	<persona id="429">
 		<nome>EMILY</nome>
@@ -3439,7 +3439,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BARBIANELLO</comune_nascita>
 		<data_nascita>2012-08-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SPRMLY12M60A634Z</codice_fiscale>
 	</persona>
 	<persona id="430">
 		<nome>EDMOND</nome>
@@ -3463,7 +3463,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CASTIRAGA VIDARDO</comune_nascita>
 		<data_nascita>2014-03-07</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FLLSTL14C47C329D</codice_fiscale>
 	</persona>
 	<persona id="433">
 		<nome>RACHID</nome>
@@ -3487,7 +3487,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CENTURIPE</comune_nascita>
 		<data_nascita>1961-10-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NGRCST61R54C471T</codice_fiscale>
 	</persona>
 	<persona id="436">
 		<nome>AYA</nome>
@@ -3519,7 +3519,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CIVITANOVA DEL SANNIO</comune_nascita>
 		<data_nascita>1929-10-11</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NDYGTA29R51C769K</codice_fiscale>
 	</persona>
 	<persona id="440">
 		<nome>TIZIANO</nome>
@@ -3535,7 +3535,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SERRAVALLE SCRIVIA</comune_nascita>
 		<data_nascita>1948-10-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CLMHSN48R03I657N</codice_fiscale>
 	</persona>
 	<persona id="442">
 		<nome>IRINA</nome>
@@ -3583,7 +3583,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SPOTORNO</comune_nascita>
 		<data_nascita>2016-10-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BLTTTL16R18I926T</codice_fiscale>
 	</persona>
 	<persona id="448">
 		<nome>ROSANGELA</nome>
@@ -3607,7 +3607,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PALOMONTE</comune_nascita>
 		<data_nascita>2010-08-06</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MCJLND10M46G292H</codice_fiscale>
 	</persona>
 	<persona id="451">
 		<nome>ELIANA</nome>
@@ -3615,7 +3615,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MONTEMAGGIORE AL METAURO</comune_nascita>
 		<data_nascita>2004-08-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TSTLNE04M64F555Z</codice_fiscale>
 	</persona>
 	<persona id="452">
 		<nome>EGLE</nome>
@@ -3623,7 +3623,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CASTELLINO DEL BIFERNO</comune_nascita>
 		<data_nascita>2014-01-16</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VLLGLE14A56C175I</codice_fiscale>
 	</persona>
 	<persona id="453">
 		<nome>AMINA</nome>
@@ -3663,7 +3663,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>COLMURANO</comune_nascita>
 		<data_nascita>1923-10-17</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GVLYSN23R17C886L</codice_fiscale>
 	</persona>
 	<persona id="458">
 		<nome>VITTORINA</nome>
@@ -3751,7 +3751,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CONTRADA</comune_nascita>
 		<data_nascita>2016-08-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CHSCST16M64C971W</codice_fiscale>
 	</persona>
 	<persona id="469">
 		<nome>AZZURRA</nome>
@@ -3791,7 +3791,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MONTE URANO</comune_nascita>
 		<data_nascita>1995-09-02</data_nascita>
-		<codice_fiscale>CPSSFN95P42F653Q</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="474">
 		<nome>AURELIA</nome>
@@ -3831,7 +3831,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>DORIO</comune_nascita>
 		<data_nascita>1952-10-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PSSLND52R64D346E</codice_fiscale>
 	</persona>
 	<persona id="479">
 		<nome>TAMARA</nome>
@@ -3863,7 +3863,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ORGIANO</comune_nascita>
 		<data_nascita>1990-08-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FRNNEE90M14G095Y</codice_fiscale>
 	</persona>
 	<persona id="483">
 		<nome>MICHELINO</nome>
@@ -3895,7 +3895,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>LOCATE VARESINO</comune_nascita>
 		<data_nascita>1927-05-12</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TRVNNL27E12E638X</codice_fiscale>
 	</persona>
 	<persona id="487">
 		<nome>PRIMO</nome>
@@ -3919,7 +3919,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ARDESIO</comune_nascita>
 		<data_nascita>1987-08-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CSTRST87M49A383U</codice_fiscale>
 	</persona>
 	<persona id="490">
 		<nome>AUGUSTO</nome>
@@ -3935,7 +3935,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MARINO</comune_nascita>
 		<data_nascita>1924-08-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SMNSVR24M14E958T</codice_fiscale>
 	</persona>
 	<persona id="492">
 		<nome>JENNIFER</nome>
@@ -3943,7 +3943,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CICALA</comune_nascita>
 		<data_nascita>2004-09-25</data_nascita>
-		<codice_fiscale>CSLJNF04P65C674R</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="493">
 		<nome>PALMA</nome>
@@ -3951,7 +3951,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CHIUSANICO</comune_nascita>
 		<data_nascita>1986-08-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TTNPLM86M64C657Z</codice_fiscale>
 	</persona>
 	<persona id="494">
 		<nome>OTTAVIO</nome>
@@ -3959,7 +3959,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CUSINO</comune_nascita>
 		<data_nascita>1932-03-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>LIXTTV32C01D232R</codice_fiscale>
 	</persona>
 	<persona id="495">
 		<nome>BESNIK</nome>
@@ -3991,7 +3991,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>FORENZA</comune_nascita>
 		<data_nascita>1930-07-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GVZRLA30L03D696K</codice_fiscale>
 	</persona>
 	<persona id="499">
 		<nome>FIORENZA</nome>
@@ -4047,7 +4047,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BRAONE</comune_nascita>
 		<data_nascita>1951-11-16</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VRRGMN51S56B124A</codice_fiscale>
 	</persona>
 	<persona id="506">
 		<nome>EMILIANO</nome>
@@ -4111,7 +4111,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SAGAMA</comune_nascita>
 		<data_nascita>1986-12-26</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VCCMHL86T26H661L</codice_fiscale>
 	</persona>
 	<persona id="514">
 		<nome>PETRIT</nome>
@@ -4135,7 +4135,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CARZANO</comune_nascita>
 		<data_nascita>1942-10-15</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>LCTMTN42R15B856C</codice_fiscale>
 	</persona>
 	<persona id="517">
 		<nome>ORIETTA</nome>
@@ -4151,7 +4151,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CUTROFIANO</comune_nascita>
 		<data_nascita>1998-05-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VNTSBL98E49D237B</codice_fiscale>
 	</persona>
 	<persona id="519">
 		<nome>VITA</nome>
@@ -4159,7 +4159,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>TUILI</comune_nascita>
 		<data_nascita>1942-02-06</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BTRVTI42B46L463D</codice_fiscale>
 	</persona>
 	<persona id="520">
 		<nome>ESTERINA</nome>
@@ -4167,7 +4167,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CAMPODARSEGO</comune_nascita>
 		<data_nascita>1921-09-22</data_nascita>
-		<codice_fiscale>FLTSRN21P62B524S</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="521">
 		<nome>WILLIAM</nome>
@@ -4183,7 +4183,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>FRATTA POLESINE</comune_nascita>
 		<data_nascita>1995-03-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VRLTRS95C01D788Y</codice_fiscale>
 	</persona>
 	<persona id="523">
 		<nome>DELIA</nome>
@@ -4199,7 +4199,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>POZZOL GROPPO</comune_nascita>
 		<data_nascita>1951-02-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VLLLEI51B64G960M</codice_fiscale>
 	</persona>
 	<persona id="525">
 		<nome>MINA</nome>
@@ -4231,7 +4231,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SESTU</comune_nascita>
 		<data_nascita>1920-09-05</data_nascita>
-		<codice_fiscale>RBBGRG20P05I695R</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="529">
 		<nome>SAMANTA</nome>
@@ -4247,7 +4247,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BORBONA</comune_nascita>
 		<data_nascita>1981-05-29</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>ZNGVND81E69A981Y</codice_fiscale>
 	</persona>
 	<persona id="531">
 		<nome>MARTINO</nome>
@@ -4255,7 +4255,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>TERNI</comune_nascita>
 		<data_nascita>1989-09-05</data_nascita>
-		<codice_fiscale>CTLMTN89P05L117K</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="532">
 		<nome>CLARISSA</nome>
@@ -4311,7 +4311,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GEROLA ALTA</comune_nascita>
 		<data_nascita>1966-08-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PRVNMA66M64D990T</codice_fiscale>
 	</persona>
 	<persona id="539">
 		<nome>SAMIRA</nome>
@@ -4343,7 +4343,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CARPI</comune_nascita>
 		<data_nascita>2002-08-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BJRGNN02M49B819O</codice_fiscale>
 	</persona>
 	<persona id="543">
 		<nome>ALFRED</nome>
@@ -4375,7 +4375,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>POVIGLIO</comune_nascita>
 		<data_nascita>1951-09-30</data_nascita>
-		<codice_fiscale>CMPDDE51P70G947D</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="547">
 		<nome>SOPHIA</nome>
@@ -4423,7 +4423,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>POFI</comune_nascita>
 		<data_nascita>1951-03-16</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FVRLBN51C56G749X</codice_fiscale>
 	</persona>
 	<persona id="553">
 		<nome>LUCIO</nome>
@@ -4511,7 +4511,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MONTAGNAREALE</comune_nascita>
 		<data_nascita>1919-08-05</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRNBGI19M05F395F</codice_fiscale>
 	</persona>
 	<persona id="564">
 		<nome>NORA</nome>
@@ -4519,7 +4519,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PAGNO</comune_nascita>
 		<data_nascita>1940-12-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CRVNRO40T58G240A</codice_fiscale>
 	</persona>
 	<persona id="565">
 		<nome>GASPARE</nome>
@@ -4551,7 +4551,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MOSCHIANO</comune_nascita>
 		<data_nascita>1927-08-06</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRSLTT27M46F762Z</codice_fiscale>
 	</persona>
 	<persona id="569">
 		<nome>ALIDA</nome>
@@ -4559,7 +4559,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BRUMANO</comune_nascita>
 		<data_nascita>1921-08-19</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PSCLDA21M59B217O</codice_fiscale>
 	</persona>
 	<persona id="570">
 		<nome>MIRELA</nome>
@@ -4575,7 +4575,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>FERRERA DI VARESE</comune_nascita>
 		<data_nascita>1992-07-30</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PLKVLN92L70D551G</codice_fiscale>
 	</persona>
 	<persona id="572">
 		<nome>DEMETRIO</nome>
@@ -4591,7 +4591,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>RONCHIS</comune_nascita>
 		<data_nascita>1961-10-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RFFPRZ61R01H533Y</codice_fiscale>
 	</persona>
 	<persona id="574">
 		<nome>MICHELLE</nome>
@@ -4599,7 +4599,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>LINGUAGLOSSA</comune_nascita>
 		<data_nascita>1977-03-12</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FVTMHL77C52E602V</codice_fiscale>
 	</persona>
 	<persona id="575">
 		<nome>LARA</nome>
@@ -4687,7 +4687,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SANTA SOFIA</comune_nascita>
 		<data_nascita>2018-09-26</data_nascita>
-		<codice_fiscale>SMNMRZ18P66I310I</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="586">
 		<nome>ALBA</nome>
@@ -4703,7 +4703,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>OSPEDALETTO</comune_nascita>
 		<data_nascita>1995-10-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RDNLRD95R28G168J</codice_fiscale>
 	</persona>
 	<persona id="588">
 		<nome>AMANDA</nome>
@@ -4719,7 +4719,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PALAGONIA</comune_nascita>
 		<data_nascita>1940-08-08</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RSTGMR40M08G253U</codice_fiscale>
 	</persona>
 	<persona id="590">
 		<nome>MANUELE</nome>
@@ -4735,7 +4735,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CAPPELLE SUL TAVO</comune_nascita>
 		<data_nascita>1990-10-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MGNBLL90R03B681Q</codice_fiscale>
 	</persona>
 	<persona id="592">
 		<nome>PALMINA</nome>
@@ -4743,7 +4743,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ORTA SAN GIULIO</comune_nascita>
 		<data_nascita>1920-09-14</data_nascita>
-		<codice_fiscale>GRCPMN20P54G134T</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="593">
 		<nome>LEANDRO</nome>
@@ -4887,7 +4887,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CASTELVISCONTI</comune_nascita>
 		<data_nascita>1967-09-16</data_nascita>
-		<codice_fiscale>SLMGNT67P16C290O</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="611">
 		<nome>PAMELA</nome>
@@ -4895,7 +4895,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BORGO PACE</comune_nascita>
 		<data_nascita>2004-11-22</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VNTPML04S62B026Y</codice_fiscale>
 	</persona>
 	<persona id="612">
 		<nome>FELICIA</nome>
@@ -4927,7 +4927,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CERRO AL LAMBRO</comune_nascita>
 		<data_nascita>1971-09-04</data_nascita>
-		<codice_fiscale>BNDMRN71P04C536M</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="616">
 		<nome>ALEKSANDER</nome>
@@ -4943,7 +4943,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VALNEGRA</comune_nascita>
 		<data_nascita>2001-10-17</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CRCMLD01R57L642J</codice_fiscale>
 	</persona>
 	<persona id="618">
 		<nome>SONJA</nome>
@@ -4967,7 +4967,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>VIGNANELLO</comune_nascita>
 		<data_nascita>2004-09-30</data_nascita>
-		<codice_fiscale>SCRRLD04P30L882X</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="621">
 		<nome>AMAL</nome>
@@ -4991,7 +4991,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MOLFETTA</comune_nascita>
 		<data_nascita>1944-10-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SNTCRN44R64F284V</codice_fiscale>
 	</persona>
 	<persona id="624">
 		<nome>NADEJDA</nome>
@@ -4999,7 +4999,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ORTA NOVA</comune_nascita>
 		<data_nascita>1967-02-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GNVNJD67B43G131N</codice_fiscale>
 	</persona>
 	<persona id="625">
 		<nome>ANIELLO</nome>
@@ -5007,7 +5007,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>FIESOLE</comune_nascita>
 		<data_nascita>1920-10-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MSCNLL20R28D575J</codice_fiscale>
 	</persona>
 	<persona id="626">
 		<nome>ANDREI</nome>
@@ -5031,7 +5031,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SERRAMONACESCA</comune_nascita>
 		<data_nascita>2006-08-22</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GJKMST06M62I649X</codice_fiscale>
 	</persona>
 	<persona id="629">
 		<nome>FIORINA</nome>
@@ -5047,7 +5047,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>BORGOFRANCO D'IVREA</comune_nascita>
 		<data_nascita>2006-02-11</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DVNMRN06B11B015B</codice_fiscale>
 	</persona>
 	<persona id="631">
 		<nome>GIOVANNINA</nome>
@@ -5055,7 +5055,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>LAERRU</comune_nascita>
 		<data_nascita>1976-01-11</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SRVGNN76A51E401Q</codice_fiscale>
 	</persona>
 	<persona id="632">
 		<nome>SEBASTIAN</nome>
@@ -5071,7 +5071,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>FARA FILIORUM PETRI</comune_nascita>
 		<data_nascita>1953-10-06</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BSSRLD53R46D494X</codice_fiscale>
 	</persona>
 	<persona id="634">
 		<nome>BRYAN</nome>
@@ -5127,7 +5127,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>FANNA</comune_nascita>
 		<data_nascita>1927-08-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PCNPIA27M49D487V</codice_fiscale>
 	</persona>
 	<persona id="641">
 		<nome>NICOLAE</nome>
@@ -5175,7 +5175,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MINERVINO MURGE</comune_nascita>
 		<data_nascita>1969-07-30</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BLVKSC69L70F220Q</codice_fiscale>
 	</persona>
 	<persona id="647">
 		<nome>ANASTASIA</nome>
@@ -5183,7 +5183,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ROCCAGLORIOSA</comune_nascita>
 		<data_nascita>1968-10-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CRTNTS68R54H412S</codice_fiscale>
 	</persona>
 	<persona id="648">
 		<nome>VASILICA</nome>
@@ -5191,7 +5191,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GORNATE-OLONA</comune_nascita>
 		<data_nascita>1969-01-21</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>HFDVLC69A61E104W</codice_fiscale>
 	</persona>
 	<persona id="649">
 		<nome>ERVIS</nome>
@@ -5199,7 +5199,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PONTENURE</comune_nascita>
 		<data_nascita>1921-10-27</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PLLRVS21R27G852B</codice_fiscale>
 	</persona>
 	<persona id="650">
 		<nome>GERARDINA</nome>
@@ -5215,7 +5215,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>TIRANO</comune_nascita>
 		<data_nascita>1989-05-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MLZPNV89E43L175F</codice_fiscale>
 	</persona>
 	<persona id="652">
 		<nome>AGIM</nome>
@@ -5287,7 +5287,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CILAVEGNA</comune_nascita>
 		<data_nascita>1922-08-31</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DMNDFN22M71C686K</codice_fiscale>
 	</persona>
 	<persona id="661">
 		<nome>MARICA</nome>
@@ -5335,7 +5335,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BOLOGNOLA</comune_nascita>
 		<data_nascita>1958-09-03</data_nascita>
-		<codice_fiscale>CGLMMZ58P43A947R</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="667">
 		<nome>MARIAM</nome>
@@ -5343,7 +5343,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GAGLIATO</comune_nascita>
 		<data_nascita>1947-08-06</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MDCMRM47M46D852N</codice_fiscale>
 	</persona>
 	<persona id="668">
 		<nome>ERCOLE</nome>
@@ -5359,7 +5359,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CANNETO SULL'OGLIO</comune_nascita>
 		<data_nascita>1961-08-08</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>LPRLFA61M08B612W</codice_fiscale>
 	</persona>
 	<persona id="670">
 		<nome>ANTONETTA</nome>
@@ -5447,7 +5447,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>FANO</comune_nascita>
 		<data_nascita>2000-07-30</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRDKVS00L30D488V</codice_fiscale>
 	</persona>
 	<persona id="681">
 		<nome>DUMITRU</nome>
@@ -5463,7 +5463,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CITTANOVA</comune_nascita>
 		<data_nascita>1967-09-29</data_nascita>
-		<codice_fiscale>PJTDNS67P69C747D</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="683">
 		<nome>COSTANZA</nome>
@@ -5511,7 +5511,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VILLANOVA SOLARO</comune_nascita>
 		<data_nascita>1989-08-02</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRSZOE89M42L990Z</codice_fiscale>
 	</persona>
 	<persona id="689">
 		<nome>AMINE</nome>
@@ -5527,7 +5527,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ROSELLO</comune_nascita>
 		<data_nascita>1977-02-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VNZGTT77B60H566B</codice_fiscale>
 	</persona>
 	<persona id="691">
 		<nome>RAIMONDA</nome>
@@ -5575,7 +5575,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SANT'ONOFRIO</comune_nascita>
 		<data_nascita>1937-12-25</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VTLMJN37T25I350N</codice_fiscale>
 	</persona>
 	<persona id="697">
 		<nome>TEODORA</nome>
@@ -5583,7 +5583,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>RODIGO</comune_nascita>
 		<data_nascita>1970-12-15</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RVTTDR70T55H481D</codice_fiscale>
 	</persona>
 	<persona id="698">
 		<nome>JURGEN</nome>
@@ -5607,7 +5607,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>LEQUIO TANARO</comune_nascita>
 		<data_nascita>1962-09-15</data_nascita>
-		<codice_fiscale>TTNNLD62P55E539W</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="701">
 		<nome>SOKOL</nome>
@@ -5647,7 +5647,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GRECI</comune_nascita>
 		<data_nascita>1955-12-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TKVGTT55T68E161K</codice_fiscale>
 	</persona>
 	<persona id="706">
 		<nome>SECONDINO</nome>
@@ -5695,7 +5695,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MARTIGNANO</comune_nascita>
 		<data_nascita>1950-08-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MNLNLN50M09E984D</codice_fiscale>
 	</persona>
 	<persona id="712">
 		<nome>CLEMENTINA</nome>
@@ -5719,7 +5719,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MONTESILVANO</comune_nascita>
 		<data_nascita>1945-09-26</data_nascita>
-		<codice_fiscale>NZLCRS45P26F646U</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="715">
 		<nome>KLAJDI</nome>
@@ -5751,7 +5751,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BORNASCO</comune_nascita>
 		<data_nascita>1982-02-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NVRKRM82B41B051H</codice_fiscale>
 	</persona>
 	<persona id="719">
 		<nome>ADELAIDE</nome>
@@ -5775,7 +5775,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>TRENTOLA DUCENTA</comune_nascita>
 		<data_nascita>1986-08-08</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CPNGLL86M48L379R</codice_fiscale>
 	</persona>
 	<persona id="722">
 		<nome>BRUNELLA</nome>
@@ -5791,7 +5791,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ELICE</comune_nascita>
 		<data_nascita>1929-10-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SLVSDA29R14D394O</codice_fiscale>
 	</persona>
 	<persona id="724">
 		<nome>SAIDA</nome>
@@ -5823,7 +5823,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SAN DONATO DI LECCE</comune_nascita>
 		<data_nascita>2015-09-26</data_nascita>
-		<codice_fiscale>CLLNDA15P66H826I</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="728">
 		<nome>PETRU</nome>
@@ -5887,7 +5887,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ALPIGNANO</comune_nascita>
 		<data_nascita>2011-10-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PNNGLN11R43A222N</codice_fiscale>
 	</persona>
 	<persona id="736">
 		<nome>GIROLAMA</nome>
@@ -5935,7 +5935,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>FOLLO</comune_nascita>
 		<data_nascita>1965-05-11</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>KVCDHM65E11D655W</codice_fiscale>
 	</persona>
 	<persona id="742">
 		<nome>ELIDA</nome>
@@ -5959,7 +5959,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>FRANCAVILLA MARITTIMA</comune_nascita>
 		<data_nascita>2016-10-21</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PRRMRS16R21D764N</codice_fiscale>
 	</persona>
 	<persona id="745">
 		<nome>LUIS</nome>
@@ -5975,7 +5975,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CONCORDIA SAGITTARIA</comune_nascita>
 		<data_nascita>1949-12-19</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VRCBNL49T59C950V</codice_fiscale>
 	</persona>
 	<persona id="747">
 		<nome>BOUCHRA</nome>
@@ -5983,7 +5983,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CELLINO SAN MARCO</comune_nascita>
 		<data_nascita>1961-09-22</data_nascita>
-		<codice_fiscale>MNZBHR61P62C448X</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="748">
 		<nome>DANILA</nome>
@@ -6071,7 +6071,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CHIUSI DELLA VERNA</comune_nascita>
 		<data_nascita>2010-10-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SRRGGT10R60C663S</codice_fiscale>
 	</persona>
 	<persona id="759">
 		<nome>IULIANA</nome>
@@ -6095,7 +6095,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GRANAROLO DELL'EMILIA</comune_nascita>
 		<data_nascita>2012-02-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SLVSDA12B43E136P</codice_fiscale>
 	</persona>
 	<persona id="762">
 		<nome>ORSOLA</nome>
@@ -6103,7 +6103,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>AILANO</comune_nascita>
 		<data_nascita>1939-08-11</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>LVGRSL39M51A106E</codice_fiscale>
 	</persona>
 	<persona id="763">
 		<nome>KLAUDIO</nome>
@@ -6143,7 +6143,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>DIANO ARENTINO</comune_nascita>
 		<data_nascita>1933-09-18</data_nascita>
-		<codice_fiscale>SPRGLL33P58D293N</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="768">
 		<nome>NIZAR</nome>
@@ -6175,7 +6175,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>STRANGOLAGALLI</comune_nascita>
 		<data_nascita>1949-02-08</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GVRMRD49B08I973R</codice_fiscale>
 	</persona>
 	<persona id="772">
 		<nome>SONILA</nome>
@@ -6239,7 +6239,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GAETA</comune_nascita>
 		<data_nascita>1985-10-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PRRLSN85R58D843X</codice_fiscale>
 	</persona>
 	<persona id="780">
 		<nome>KHALID</nome>
@@ -6255,7 +6255,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>DIPIGNANO</comune_nascita>
 		<data_nascita>1963-09-12</data_nascita>
-		<codice_fiscale>GLFGTJ63P12D304K</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="782">
 		<nome>ALKETA</nome>
@@ -6279,7 +6279,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CALVI RISORTA</comune_nascita>
 		<data_nascita>1925-09-06</data_nascita>
-		<codice_fiscale>DRSMLK25P46B445R</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="785">
 		<nome>VITALIE</nome>
@@ -6287,7 +6287,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ALLUMIERE</comune_nascita>
 		<data_nascita>1943-11-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRRVTL43S20A210Q</codice_fiscale>
 	</persona>
 	<persona id="786">
 		<nome>ASSIA</nome>
@@ -6311,7 +6311,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CELLE DI MACRA</comune_nascita>
 		<data_nascita>1976-08-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NDRMCL76M43C441W</codice_fiscale>
 	</persona>
 	<persona id="789">
 		<nome>ALFONSA</nome>
@@ -6343,7 +6343,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>BIBBIANO</comune_nascita>
 		<data_nascita>1976-10-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PVRNDR76R68A850U</codice_fiscale>
 	</persona>
 	<persona id="793">
 		<nome>MARK</nome>
@@ -6415,7 +6415,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ROCCELLA VALDEMONE</comune_nascita>
 		<data_nascita>1949-11-15</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SNTLVS49S15H455A</codice_fiscale>
 	</persona>
 	<persona id="802">
 		<nome>LAVINIA</nome>
@@ -6423,7 +6423,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MONTICHIARI</comune_nascita>
 		<data_nascita>1926-07-17</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PLLLVN26L57F471G</codice_fiscale>
 	</persona>
 	<persona id="803">
 		<nome>JONIDA</nome>
@@ -6439,7 +6439,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>BOSIO</comune_nascita>
 		<data_nascita>1992-09-20</data_nascita>
-		<codice_fiscale>FNCDNS92P20B080I</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="805">
 		<nome>ARDIAN</nome>
@@ -6447,7 +6447,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>VERRUA SAVOIA</comune_nascita>
 		<data_nascita>2011-10-25</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RLLRDN11R25L787H</codice_fiscale>
 	</persona>
 	<persona id="806">
 		<nome>MEGI</nome>
@@ -6471,7 +6471,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PICO</comune_nascita>
 		<data_nascita>1975-08-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GNNRSN75M28G592C</codice_fiscale>
 	</persona>
 	<persona id="809">
 		<nome>AFERDITA</nome>
@@ -6479,7 +6479,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GAVERINA TERME</comune_nascita>
 		<data_nascita>1998-05-19</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>NVLFDT98E59D943T</codice_fiscale>
 	</persona>
 	<persona id="810">
 		<nome>IULIA</nome>
@@ -6535,7 +6535,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SPINADESCO</comune_nascita>
 		<data_nascita>1932-09-29</data_nascita>
-		<codice_fiscale>SLMRNI32P69I906N</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="817">
 		<nome>MERITA</nome>
@@ -6543,7 +6543,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SPIAZZO</comune_nascita>
 		<data_nascita>1967-09-13</data_nascita>
-		<codice_fiscale>PRNMRT67P53I899R</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="818">
 		<nome>ROZETA</nome>
@@ -6551,7 +6551,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VILLARBASSE</comune_nascita>
 		<data_nascita>1949-08-04</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FRNRZT49M44M002U</codice_fiscale>
 	</persona>
 	<persona id="819">
 		<nome>ROBERT</nome>
@@ -6575,7 +6575,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>LAURITO</comune_nascita>
 		<data_nascita>1929-10-19</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRRSVV29R59E486C</codice_fiscale>
 	</persona>
 	<persona id="822">
 		<nome>IMAD</nome>
@@ -6607,7 +6607,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>AGORDO</comune_nascita>
 		<data_nascita>1958-10-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRRSLM58R64A083E</codice_fiscale>
 	</persona>
 	<persona id="826">
 		<nome>VANNA</nome>
@@ -6615,7 +6615,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ARVIER</comune_nascita>
 		<data_nascita>1996-08-19</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MRVVNN96M59A452H</codice_fiscale>
 	</persona>
 	<persona id="827">
 		<nome>RACHIDA</nome>
@@ -6695,7 +6695,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>AZZANO MELLA</comune_nascita>
 		<data_nascita>1985-09-08</data_nascita>
-		<codice_fiscale>DLLDLE85P08A529L</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="837">
 		<nome>HALIMA</nome>
@@ -6727,7 +6727,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>ACQUAPPESA</comune_nascita>
 		<data_nascita>1975-08-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DMTMHS75M18A041P</codice_fiscale>
 	</persona>
 	<persona id="841">
 		<nome>FIORE</nome>
@@ -6743,7 +6743,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>GIURDIGNANO</comune_nascita>
 		<data_nascita>1983-09-20</data_nascita>
-		<codice_fiscale>GGLDLU83P20E061N</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="843">
 		<nome>MELANIA</nome>
@@ -6751,7 +6751,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VILLAR SAN COSTANZO</comune_nascita>
 		<data_nascita>1967-08-07</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VLLMLN67M47M015M</codice_fiscale>
 	</persona>
 	<persona id="844">
 		<nome>ANNARITA</nome>
@@ -6759,7 +6759,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VERNASCA</comune_nascita>
 		<data_nascita>1962-01-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VRVNRT62A60L772M</codice_fiscale>
 	</persona>
 	<persona id="845">
 		<nome>ALINA</nome>
@@ -6783,7 +6783,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>NOVALEDO</comune_nascita>
 		<data_nascita>1975-09-25</data_nascita>
-		<codice_fiscale>MRTMNO75P65F947E</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="848">
 		<nome>DALILA</nome>
@@ -6807,7 +6807,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PADULI</comune_nascita>
 		<data_nascita>2010-02-17</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PNCRVN10B17G227F</codice_fiscale>
 	</persona>
 	<persona id="851">
 		<nome>TULLIO</nome>
@@ -6863,7 +6863,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SIDDI</comune_nascita>
 		<data_nascita>1945-03-07</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CVLSMN45C07I724V</codice_fiscale>
 	</persona>
 	<persona id="858">
 		<nome>ASJA</nome>
@@ -6879,7 +6879,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MUCCIA</comune_nascita>
 		<data_nascita>1937-01-25</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BVLHSN37A65F793Z</codice_fiscale>
 	</persona>
 	<persona id="860">
 		<nome>MIHAI</nome>
@@ -6927,7 +6927,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PIETRACAMELA</comune_nascita>
 		<data_nascita>1926-12-21</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>SCVRIU26T21G608R</codice_fiscale>
 	</persona>
 	<persona id="866">
 		<nome>ZAIRA</nome>
@@ -6999,7 +6999,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PORTOFINO</comune_nascita>
 		<data_nascita>1929-10-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MLSGBR29R09G913M</codice_fiscale>
 	</persona>
 	<persona id="875">
 		<nome>LENE</nome>
@@ -7023,7 +7023,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CISTERNINO</comune_nascita>
 		<data_nascita>1938-10-02</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CTRLNU38R42C741I</codice_fiscale>
 	</persona>
 	<persona id="878">
 		<nome>ABDELHAK</nome>
@@ -7031,7 +7031,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CONCEI</comune_nascita>
 		<data_nascita>1929-02-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VVDBLH29B03C944D</codice_fiscale>
 	</persona>
 	<persona id="879">
 		<nome>ERMELINDA</nome>
@@ -7071,7 +7071,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>GOTTOLENGO</comune_nascita>
 		<data_nascita>2008-08-05</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MBRMGR08M45E116F</codice_fiscale>
 	</persona>
 	<persona id="884">
 		<nome>ALBAN</nome>
@@ -7079,7 +7079,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MASSAFRA</comune_nascita>
 		<data_nascita>1948-10-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BCCLBN48R18F027X</codice_fiscale>
 	</persona>
 	<persona id="885">
 		<nome>FLORENC</nome>
@@ -7087,7 +7087,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SENIGALLIA</comune_nascita>
 		<data_nascita>1953-08-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GLNFRN53M14I608C</codice_fiscale>
 	</persona>
 	<persona id="886">
 		<nome>SERENELLA</nome>
@@ -7103,7 +7103,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MORNICO LOSANA</comune_nascita>
 		<data_nascita>1920-08-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MRLSRN20M58F739P</codice_fiscale>
 	</persona>
 	<persona id="888">
 		<nome>TANIA</nome>
@@ -7119,7 +7119,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VERBICARO</comune_nascita>
 		<data_nascita>1923-01-13</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>LVSRST23A53L747Z</codice_fiscale>
 	</persona>
 	<persona id="890">
 		<nome>ALIONA</nome>
@@ -7159,7 +7159,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>VESTONE</comune_nascita>
 		<data_nascita>1927-10-14</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>KJNLVC27R14L812Q</codice_fiscale>
 	</persona>
 	<persona id="895">
 		<nome>EGIDIO</nome>
@@ -7167,7 +7167,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SAN GIACOMO DEGLI SCHIAVONI</comune_nascita>
 		<data_nascita>1965-09-02</data_nascita>
-		<codice_fiscale>GNDGDE65P02H867Z</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="896">
 		<nome>DESIRE</nome>
@@ -7175,7 +7175,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>ANGOLO TERME</comune_nascita>
 		<data_nascita>1919-12-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PVNDSR19T68A293P</codice_fiscale>
 	</persona>
 	<persona id="897">
 		<nome>FLORIAN</nome>
@@ -7207,7 +7207,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>MONTEFERRANTE</comune_nascita>
 		<data_nascita>1984-05-13</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RVLSMA84E13F498V</codice_fiscale>
 	</persona>
 	<persona id="901">
 		<nome>LIVIANA</nome>
@@ -7215,7 +7215,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SAN GIOVANNI A PIRO</comune_nascita>
 		<data_nascita>1939-07-29</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>MNCLVN39L69H907G</codice_fiscale>
 	</persona>
 	<persona id="902">
 		<nome>KUJTIM</nome>
@@ -7295,7 +7295,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>GENZANO DI LUCANIA</comune_nascita>
 		<data_nascita>2000-08-26</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TSLMRN00M26D971G</codice_fiscale>
 	</persona>
 	<persona id="912">
 		<nome>DONIKA</nome>
@@ -7343,7 +7343,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>COSSATO</comune_nascita>
 		<data_nascita>1937-10-18</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GLLCNO37R18D094A</codice_fiscale>
 	</persona>
 	<persona id="918">
 		<nome>GUALTIERO</nome>
@@ -7415,7 +7415,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CHIENES</comune_nascita>
 		<data_nascita>1968-08-25</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CRNPRC68M25C625Z</codice_fiscale>
 	</persona>
 	<persona id="927">
 		<nome>ADAMA</nome>
@@ -7479,7 +7479,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CIPRESSA</comune_nascita>
 		<data_nascita>1977-08-24</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PMJLNI77M64C718P</codice_fiscale>
 	</persona>
 	<persona id="935">
 		<nome>PATRICIA</nome>
@@ -7487,7 +7487,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>FERENTINO</comune_nascita>
 		<data_nascita>1933-11-21</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>DVCPRC33S61D539W</codice_fiscale>
 	</persona>
 	<persona id="936">
 		<nome>MARIOARA</nome>
@@ -7543,7 +7543,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VALLE DI CADORE</comune_nascita>
 		<data_nascita>1946-08-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FRLTTV46M41L590D</codice_fiscale>
 	</persona>
 	<persona id="943">
 		<nome>SANDRINA</nome>
@@ -7559,7 +7559,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>PALLANZENO</comune_nascita>
 		<data_nascita>1945-11-30</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>PVGCPI45S30G280Y</codice_fiscale>
 	</persona>
 	<persona id="945">
 		<nome>ANDREINA</nome>
@@ -7591,7 +7591,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>LICCIANA NARDI</comune_nascita>
 		<data_nascita>1944-08-12</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>RBNSBN44M12E574A</codice_fiscale>
 	</persona>
 	<persona id="949">
 		<nome>ABDELAZIZ</nome>
@@ -7623,7 +7623,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CERCENASCO</comune_nascita>
 		<data_nascita>1959-09-30</data_nascita>
-		<codice_fiscale>BRSBYN59P30C487C</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="953">
 		<nome>VALENTYNA</nome>
@@ -7639,7 +7639,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>GIFFONI SEI CASALI</comune_nascita>
 		<data_nascita>1984-09-10</data_nascita>
-		<codice_fiscale>MTNBLG84P10E026O</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="955">
 		<nome>YASSIN</nome>
@@ -7687,7 +7687,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>SAN GIORGIO DEL SANNIO</comune_nascita>
 		<data_nascita>1926-08-20</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FRGPNG26M60H894K</codice_fiscale>
 	</persona>
 	<persona id="961">
 		<nome>ELVIO</nome>
@@ -7695,7 +7695,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>FRASSINORO</comune_nascita>
 		<data_nascita>2010-03-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>LRSLVE10C28D783P</codice_fiscale>
 	</persona>
 	<persona id="962">
 		<nome>DEVID</nome>
@@ -7703,7 +7703,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>CIVITELLA SAN PAOLO</comune_nascita>
 		<data_nascita>1989-05-09</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FRNDVD89E09C784E</codice_fiscale>
 	</persona>
 	<persona id="963">
 		<nome>IGLI</nome>
@@ -7767,7 +7767,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>OSNAGO</comune_nascita>
 		<data_nascita>1963-02-03</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>LVCTST63B43G161R</codice_fiscale>
 	</persona>
 	<persona id="971">
 		<nome>UBALDO</nome>
@@ -7783,7 +7783,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>CASTELLEONE DI SUASA</comune_nascita>
 		<data_nascita>1923-10-22</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GTNLGR23R62C152G</codice_fiscale>
 	</persona>
 	<persona id="973">
 		<nome>NDRICIM</nome>
@@ -7791,7 +7791,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SPECCHIA</comune_nascita>
 		<data_nascita>2006-10-26</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>FVRNRC06R26I887T</codice_fiscale>
 	</persona>
 	<persona id="974">
 		<nome>LUIZA</nome>
@@ -7807,7 +7807,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MAJANO</comune_nascita>
 		<data_nascita>2016-09-21</data_nascita>
-		<codice_fiscale>FBRLRS16P61E833D</codice_fiscale>
+		<codice_fiscale>ASSENTE</codice_fiscale>
 	</persona>
 	<persona id="976">
 		<nome>NADIR</nome>
@@ -7815,7 +7815,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>POMPEIANA</comune_nascita>
 		<data_nascita>1957-08-01</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GRLNDR57M01G814Q</codice_fiscale>
 	</persona>
 	<persona id="977">
 		<nome>DRISS</nome>
@@ -7871,7 +7871,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>VIGO RENDENA</comune_nascita>
 		<data_nascita>2005-08-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>GZZRMN05M68L903R</codice_fiscale>
 	</persona>
 	<persona id="984">
 		<nome>MARJANA</nome>
@@ -7879,7 +7879,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PATERNO CALABRO</comune_nascita>
 		<data_nascita>1981-03-28</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>VNZMJN81C68G372L</codice_fiscale>
 	</persona>
 	<persona id="985">
 		<nome>TEODORO</nome>
@@ -7895,7 +7895,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>PINO TORINESE</comune_nascita>
 		<data_nascita>1936-08-19</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>CSCSRL36M59G678N</codice_fiscale>
 	</persona>
 	<persona id="987">
 		<nome>FERDINAND</nome>
@@ -7943,7 +7943,7 @@
 		<sesso>F</sesso>
 		<comune_nascita>MARZIO</comune_nascita>
 		<data_nascita>2013-12-26</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>TMLVLN13T66F002N</codice_fiscale>
 	</persona>
 	<persona id="993">
 		<nome>FORTUNATA</nome>
@@ -7983,7 +7983,7 @@
 		<sesso>M</sesso>
 		<comune_nascita>SALICETO</comune_nascita>
 		<data_nascita>1949-10-23</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRCCKH49R23H710Q</codice_fiscale>
 	</persona>
 	<persona id="998">
 		<nome>LIBORIO</nome>
@@ -7999,480 +7999,311 @@
 		<sesso>M</sesso>
 		<comune_nascita>BRESCIA</comune_nascita>
 		<data_nascita>1998-10-05</data_nascita>
-		<codice_fiscale>ASSENTE</codice_fiscale>
+		<codice_fiscale>BRNNKT98R05B157O</codice_fiscale>
 	</persona>
 </persone>
 <codici>
-	<invalidi numero="422">
-		<codice>FVTMHL77C52E602V</codice>
+	<invalidi numero="257">
 		<codice>BGNCMN68H53A866V</codice>
-		<codice>VNTPML04S62B026Y</codice>
+		<codice>CRAMRO40P10E156R</codice>
 		<codice>FSTPLA98M01B157A</codice>
 		<codice>PTRNLI30H26L204R</codice>
-		<codice>CPPVTR11M12M267K</codice>
-		<codice>GRBLVR44B46M288Q</codice>
-		<codice>SMNSVR24M14E958T</codice>
-		<codice>NVRDGI75S29B636K</codice>
-		<codice>BRRSVV29R59E486C</codice>
+		<codice>LLAZHR21P46D775N</codice>
 		<codice>RLNMRT70D07D391I</codice>
 		<codice>BNCDNC89D46A432K</codice>
-		<codice>LCTMTN42R15B856C</codice>
 		<codice>BDLVLR24D23M136A</codice>
-		<codice>VRRGMN51S56B124A</codice>
 		<codice>MRRMMT45D03H417Y</codice>
-		<codice>KJNLVC27R14L812Q</codice>
-		<codice>RLLRDN11R25L787H</codice>
-		<codice>LVSRST23A53L747Z</codice>
+		<codice>CSLJNF04P65C674R</codice>
 		<codice>SNNLRD18D06F801R</codice>
-		<codice>GVZRLA30L03D696K</codice>
+		<codice>QGLCRS49P25G699B</codice>
 		<codice>BSLVNC51H68G185S</codice>
+		<codice>NBLRSO99P61H192Y</codice>
 		<codice>BBBDSR89D43I133T</codice>
 		<codice>LMTNCL02D28F216M</codice>
-		<codice>GLLCNO37R18D094A</codice>
+		<codice>DOUJTH89P07D645U</codice>
+		<codice>FRRLVO96P43A020O</codice>
 		<codice>FRNFRC14H22E416S</codice>
-		<codice>GGLLEI55M30G426V</codice>
-		<codice>MRANNA08M68F492T</codice>
-		<codice>DMNDFN22M71C686K</codice>
-		<codice>BSCVTR84C46E738J</codice>
+		<codice>FLTSRN21P62B524S</codice>
+		<codice>NZLCRS45P26F646U</codice>
+		<codice>CNBLDE87P54G722J</codice>
 		<codice>BRNDAI39H66L298R</codice>
-		<codice>QRCFPP30M14A465K</codice>
-		<codice>GRNMRM88M51D653I</codice>
+		<codice>DLLDLE85P08A529L</codice>
 		<codice>OUXDVS81M23L291N</codice>
 		<codice>SRTLNS80D65I654S</codice>
-		<codice>KQUKDD96M67I840Y</codice>
 		<codice>MRGZKR85D28B547Z</codice>
-		<codice>CPNGLL86M48L379R</codice>
 		<codice>GRLFRN06H17I922K</codice>
-		<codice>GLNFRN53M14I608C</codice>
-		<codice>BRRMNL85M62D946I</codice>
-		<codice>MRTGRL98R68L604P</codice>
+		<codice>PRNMRT67P53I899R</codice>
+		<codice>BCAGIO90P56E365M</codice>
 		<codice>FRNBLD72A45G362U</codice>
-		<codice>VRCLCN86M12F356M</codice>
 		<codice>BGLLVC67H54A334B</codice>
-		<codice>PREPRT83R21B851Y</codice>
+		<codice>MTNBLG84P10E026O</codice>
 		<codice>PSNPFR93H23C806Q</codice>
 		<codice>FLCCRL50D14B001E</codice>
-		<codice>MGNBLL90R03B681Q</codice>
-		<codice>CRTNTS68R54H412S</codice>
-		<codice>CCRSVN23C60C338D</codice>
+		<codice>GNDGDE65P02H867Z</codice>
 		<codice>MNCJND81H65C053J</codice>
 		<codice>MCLNZH41D66E773K</codice>
+		<codice>BROMNC44P54G866I</codice>
 		<codice>NPPLDE69H60C513B</codice>
-		<codice>PVNMLL62B52C529G</codice>
-		<codice>VRCBNL49T59C950V</codice>
 		<codice>RVLNIO54D48L102M</codice>
 		<codice>RSNGLI03D11H893O</codice>
-		<codice>GRRVTL43S20A210Q</codice>
 		<codice>PRRRRA73H54A191J</codice>
-		<codice>GROMNL09M41E419X</codice>
+		<codice>GGLDLU83P20E061N</codice>
 		<codice>RTTRTR51D17G920C</codice>
-		<codice>BLLSNO50R58B640D</codice>
 		<codice>SCLCLL98H58D513Z</codice>
 		<codice>LFFVLT99H47D445H</codice>
-		<codice>DMOTNA94R46D794D</codice>
-		<codice>VNZGTT77B60H566B</codice>
 		<codice>LDNJHN30D06C101T</codice>
 		<codice>CTTMTN38H44G474X</codice>
-		<codice>MNCLVN39L69H907G</codice>
 		<codice>PSTDSN57D09F677Z</codice>
-		<codice>CRSRMN90R51A102R</codice>
+		<codice>FSNGNI34P08A443I</codice>
 		<codice>TRLTTR99H21F592K</codice>
-		<codice>SRRGGT10R60C663S</codice>
 		<codice>NKLKLD52B69B865C</codice>
 		<codice>MLUKTA41D54D891B</codice>
-		<codice>BVLHSN37A65F793Z</codice>
-		<codice>FRLNLN56R54G683L</codice>
 		<codice>NGLDNC03H60A759W</codice>
-		<codice>LTEFRN93R31F246S</codice>
-		<codice>CSCSRL36M59G678N</codice>
 		<codice>GAIDNL55D10F367A</codice>
-		<codice>PCCVNI98E14B994R</codice>
-		<codice>VTLLXA97L31E052P</codice>
-		<codice>BRNBGI19M05F395F</codice>
-		<codice>RCLRSR24R41A837Q</codice>
 		<codice>SCRLJT47D41C223M</codice>
 		<codice>MCAPQL42D41I927T</codice>
 		<codice>PSQRLN51H55C544I</codice>
 		<codice>PRSLRT74D03F511U</codice>
 		<codice>MRGTDR94D04E213V</codice>
 		<codice>BNTLRT23D60A089N</codice>
-		<codice>RDNLRD95R28G168J</codice>
+		<codice>BLSLTT17P60C673L</codice>
 		<codice>PTTMRS20H63A128A</codice>
-		<codice>CTRLNU38R42C741I</codice>
 		<codice>CRDVVN79P55I925I</codice>
 		<codice>PLMSFN18D30B963A</codice>
+		<codice>LTTNNZ24P20G129J</codice>
 		<codice>PTRLLA39H69M152X</codice>
 		<codice>BNCNTN69H27A377T</codice>
 		<codice>BOXCML03D58A953I</codice>
-		<codice>PGLVRE52C66E184E</codice>
-		<codice>VGNLDA98A66D141I</codice>
-		<codice>DVCPRC33S61D539W</codice>
-		<codice>BNACST02M11C508Z</codice>
-		<codice>VLIHMD06C31F538T</codice>
-		<codice>BRTRNO88R53I612C</codice>
+		<codice>FBRLRS16P61E833D</codice>
 		<codice>MNCGLC74D10I294F</codice>
 		<codice>VCCLMA17H46D577Z</codice>
-		<codice>PNCRVN10B17G227F</codice>
 		<codice>VRNMRC26H09L228Z</codice>
-		<codice>PLLLVN26L57F471G</codice>
+		<codice>PJTDNS67P69C747D</codice>
 		<codice>HRCDNK29D69A490J</codice>
-		<codice>VLLLEI51B64G960M</codice>
 		<codice>MNTSLV82H12H056E</codice>
-		<codice>VLPRTI94L43E255A</codice>
-		<codice>GRCLNI31R43D014N</codice>
-		<codice>GSPVSL84E16E687Q</codice>
-		<codice>TTVCSM41R25G396J</codice>
-		<codice>FZAVEA07R65B906L</codice>
-		<codice>CVLLCA14M59B582R</codice>
-		<codice>FRGPNG26M60H894K</codice>
-		<codice>MSNPRN00R44L146O</codice>
+		<codice>BSSCNZ98P47I277L</codice>
 		<codice>BRLLSN76H26H450G</codice>
 		<codice>TRMVTR35H52E441B</codice>
-		<codice>PLLRVS21R27G852B</codice>
 		<codice>LMCCMN99D68M145P</codice>
 		<codice>BRRMNI92T45E798ME</codice>
 		<codice>BRCMNA87D16I224X</codice>
-		<codice>FVRLBN51C56G749X</codice>
-		<codice>VLNLSE78S48E749S</codice>
+		<codice>RLNFLV08P52I220D</codice>
 		<codice>TSCRST26D51I546S</codice>
-		<codice>VLNLSS18L02C756I</codice>
-		<codice>LNFSRN33M58L535F</codice>
 		<codice>MROVLR05H64E527G</codice>
-		<codice>TSLMRN00M26D971G</codice>
-		<codice>MRTVNT38B17B181V</codice>
-		<codice>SLVSDA29R14D394O</codice>
-		<codice>BLTTTL16R18I926T</codice>
 		<codice>RBRMNA42D51E991C</codice>
-		<codice>ZHOVRC34M55D088U</codice>
-		<codice>RGNSFN11M51M113S</codice>
 		<codice>RSTVLL63H67H221S</codice>
-		<codice>CSTRST87M49A383U</codice>
-		<codice>DMAVNT71T29H092B</codice>
+		<codice>GLFGTJ63P12D304K</codice>
+		<codice>CLELGU61P46F640E</codice>
 		<codice>CPPZZA15D03M184P</codice>
-		<codice>SGLSTN51R45E770F</codice>
-		<codice>CVGVNI25R04B114Y</codice>
 		<codice>PRNGNI09D44B137V</codice>
 		<codice>PCCGRG32D17F232E</codice>
 		<codice>GSTSVN30H13I293T</codice>
-		<codice>TBKTZN14R41F058O</codice>
-		<codice>BTRVTI42B46L463D</codice>
 		<codice>MRRRCR83H15E364F</codice>
 		<codice>PLTVNT51H63F046B</codice>
 		<codice>MTALND21D14L030H</codice>
 		<codice>SCHCRL06H63E645V</codice>
-		<codice>PVRNDR76R68A850U</codice>
-		<codice>MDCMRM47M46D852N</codice>
 		<codice>BVAMRK25D11L719Q</codice>
 		<codice>CSTFDN27D08F655I</codice>
-		<codice>GLLLSN39M07F693X</codice>
 		<codice>RSSVCN09H24D491G</codice>
 		<codice>VLJNLN40P54H945N</codice>
 		<codice>PRCMLL15D49L798P</codice>
 		<codice>LPRLNT05D48C749B</codice>
-		<codice>LVRNMR04A63D179B</codice>
 		<codice>DMRMLN20D64E576S</codice>
-		<codice>VGLPPL53A26A485J</codice>
-		<codice>CPPLND81R58L540I</codice>
-		<codice>GRCBNC77R62F489Q</codice>
 		<codice>VLVVCN61H50G197L</codice>
+		<codice>CLLNDA15P66H826I</codice>
 		<codice>SCRFDN79D03G411Z</codice>
-		<codice>GNNRSN75M28G592C</codice>
-		<codice>PLLVGN32R67D255D</codice>
+		<codice>CSTFRC48P61D260P</codice>
+		<codice>CMPDDE51P70G947D</codice>
 		<codice>SRGLRD96B31I3O2G</codice>
 		<codice>CRNGTN78H61G790A</codice>
-		<codice>GRDKVS00L30D488V</codice>
-		<codice>TMLVLN13T66F002N</codice>
-		<codice>LVRLVI72E67A592K</codice>
-		<codice>SPRMLY12M60A634Z</codice>
 		<codice>CSTDMA66D21G968K</codice>
-		<codice>VVDBLH29B03C944D</codice>
-		<codice>VNTLNI93T41H189Y</codice>
-		<codice>BRCCKH49R23H710Q</codice>
-		<codice>BSTBRN70T31H881S</codice>
-		<codice>DMTMHS75M18A041P</codice>
+		<codice>DMCMNL81P24E461Q</codice>
 		<codice>FLRMNL42H70A999G</codice>
-		<codice>MRLLRA75M41A054N</codice>
 		<codice>MSSPQL98H02L019J</codice>
-		<codice>BRNNKT98R05B157O</codice>
 		<codice>SRNLRT28H63B823D</codice>
-		<codice>GZZRMN05M68L903R</codice>
-		<codice>TRSJCP03M08C819A</codice>
-		<codice>GRSZOE89M42L990Z</codice>
+		<codice>LLAGZL42P48L324S</codice>
 		<codice>VLPFME14P54I168B</codice>
 		<codice>MLNLBA73D48F893U</codice>
-		<codice>BTTMDA63M19E799F</codice>
-		<codice>PMJLNI77M64C718P</codice>
-		<codice>DZNSNT12M52F275N</codice>
-		<codice>VCCFTH39A42G982F</codice>
-		<codice>LPRLFA61M08B612W</codice>
 		<codice>XUXLNA99D52G028U</codice>
 		<codice>PNSBRN16D05F044R</codice>
-		<codice>MNLNLN50M09E984D</codice>
-		<codice>PLKVLN92L70D551G</codice>
 		<codice>ZHRKJD87D03I353J</codice>
-		<codice>VGNSML36L04L017J</codice>
-		<codice>GVRMRD49B08I973R</codice>
+		<codice>GRZGLI16P68I384J</codice>
+		<codice>GRSPLA44P50D336J</codice>
+		<codice>BRSBYN59P30C487C</codice>
 		<codice>TRTSLN92D68E023T</codice>
-		<codice>VGLGPR40M06G833T</codice>
-		<codice>FRNNEE90M14G095Y</codice>
-		<codice>MRLSLL48R49G305S</codice>
-		<codice>RSRPRI49M65G272N</codice>
-		<codice>PNNGLN11R43A222N</codice>
+		<codice>MRTMNO75P65F947E</codice>
+		<codice>SLMGNT67P16C290O</codice>
 		<codice>MNDTTN64H55L286V</codice>
 		<codice>MSSGPP40D27A177B</codice>
-		<codice>FVRNRC06R26I887T</codice>
-		<codice>WNGNTL76M27F723X</codice>
 		<codice>HLLVBN69P44B795Q</codice>
 		<codice>PVSFNC16H21E587A</codice>
-		<codice>BRGPLG83R29E058J</codice>
-		<codice>GRLNDR57M01G814Q</codice>
-		<codice>CRNPRC68M25C625Z</codice>
+		<codice>FNCDNS92P20B080I</codice>
 		<codice>CMRMRN73D54C207T</codice>
-		<codice>HFDVLC69A61E104W</codice>
 		<codice>SCRNDA93H17I209F</codice>
-		<codice>RNASAI05M71C949Y</codice>
 		<codice>CLIZHR10D41F720A</codice>
 		<codice>ECCMHL8QT26H661L</codice>
 		<codice>PPESVT81H57I497U</codice>
-		<codice>VCCMHL86T26H661L</codice>
 		<codice>TRNDNI48H48L509C</codice>
-		<codice>VRSMHL45S07F784F</codice>
-		<codice>GTNLGR23R62C152G</codice>
-		<codice>MCJLND10M46G292H</codice>
+		<codice>RNLLDN01P47G566S</codice>
 		<codice>KDRDTR56H19B236Z</codice>
-		<codice>NTLFLV49M02E855Z</codice>
-		<codice>TRNPTR19M25A233Y</codice>
 		<codice>FSLRLA86D05B830V</codice>
-		<codice>CHSMME04M68E074X</codice>
 		<codice>MRTMMD88H27F843Y</codice>
+		<codice>SLMRNI32P69I906N</codice>
 		<codice>PVTGLL12P52C931W</codice>
-		<codice>GHIFLV96M12H937O</codice>
-		<codice>MRCVLI22A69C199K</codice>
-		<codice>VLLGLE14A56C175I</codice>
-		<codice>VLLSVN50E29L691Q</codice>
-		<codice>RSTGMR40M08G253U</codice>
-		<codice>VLFSRH41R65B644D</codice>
+		<codice>MSRCLD06P63H682H</codice>
+		<codice>CNNLSU20P60E581R</codice>
 		<codice>GLLBHB17H01F258D</codice>
-		<codice>DVNMRN06B11B015B</codice>
-		<codice>VLLMLN67M47M015M</codice>
 		<codice>FRSGCH66D46B803E</codice>
 		<codice>LLSSNT46H51G615A</codice>
+		<codice>CTLMTN89P05L117K</codice>
+		<codice>BNOSMN13P43I498F</codice>
+		<codice>CLSGCR63P10C292W</codice>
 		<codice>OXERLBT73A48D291P</codice>
 		<codice>GNTFNC92D51G251Q</codice>
-		<codice>FRNDVD89E09C784E</codice>
+		<codice>SMNMRZ18P66I310I</codice>
 		<codice>MGLRNI30D15H717N</codice>
-		<codice>BRRVLM41A41B697P</codice>
-		<codice>GRSVTR66E06I756E</codice>
 		<codice>MGVDRT97D24C072V</codice>
 		<codice>BGNBBR37D58I548D</codice>
 		<codice>VLIPQL53D09A068M</codice>
-		<codice>RVLPLA20M23H227L</codice>
 		<codice>RMNMRR86H61C436Y</codice>
 		<codice>CRRHNN28D45H780K</codice>
+		<codice>LCTMDL26P52D284V</codice>
+		<codice>CGLMMZ58P43A947R</codice>
 		<codice>CHRMRL80H68F949H</codice>
-		<codice>VLDLLN69S57M109R</codice>
 		<codice>VSTTRS23L91H851A</codice>
 		<codice>BNOMSM19D19B061C</codice>
 		<codice>NGRRNI50H61A989J</codice>
 		<codice>GHISMR73D64D131M</codice>
-		<codice>RBNSBN44M12E574A</codice>
+		<codice>GRCPMN20P54G134T</codice>
+		<codice>FRRNDR79P22G902N</codice>
 		<codice>RGSLRI80H20H938M</codice>
-		<codice>FRNRZT49M44M002U</codice>
 		<codice>LAOMNL99H10E915Q</codice>
-		<codice>FRIMRN80R55C998W</codice>
-		<codice>CVLSMN45C07I724V</codice>
 		<codice>OTFKRM4HE15F520D</codice>
-		<codice>VRGRBN91T21F276M</codice>
-		<codice>PSCLDA21M59B217O</codice>
-		<codice>MRVVNN96M59A452H</codice>
 		<codice>FRLRND66H25I652E</codice>
-		<codice>ZNGVND81E69A981Y</codice>
-		<codice>PCNPIA27M49D487V</codice>
+		<codice>PRCGCM10P12F876Z</codice>
 		<codice>CVGBNK49H25B201Y</codice>
-		<codice>NVLGRL78S07C518D</codice>
-		<codice>GJKMST06M62I649X</codice>
-		<codice>SVNKVN24C20B014L</codice>
-		<codice>VRVNRT62A60L772M</codice>
+		<codice>SCRRLD04P30L882X</codice>
 		<codice>CTZTMS17D17E805O</codice>
-		<codice>TTNPLM86M64C657Z</codice>
 		<codice>SCLTJN65D69I635I</codice>
+		<codice>PRDMLN38P60B019B</codice>
 		<codice>LCCK1D53A14C977M</codice>
-		<codice>BCCLBN48R18F027X</codice>
-		<codice>NDYGTA29R51C769K</codice>
-		<codice>RSSNGL94R12D123Y</codice>
-		<codice>VNTSBL98E49D237B</codice>
-		<codice>MBRMGR08M45E116F</codice>
-		<codice>SNTCRN44R64F284V</codice>
-		<codice>LVGRSL39M51A106E</codice>
-		<codice>VRADND62E31F209K</codice>
-		<codice>TMOPMR92M70C628S</codice>
+		<codice>DRSMLK25P46B445R</codice>
+		<codice>RBBGRG20P05I695R</codice>
+		<codice>SPRGLL33P58D293N</codice>
+		<codice>LNENZE42P28G646L</codice>
+		<codice>GRRNMO90P63L813E</codice>
 		<codice>CLBGMA62D24L878B</codice>
 		<codice>ZNTRCL66D01F251W</codice>
-		<codice>GHDVSS08T70H081X</codice>
 		<codice>SBAHBI53D62G529B</codice>
-		<codice>MRMVNT80R63L074Z</codice>
 		<codice>CLVCLO76H50B669F</codice>
 		<codice>PTRYAA43H60D186N</codice>
 		<codice>LMBCCT37D58C443F</codice>
 		<codice>1PBDSS79H21B6624B</codice>
-		<codice>TSTLNE04M64F555Z</codice>
-		<codice>CRIDNL17M54E557X</codice>
 		<codice>ZTIMRA33H53I831U</codice>
 		<codice>PNTGPL74D26F308W</codice>
-		<codice>NGRDVD10S29H657Z</codice>
 		<codice>STFGVR53P50A857N</codice>
-		<codice>SNTLVS49S15H455A</codice>
 		<codice>DGLNNY55H05D640P</codice>
-		<codice>NGRCST61R54C471T</codice>
 		<codice>PVALNU73H63D472U</codice>
-		<codice>KVCDHM65E11D655W</codice>
-		<codice>PGGVTI52R04C153J</codice>
+		<codice>HXHDNL41P45L975R</codice>
 		<codice>CPBDSS89H21B664B</codice>
-		<codice>MLSGBR29R09G913M</codice>
 		<codice>INDMR971P04C536M</codice>
+		<codice>BNDMRN71P04C536M</codice>
 		<codice>RSSNRM59D65D675B</codice>
 		<codice>FSSSLL69H46H286P</codice>
-		<codice>SCCTMS25M09B175O</codice>
 		<codice>NSLCRS63H59L998J</codice>
-		<codice>NVNSNN52S54E597O</codice>
+		<codice>CSSLRD49P22H492L</codice>
 		<codice>VDAFBN52D52G864A</codice>
-		<codice>BSORKE81R57H930E</codice>
-		<codice>VSCRSN06S44A701U</codice>
-		<codice>MSCNLL20R28D575J</codice>
-		<codice>PPPLAI32M30C815D</codice>
-		<codice>NVRKRM82B41B051H</codice>
-		<codice>NVLFDT98E59D943T</codice>
-		<codice>DBSDVD96T31L609X</codice>
-		<codice>STRGLG59M15C409L</codice>
-		<codice>VTLMJN37T25I350N</codice>
+		<codice>NBLDNT92P07G084E</codice>
 		<codice>LNGNLN08H08E528P</codice>
 		<codice>TNBNLS60D29D548Q</codice>
 		<codice>SVLYSN2317C886L</codice>
-		<codice>GRRSLM58R64A083E</codice>
-		<codice>FRRGRZ00R49E911H</codice>
-		<codice>GVLYSN23R17C886L</codice>
-		<codice>SRRLNI83M51A893A</codice>
-		<codice>LVCTST63B43G161R</codice>
+		<codice>DLEZRA83P48C246E</codice>
 		<codice>MRNRTN02D16I902D</codice>
+		<codice>MRCFRZ91P16F360I</codice>
 		<codice>DMBSVN92P20L498H</codice>
 		<codice>TRBNLT82D49I541P</codice>
 		<codice>NGRRTT27H52G208X</codice>
 		<codice>URCNLL60T27A9721</codice>
-		<codice>CRCMLD01R57L642J</codice>
 		<codice>CGGSST85D01C528M</codice>
 		<codice>DSTGMNW5T09E982B</codice>
-		<codice>PRRMRS16R21D764N</codice>
+		<codice>MSSZEI78P17L577C</codice>
 		<codice>CVGBHM45H06A371B</codice>
-		<codice>CLDFTM82M62D441Q</codice>
 		<codice>BLDNMA29H68G957Y</codice>
-		<codice>PRRLSN85R58D843X</codice>
-		<codice>RFFPRZ61R01H533Y</codice>
-		<codice>BJRGNN02M49B819O</codice>
 		<codice>RMNMMD01D01G063Y</codice>
 		<codice>PNSLSU63D19G697J</codice>
-		<codice>RTTSDR75R18C653G</codice>
-		<codice>GNTMRN11M18H106G</codice>
-		<codice>MRLSRN20M58F739P</codice>
-		<codice>DRTMLE99M48A035Q</codice>
+		<codice>ZCCCST24P48H655I</codice>
+		<codice>CPSSFN95P42F653Q</codice>
 		<codice>DMELCU73D07D358M</codice>
-		<codice>LLAZMR64T71L850W</codice>
-		<codice>RVTTDR70T55H481D</codice>
-		<codice>GRDDRD70R30I113U</codice>
-		<codice>BSSRLD53R46D494X</codice>
-		<codice>PSSLND52R64D346E</codice>
+		<codice>FVAFNZ07P43L888I</codice>
 		<codice>RVZDAA84P47I943N</codice>
 		<codice>GVNLNI09D07I368N</codice>
 		<codice>CTLDNS13D22L333K</codice>
-		<codice>VNTLGN28C12B490Q</codice>
-		<codice>PLRGNR21R05G927I</codice>
 		<codice>MNSBNT35D06H175O</codice>
 		<codice>DLPFNN48D08B058Y</codice>
+		<codice>BRODNC29P27B377R</codice>
 		<codice>KLMKLD83H02G117M</codice>
-		<codice>BRGMRT70M45L480W</codice>
-		<codice>PRSYSF33R20H117P</codice>
-		<codice>RVRGNE61M15A445L</codice>
+		<codice>FRRNZE56P44I735Y</codice>
+		<codice>CRSGDI69P62H123F</codice>
+		<codice>SGERLA89P51D108C</codice>
 		<codice>CVLRNT36P03B771E</codice>
-		<codice>VRLTRS95C01D788Y</codice>
 		<codice>MRLGMM92H52B760U</codice>
-		<codice>PVGCPI45S30G280Y</codice>
 		<codice>PFNDMA05H05L735Z</codice>
-		<codice>VDNMRA19R08I869N</codice>
-		<codice>NDRMCL76M43C441W</codice>
-		<codice>DZZKDJ20R57D450E</codice>
+		<codice>SRDMCL75P65B971H</codice>
 		<codice>BGNRNZ12D09H764B</codice>
-		<codice>RVLSMA84E13F498V</codice>
-		<codice>CRRVCN74S45D373N</codice>
-		<codice>PRVNMA66M64D990T</codice>
-		<codice>VTLCLN42M41E794U</codice>
+		<codice>TTNNLD62P55E539W</codice>
 		<codice>BRTLNR03D69B879J</codice>
-		<codice>CVLFLC95R26G441H</codice>
-		<codice>GRDVTR83A42F987S</codice>
-		<codice>CHSCST16M64C971W</codice>
 		<codice>NDKNNZ61D63B537X</codice>
-		<codice>BRSLTT27M46F762Z</codice>
-		<codice>BRZRCC11R20H703D</codice>
+		<codice>THARCE25P12B485U</codice>
+		<codice>MNZBHR61P62C448X</codice>
 		<codice>CNAMRN15H50F751D</codice>
-		<codice>MSAMDI85M06E221C</codice>
-		<codice>CDDSND06R53L820M</codice>
-		<codice>BLDVNI90T45D585A</codice>
-		<codice>PVNDSR19T68A293P</codice>
 		<codice>DLFSKL69D17M176P</codice>
-		<codice>MSSDNL21M08D646G</codice>
-		<codice>CLMHSN48R03I657N</codice>
-		<codice>FRLTTV46M41L590D</codice>
 		<codice>GLLRMN29H16B309Y</codice>
 		<codice>MMELNA78D43A257K</codice>
-		<codice>VNZMJN81C68G372L</codice>
 		<codice>PNICML49H23E030P</codice>
 		<codice>VSPRHD92H11C624H</codice>
-		<codice>RRAMHL24M31L584H</codice>
 	</invalidi>
-	<spaiati numero="99">
+	<spaiati numero="89">
+		<codice>RRAMHL24M31L584H</codice>
 		<codice>TSORKE74A22F982E</codice>
 		<codice>CTASNT00A59A630Z</codice>
+		<codice>MSAMDI85M06E221C</codice>
 		<codice>LSUBHM72T22G676V</codice>
-		<codice>THARCE25P12B485U</codice>
 		<codice>GRBMHL13T07C608M</codice>
 		<codice>LNANCL96A41C937S</codice>
 		<codice>LCIBRR56T17L515K</codice>
 		<codice>NNALKT65B51E468Z</codice>
 		<codice>DLLDNL97E03C623W</codice>
-		<codice>SGERLA89P51D108C</codice>
-		<codice>BRODNC29P27B377R</codice>
 		<codice>BSSLGO19T51D767L</codice>
 		<codice>NRUMRA17B51D546Q</codice>
-		<codice>FVAFNZ07P43L888I</codice>
+		<codice>LLAZMR64T71L850W</codice>
 		<codice>GZUNNN67S26D180J</codice>
 		<codice>BLEMRA12T09I136Z</codice>
-		<codice>DLEZRA83P48C246E</codice>
-		<codice>GNVNJD67B43G131N</codice>
+		<codice>BSORKE81R57H930E</codice>
+		<codice>NVNSNN52S54E597O</codice>
 		<codice>PCARFL18T65A584O</codice>
 		<codice>RNABLH39B20C639Q</codice>
 		<codice>PLOMGE61E61E082B</codice>
+		<codice>CRIDNL17M54E557X</codice>
 		<codice>RMOMNL73T15G075T</codice>
-		<codice>SCVRIU26T21G608R</codice>
 		<codice>MNADRT03L70D168C</codice>
-		<codice>MLZPNV89E43L175F</codice>
-		<codice>LNENZE42P28G646L</codice>
-		<codice>SRVGNN76A51E401Q</codice>
+		<codice>TMOPMR92M70C628S</codice>
+		<codice>VRADND62E31F209K</codice>
 		<codice>LVOMCL98B57F454N</codice>
 		<codice>LRCDMN03A06D988B</codice>
 		<codice>BBABLL02L04C609U</codice>
-		<codice>NCSLVI13S18I741X</codice>
+		<codice>FRIMRN80R55C998W</codice>
 		<codice>LZEMRO58B09G325M</codice>
 		<codice>SLICST51T16E779M</codice>
 		<codice>PNARNN30L18L134R</codice>
-		<codice>FLLSTL14C47C329D</codice>
 		<codice>RSOSRN66E49G049H</codice>
-		<codice>BNOSMN13P43I498F</codice>
-		<codice>CNNLSU20P60E581R</codice>
 		<codice>NKUMYM88S58D056Z</codice>
 		<codice>CLIGNS52B68A422F</codice>
+		<codice>GHIFLV96M12H937O</codice>
 		<codice>DPISNT34S49G666G</codice>
 		<codice>FRIPRN11C10E853Y</codice>
-		<codice>LRSLVE10C28D783P</codice>
 		<codice>BHALLI50C44D258Q</codice>
 		<codice>LPUFTN75T69D768T</codice>
+		<codice>RNASAI05M71C949Y</codice>
 		<codice>DRVGTN78L54C057F</codice>
 		<codice>ZFEGUO57E31E783L</codice>
 		<codice>RCUGGR19C17D449D</codice>
@@ -8484,48 +8315,42 @@
 		<codice>BDODIA33A53G201S</codice>
 		<codice>GAIDLA10E60C699A</codice>
 		<codice>MMEGNE28C50E120W</codice>
-		<codice>LLAGZL42P48L324S</codice>
 		<codice>NREMRN60E57H033N</codice>
-		<codice>TRVNNL27E12E638X</codice>
 		<codice>LVETLI17B22L262C</codice>
-		<codice>DDNFLV17C63E068L</codice>
 		<codice>MLETLL34C29L978N</codice>
 		<codice>HLUPNG34T12H061A</codice>
 		<codice>FNTCMN19A17B531O</codice>
-		<codice>LIXTTV32C01D232R</codice>
 		<codice>PZZMRL75T10D330E</codice>
 		<codice>RSADEI48C65B351X</codice>
-		<codice>CRVLDI63S47E566R</codice>
-		<codice>CLELGU61P46F640E</codice>
-		<codice>SLVSDA12B43E136P</codice>
+		<codice>DMAVNT71T29H092B</codice>
+		<codice>ZHOVRC34M55D088U</codice>
 		<codice>RROGJN28C29L892F</codice>
-		<codice>RLNFLV08P52I220D</codice>
+		<codice>LNFSRN33M58L535F</codice>
 		<codice>RTADRD70C12I736J</codice>
 		<codice>HSAMTP61C06I702N</codice>
+		<codice>FZAVEA07R65B906L</codice>
 		<codice>KSASND09E08A789Q</codice>
 		<codice>DNALRA18A15F669G</codice>
+		<codice>VLIHMD06C31F538T</codice>
+		<codice>BNACST02M11C508Z</codice>
 		<codice>TNONTN29S51I678C</codice>
 		<codice>KLOLBR89E17E265F</codice>
 		<codice>CRASCR95A08E036C</codice>
+		<codice>LTEFRN93R31F246S</codice>
 		<codice>SAIMBR19L71L336M</codice>
-		<codice>CRVNRO40T58G240A</codice>
 		<codice>MDEPTR65L55A466S</codice>
+		<codice>DMOTNA94R46D794D</codice>
 		<codice>MLERTA01T44F682B</codice>
 		<codice>CTULJN55T04C853D</codice>
+		<codice>GROMNL09M41E419X</codice>
 		<codice>RRODNS65B64E089Q</codice>
 		<codice>MRNMGH21T60F206L</codice>
 		<codice>RKEBRR15A03H147Q</codice>
-		<codice>BLVKSC69L70F220Q</codice>
-		<codice>BROMNC44P54G866I</codice>
 		<codice>LMAFRN62A60G430J</codice>
 		<codice>NTOCSR44E29E031E</codice>
-		<codice>TKVGTT55T68E161K</codice>
-		<codice>BCAGIO90P56E365M</codice>
-		<codice>FRRLVO96P43A020O</codice>
-		<codice>DOUJTH89P07D645U</codice>
+		<codice>PREPRT83R21B851Y</codice>
+		<codice>KQUKDD96M67I840Y</codice>
+		<codice>MRANNA08M68F492T</codice>
 		<codice>GRDFLV98E01B157A</codice>
-		<codice>LLAZHR21P46D775N</codice>
-		<codice>DNGVIO25A24L131V</codice>
-		<codice>CRAMRO40P10E156R</codice>
 	</spaiati>
 </codici></output>
